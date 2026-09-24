@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="XSOL Android Suite"
+       parallel="tests"
+       thread-count="1">
+
+    <!-- listenser -->
+    <listeners>
+        <listener class-name="core.listeners.mobile.RetryListener"/>
+    </listeners>
+
+    <test name="ANDROID">
+
+        <parameter name="platform"
+                   value="android"/>
+
+        <classes>
+            <!-- System Diagnostics Test -->
+            <class name="client.XSol.smoke.tests.SystemDiagnosticsTest">
+                <methods>
+                    <include name="testWiringDiagram_YPlanSystem"/>
+                    <include name="testWiringDiagram_SPlanSystem"/>
+                    <include name="testWiringDiagram_GravitySystem"/>
+                    <include name="testWiringDiagram_CPlanSystem"/>
+                    <include name="testWiringDiagram_CPlanPlusSystem"/>
+                    <include name="testWiringDiagram_MPlanSystem"/>
+                    <include name="testWiringDiagram_WPlanSystem"/>
+                    <include name="testWiringDiagram_WPlanSystemWithPrioritySwitch"/>
+                </methods>
+            </class>
+
+            <!-- Multimeter Tutorials -->
+            <class name="client.XSol.smoke.tests.MultimeterTutorialsTest">
+                <methods>
+                    <include name="testmultimetertutorials"/>
+                </methods>
+            </class>
+
+            <!-- Manufacturer Info -->
+            <class name="client.XSol.smoke.tests.ManufacturerInfoTest">
+                <methods>
+                    <include name="testManufacturerInfo"/>
+                </methods>
+            </class>
+
+            <!-- Useful Guide -->
+            <class name="client.XSol.smoke.tests.UsefulGuidesTest">
+                <methods>
+                    <include name="testServicingVessel"/>
+                    <include name="testPumpFailureGuide"/>
+                    <include name="testInsulatingMatAdvice"/>
+                    <include name="testHallSensor"/>
+                    <include name="testExternalMixing"/>
+                    <include name="testMeasuringRate"/>
+                    <include name="testTemperatureClamps"/>
+                    <include name="testInfoSolarAssistedHotWater"/>
+                    <include name="testInfoBeforeChangingPCB"/>
+                    <include name="testBeforeOrderingPCB"/>
+                    <include name="testReplacementGuidePCB"/>
+                    <include name="testUsingTheMultimeter"/>
+                    <include name="testServiceKitLink"/>
+                    <include name="testFaultFindingTools"/>
+                </methods>
+            </class>
+
+            <!-- System Diagnostics - Wiring Diagram -->
+            <class name="client.XSol.smoke.tests.SystemDiagnosticsTest">
+                <methods>
+                    <include name="testWiringDiagram_YPlanSystem"/>
+                    <include name="testWiringDiagram_SPlanSystem"/>
+                    <include name="testWiringDiagram_GravitySystem"/>
+                    <include name="testWiringDiagram_CPlanSystem"/>
+                    <include name="testWiringDiagram_CPlanPlusSystem"/>
+                    <include name="testWiringDiagram_MPlanSystem"/>
+                    <include name="testWiringDiagram_WPlanSystem"/>
+                    <include name="testWiringDiagram_WPlanSystemWithPrioritySwitch"/>
+                </methods>
+            </class>
+
+            <!-- Finding Fault Y - Plan -->
+            <class name="client.XSol.smoke.tests.FaultFindingYPlanTest">
+                <methods>
+                    <include name="test_valveNotStopping_valveSpring_voltageAbsent"/>
+                    <include name="test_valveNotStopping_valveSpring_voltagePresent"/>
+                    <include name="test_valveNotStopping_valveClicking_voltagePresent"/>
+                    <include name="test_valveNotStopping_valveDoesNotReturn"/>
+                    <include name="test_valveInHotWater_pumpIsRunning"/>
+                    <include name="test_valveInHotWater_pumpIsNotRunning"/>
+                    <include name="test_radiatorsHeating_valveDoesNotReach_1"/>
+                    <include name="test_radiatorsHeating_valveDoesNotReach_2"/>
+                    <include name="test_radiatorsHeating_valveDoesNotReach_3"/>
+                    <include name="test_valveIsNotMoving_valveMoves_1"/>
+                    <include name="test_valveIsNotMoving_valveMoves_2"/>
+                    <include name="test_valveIsNotMoving_valveDoesNotMove_1"/>
+                    <include name="test_valveIsNotMoving_valveDoesNotMove_2"/>
+                    <include name="test_valveMovesToTheHeating_pumpIsRunning"/>
+                    <include name="test_valveMovesToTheHeating_pumpIsNotRunning"/>
+                    <include name="test_valveWorkingProperly"/>
+                    <include name="test_pumpAndBoilerDoNotRespond"/>
+                </methods>
+            </class>
+
+            <!-- Finding Fault S - Plan -->
+            <class name="client.XSol.smoke.tests.FaultFindingSPlanTest">
+                <methods>
+                    <include name="test_heatingIsNotWorking_zoneValveMoves_mvp"/>
+                    <include name="test_heatingIsNotWorking_zoneValveMoves_mva"/>
+                    <include name="test_heatingIsNotWorking_zoneValveNotMoving_mvp"/>
+                    <include name="test_heatingIsNotWorking_zoneValveNotMoving_mva"/>
+                    <include name="test_radiatorsAreGettingHot"/>
+                    <include name="test_neitherTheHeating_zoneValveMoves"/>
+                    <include name="test_neitherTheHeating_oneOrBoth_mvp"/>
+                    <include name="test_neitherTheHeating_oneOrBoth_mva"/>
+                    <include name="test_neitherTheHeating_oneOrBoth_heatingValve"/>
+                    <include name="test_neitherTheHeating_oneOrBoth_hotWaterValve"/>
+                    <include name="test_boilerIsFiring"/>
+                    <include name="test_boilerIsFiring1_systemStillFires_boilerDoesNot"/>
+                    <include name="test_boilerIsFiring1_systemStillFires_systemNoLonger"/>
+                    <include name="test_theHotWater_zoneValveMoves"/>
+                    <include name="test_theHotWater_zoneValveMoves_mva"/>
+                    <include name="test_theHotWater_zoneValveNotMoving_mvp"/>
+                    <include name="test_theHotWater_zoneValveNotMoving_mva_mvp"/>
+                    <include name="test_theHotWater_zoneValveNotMoving_mva_mva"/>
+                    <include name="test_theHotWater_zoneValveNotMoving_hotWater"/>
+                </methods>
+            </class>
+
+            <!-- Diagnostics Type Selection - Full Diagnostics Model -->
+            <class name="client.XSol.smoke.tests.FullDiagnosticsModelTest">
+                <methods>
+                    <include name="test_fullDiagnosticsModel_boilerOperation"/>
+                    <include name="test_fullDiagnosticsModel_boilerAtTemperature"/>
+                    <include name="test_fullDiagnosticsModel_boilerAndSystemRunning"/>
+                    <include name="test_fullDiagnosticsModel_boilerAndSystemTooCool_1"/>
+                    <include name="test_fullDiagnosticsModel_boilerAndSystemTooCool_2"/>
+                    <include name="test_fullDiagnosticsModel_boilerNoisy_1"/>
+                    <include name="test_fullDiagnosticsModel_boilerNoisy_2"/>
+                    <include name="test_fullDiagnosticsModel_burnerIgnitesbut_1"/>
+                    <include name="test_fullDiagnosticsModel_burnerIgnitesbut_2"/>
+                    <include name="test_fullDiagnosticsModel_burnerIgnitesAndEstablishes_1"/>
+                    <include name="test_fullDiagnosticsModel_burnerIgnitesAndEstablishes_2"/>
+                    <include name="test_fullDiagnosticsModel_ignitesButNoisy_1"/>
+                    <include name="test_fullDiagnosticsModel_ignitesButNoisy_2"/>
+                    <include name="test_fullDiagnosticsModel_burnerDoesntIgnite_1"/>
+                    <include name="test_fullDiagnosticsModel_burnerDoesntIgnite_2"/>
+                    <include name="test_fullDiagnosticsModel_fanRunsContinually"/>
+                    <include name="test_fullDiagnosticsModel_fanRunsForApprox"/>
+                    <include name="test_fullDiagnosticsModel_fanDoesntRun_1"/>
+                    <include name="test_fullDiagnosticsModel_fanDoesntRun_2"/>
+                    <include name="test_fullDiagnosticsModel_pumpDoesNotRun_1"/>
+                    <include name="test_fullDiagnosticsModel_pumpDoesNotRun_2"/>
+                    <include name="test_fullDiagnosticsModel_displayDoesNotOperates_1"/>
+                    <include name="test_fullDiagnosticsModel_displayDoesNotOperates_2"/>
+                    <include name="test_fullDiagnosticsModel_boilerFiresWithNoDemand_1"/>
+                    <include name="test_fullDiagnosticsModel_boilerFiresWithNoDemand_2"/>
+                    <include name="test_fullDiagnosticsModel_faultCodeOrER"/>
+            </methods>
+            </class>
+
+            <!-- Diagnostics Type Selection - Fault Codes -->
+            <class name="client.XSol.smoke.tests.FaultCodesTest">
+                <methods>
+                    <include name="test_faultCodes_erCommunicationFault"/>
+                    <include name="test_faultCodes_f1IgnitionLockout"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_boilerTemperature_1"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_boilerTemperature_2"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_boilerAndSystemRunning_1"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_boilerAndSystemRunning_2"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_boilerAndSystemTooCool_1"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_boilerAndSystemTooCool_2"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_boilerAndSystemTooCool_3"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_boilerNoisy_1"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_boilerNoisy_2"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_burnerDoesntEstablish_1"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_burnerDoesntEstablish_2"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_burnerIgnites_explosiveIgnition_1"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_burnerIgnites_explosiveIgnition_2"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_burnerIgnites_explosiveIgnition_3"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_ignitesButNoisy_1"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_ignitesButNoisy_2"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_burnerDoesntIgnite_1"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_burnerDoesntIgnite_2"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_burnerDoesntIgnite_3"/>
+                    <include name="test_faultCodes_f2FanFault_1"/>
+                    <include name="test_faultCodes_f2FanFault_2"/>
+                    <include name="test_faultCodes_f2FanFault_3"/>
+                    <include name="test_faultCodes_f2FanFault_differentFaultCodeAppears"/>
+                    <include name="test_faultCodes_f2FanFault_entersStandby"/>
+                    <include name="test_faultCodes_f2FanFault_doesNotAlter"/>
+                    <include name="test_faultCodes_f6FlowThermistorFault_entersStandby_1"/>
+                    <include name="test_faultCodes_f6FlowThermistorFault_entersStandby_2"/>
+                    <include name="test_faultCodes_f6FlowThermistorFault_entersStandby_3"/>
+                    <include name="test_faultCodes_f6FlowThermistorFault_differentFaultCodes"/>
+                    <include name="test_faultCodes_f6FlowThermistorFault_faultCodeImmediatelyReoccurs"/>
+                    <include name="test_faultCodes_f6FlowThermistorFault_displayDoesNotAlter"/>
+                </methods>
+            </class>
+
+            <!-- Diagnostics Type Selection - Quick Access Data / Information -->
+            <class name="client.XSol.smoke.tests.QuickAccessDataTest">
+                <methods>
+                    <include name="test_quickAccessDataInformation"/>
+                </methods>
+            </class>
+
+            <!-- Diagnostics Type Selection - Lite Diagnostics -->
+            <class name="client.XSol.smoke.tests.LiteDiagnosticTest">
+                <methods>
+                    <include name="test_liteDiagnostic_investigateBlankDisplay"/>
+                    <include name="test_liteDiagnostic_investigatePumpNotRunning"/>
+                    <include name="test_liteDiagnostic_investigateFanNotRunning"/>
+                    <include name="test_liteDiagnostic_investigateBurnerIgnition"/>
+                    <include name="test_liteDiagnostic_investigateCHOperation"/>
+                    <include name="test_liteDiagnostic_systemDiagnostics"/>
+                    <include name="test_liteDiagnostic_investigateWhyAFuseMayHaveBlown"/>
+                    <include name="test_liteDiagnostic_investigateAOverheatSituation"/>
+                </methods>
+            </class>
+
+            <!-- Feedback -->
+            <class name="client.XSol.smoke.tests.FeedbackTest">
+                <methods>
+                    <include name="test_feedback"/>
+                </methods>
+            </class>
+
+            <!-- Boiler : 4704734 -->
+            <class name="client.XSol.regression.tests.Boiler_4704734Test">
+                <methods>
+                    <include name="test_boiler4704734_1"/>
+                    <include name="test_boiler4704734_2"/>
+                    <include name="test_boiler4704734_3"/>
+                </methods>
+            </class>
+            <!-- Boiler : 4731157 -->
+            <class name="client.XSol.regression.tests.Boiler_4731157Test">
+                <methods>
+                    <include name="test_boiler4731157_1"/>
+                    <include name="test_boiler4731157_2"/>
+                    <include name="test_boiler4731157_3"/>
+                    <include name="test_boiler4731157_4"/>
+                    <include name="test_boiler4731157_5"/>
+                    <include name="test_boiler4731157_6"/>
+                    <include name="test_boiler4731157_7"/>
+                    <include name="test_boiler4731157_8"/>
+                    <include name="test_boiler4731157_9"/>
+                    <include name="test_boiler4731157_10"/>
+                    <include name="test_boiler4731157_11"/>
+                    <include name="test_boiler4731157_12"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

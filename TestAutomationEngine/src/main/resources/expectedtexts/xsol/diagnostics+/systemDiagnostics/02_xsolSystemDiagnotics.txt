@@ -1,0 +1,8 @@
+XSOL SYSTEM DIAGNOSTICS
+V3 2020 xsol%20logo%202blue%20bmp%20500 sewheelanisml
+CONTINUE
+britishgas200 diaglabverticalsolid banner helpingexl Click here for a System Diagnostics Overview
+SYSTEM DIAGNOSTICS
+PLEASE NOTE &#10
+For appliance models search Adapt and use the XSol icon
+If you cant see the hazard stripes below TAP HERE HazStripe

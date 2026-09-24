@@ -1,0 +1,21 @@
+XSOL SYSTEM GUIDE INTRODUCTION
+Welcome to the XSol System Diagnostics
+&#10
+This section is under continual improvement &amp any feedback will be greatly appreciated
+1 System Selection&#10 Select one of the systems to display the basic pipe work layout and brief description of main features
+&#10 &#10
+Press START to go to a more detailed description of the operational sequence
+2 System Description
+&#10
+A detailed description of the systems operation including which wires should be powered for each demand and the way any valves should react
+&#10
+On this page you will find a link to a wiring diagram for the system
+3 Wiring Diagram
+&#10
+Available for S Y Gravity C W and M plan systems
+&#10
+This page displays a basic wiring diagram for the chosen system Selection of a demand type will start a short animation displaying the operational sequence &#10 Hovering the mouse over the component name will show the part number and more information on the wiring connections
+4 System Fault Finding Model&#10
+XSol Fault finding is available for S and Y plan systems Use the for indepth fault finding on the system
+SEPT 2013 V1
+diaglabverticalwatermark idpg1 desc1 digrm1 splanff startpagesd

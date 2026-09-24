@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="XSOL Android Suite"
+       parallel="tests"
+       thread-count="1">
+
+    <!-- listenser -->
+    <listeners>
+        <listener class-name="core.listeners.mobile.RetryListener"/>
+    </listeners>
+
+    <test name="ANDROID">
+
+        <parameter name="platform"
+                   value="android"/>
+
+        <classes>
+            <!-- Diagnostics Type Selection - Fault Codes -->
+            <class name="client.XSol.regression.tests.Boiler_4731157Test">
+                <methods>
+                    <include name="test_boiler4731157_1"/>
+                    <include name="test_boiler4731157_2"/>
+                    <include name="test_boiler4731157_3"/>
+                    <include name="test_boiler4731157_4"/>
+                    <include name="test_boiler4731157_5"/>
+                    <include name="test_boiler4731157_6"/>
+                    <include name="test_boiler4731157_7"/>
+                    <include name="test_boiler4731157_8"/>
+                    <include name="test_boiler4731157_9"/>
+                    <include name="test_boiler4731157_10"/>
+                    <include name="test_boiler4731157_11"/>
+                    <include name="test_boiler4731157_12"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

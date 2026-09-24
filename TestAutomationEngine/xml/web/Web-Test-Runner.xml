@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="EdgeBrowserSuite"
+       parallel="tests"
+       thread-count="1">
+
+    <listeners>
+        <listener class-name="core.listeners.web.WebRetryListener"/>
+    </listeners>
+
+
+    <test name="Edge">
+        <parameter name="browser" value="edge"/>
+        <classes>
+
+            <!-- 15. Duplicating Models   -->
+            <class name="client.designtool.tests.DuplicateModelTest">
+                <methods>
+                    <include name="MainPageTest_DuplicateModels_creating"/>
+                    <include name="MainPageTest_DuplicateModels_deleting"/>
+                    <include name="MainPageTest_DuplicateModels_deletingPermanently"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

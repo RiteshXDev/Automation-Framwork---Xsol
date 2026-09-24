@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration status="WARN"
+                packages="core.appender">
+
+    <Appenders>
+
+        <ExtentAppender name="Extent"/>
+        <!-- CONSOLE -->
+        <Console name="Console">
+            <PatternLayout
+                    pattern="%d{HH:mm:ss.SSS} [%t] %-5level %c{1} - %msg%n"/>
+        </Console>
+
+        <!-- FRAMEWORK ROUTER -->
+        <Routing name="FrameworkRouter">
+
+            <Routes pattern="${ctx:platform}">
+
+                <!-- ANDROID -->
+                <Route key="android">
+                    <File name="AndroidFrameworkFile"
+                          fileName="logs/android/framework.log"
+                          append="true">
+                        <PatternLayout
+                                pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %c - %msg%n"/>
+                    </File>
+                </Route>
+
+                <!-- IOS -->
+                <Route key="ios">
+                    <File name="IOSFrameworkFile"
+                          fileName="logs/ios/framework.log"
+                          append="true">
+                        <PatternLayout
+                                pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %c - %msg%n"/>
+                    </File>
+                </Route>
+
+                <!-- CHROME -->
+                <Route key="chrome">
+                    <File name="ChromeFrameworkFile"
+                          fileName="logs/web/chrome/framework.log"
+                          append="true">
+                        <PatternLayout
+                                pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %c - %msg%n"/>
+                    </File>
+                </Route>
+
+                <!-- FIREFOX -->
+                <Route key="firefox">
+                    <File name="FirefoxFrameworkFile"
+                          fileName="logs/web/firefox/framework.log"
+                          append="true">
+                        <PatternLayout
+                                pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %c - %msg%n"/>
+                    </File>
+                </Route>
+
+                <!-- EDGE -->
+                <Route key="edge">
+                    <File name="EdgeFrameworkFile"
+                          fileName="logs/web/edge/framework.log"
+                          append="true">
+                        <PatternLayout
+                                pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %c - %msg%n"/>
+                    </File>
+                </Route>
+
+            </Routes>
+
+        </Routing>
+
+        <!-- ANDROID PERFORMANCE -->
+        <File name="AndroidPerfLog"
+              fileName="logs/android/performance.log"
+              append="true">
+            <PatternLayout
+                    pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} %msg%n"/>
+        </File>
+
+        <!-- IOS PERFORMANCE -->
+        <File name="IOSPerfLog"
+              fileName="logs/ios/performance.log"
+              append="true">
+            <PatternLayout
+                    pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} %msg%n"/>
+        </File>
+
+        <!-- CHROME PERFORMANCE -->
+        <File name="ChromePerfLog"
+              fileName="logs/web/chrome/performance.log"
+              append="true">
+            <PatternLayout
+                    pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} %msg%n"/>
+        </File>
+
+        <!-- FIREFOX PERFORMANCE -->
+        <File name="FirefoxPerfLog"
+              fileName="logs/web/firefox/performance.log"
+              append="true">
+            <PatternLayout
+                    pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} %msg%n"/>
+        </File>
+
+        <!-- EDGE PERFORMANCE -->
+        <File name="EdgePerfLog"
+              fileName="logs/web/edge/performance.log"
+              append="true">
+            <PatternLayout
+                    pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} %msg%n"/>
+        </File>
+
+    </Appenders>
+
+    <Loggers>
+
+        <Logger name="ANDROID_PERF"
+                level="info"
+                additivity="false">
+            <AppenderRef ref="AndroidPerfLog"/>
+        </Logger>
+
+        <Logger name="IOS_PERF"
+                level="info"
+                additivity="false">
+            <AppenderRef ref="IOSPerfLog"/>
+        </Logger>
+
+        <Logger name="CHROME_PERF"
+                level="info"
+                additivity="false">
+            <AppenderRef ref="ChromePerfLog"/>
+        </Logger>
+
+        <Logger name="FIREFOX_PERF"
+                level="info"
+                additivity="false">
+            <AppenderRef ref="FirefoxPerfLog"/>
+        </Logger>
+
+        <Logger name="EDGE_PERF"
+                level="info"
+                additivity="false">
+            <AppenderRef ref="EdgePerfLog"/>
+        </Logger>
+
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="FrameworkRouter"/>
+            <AppenderRef ref="Extent"/>
+        </Root>
+
+    </Loggers>
+
+</Configuration>

@@ -1,0 +1,19 @@
+{
+  "environment": "DEV",
+  "url": "https://xsol-designtool.dev.centrica.com/",
+
+  "browser": "edge",
+
+  "implicitWait": 8,
+  "explicitWait": 8,
+
+  "useProfile": true,
+
+  "chromeUserDataDir": "src/main/resources/browser-profiles/chrome-profile",
+  "chromeProfileDirectory": "Default",
+
+  "edgeUserDataDir": "src/main/resources/browser-profiles/edge-profile",
+  "edgeProfileDirectory": "Default",
+
+  "firefoxProfileDirectory": "src/main/resources/browser-profiles/firefox-profile"
+}

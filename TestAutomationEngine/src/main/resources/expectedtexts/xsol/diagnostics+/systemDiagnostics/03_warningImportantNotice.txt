@@ -1,0 +1,12 @@
+WARNING adaptwarningicon adaptshockicon adaptwarningbackground xsol%20logo%202white%20bmp%20125 REJECT ACCEPT
+The information contained within this application is for the use by and guidance of engineers classed as competent in
+gas installation and/or gas service practice Individuals shall apply safe working practices at all times in accordance
+with their training knowledge skills and experience while taking due regard of company policies and procedures when undertaking
+work Electrical Safety Checks&#10 Carry out Safe Isolation and all Electrical Safety Checks before carrying out any work
+on the appliance &#10 See Technical Operational Procedures TOPs &#10 P4 Safe Electrical Working Practice and C6 Electrical
+Installations &#10 Pay special attention to Earth Continuity Earth Loop Impedance Short circuit and Correct Polarity &#10 &#10
+Carry out Essential Checks as per TOPs A1 Service and Interim Policies &#10 &#10 Important Pre Diagnostic Checks&#10
+Please ensure the following important checks are completed &#10 System/Boiler is correctly charged as necessary and
+bled of air &#10 Bypass internal or external to the boiler is correctly adjusted as necessary &#10 Manual reset devices
+are set &#10 Where required adequate ventilation is provided Ignoring electrical essential or system safety checks can lead
+to a risk to you &#10 the customer and an inaccurate diagnosis

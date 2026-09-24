@@ -1,0 +1,31 @@
+
+{
+  "environment": "android",
+
+  "android": {
+    "platformName": "Android",
+    "automationName": "UiAutomator2",
+    "deviceName": "RZ8M740GYGH",
+    "platformVersion": "14",
+    "app": "src/main/resources/config/apk/app-release.apk",
+    "appPackage": "com.xsol.mobile",
+    "appActivity": "com.xsol.mobile.MainActivity",
+    "noReset": true,
+    "fullReset": false,
+    "newCommandTimeout": 300
+  },
+
+  "ios": {
+    "platformName": "iOS",
+    "automationName": "XCUITest",
+    "deviceName": "iPhone 15",
+    "platformVersion": "26.5",
+    "udid": "00008120-000A109601F0E01E",
+    "app": "src/main/resources/config/ipa/XSol.ipa",
+    "bundleId": "com.xsol.mobile.internal",
+    "setUpdatedWdaBundleId": "ui.centrica.webdriveragentrunner",
+    "noReset": true,
+    "fullReset": false,
+    "newCommandTimeout": 300
+  }
+}

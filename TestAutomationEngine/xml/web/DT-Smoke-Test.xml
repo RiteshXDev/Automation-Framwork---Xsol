@@ -1,0 +1,144 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="EdgeBrowserSuite"
+       parallel="false">
+
+    <listeners>
+        <listener class-name="core.listeners.web.WebRetryListener"/>
+    </listeners>
+
+    <test name="edge" preserve-order="true">
+        <parameter name="browser" value="edge"/>
+
+        <classes>
+
+            <!-- 1. Creating a New Model -->
+            <class name="client.designtool.tests.CreatingNewModelTest">
+                <methods>
+                    <include name="createNewModelTest"/>
+                </methods>
+            </class>
+
+            <!-- 2. Editing a New Model -->
+            <class name="client.designtool.tests.EditingModelTest">
+                <methods>
+                    <include name="editingModelTest_partNumberEdit"/>
+                    <include name="editingModelTest_instruction"/>
+                    <include name="editingModelTest_setup"/>
+                    <include name="editingModelTest_media"/>
+                    <include name="editingModelTest_connection"/>
+                </methods>
+            </class>
+
+            <!-- 3. Searching for a New Model -->
+            <class name="client.designtool.tests.SearchingForModelTest">
+                <methods>
+                    <include name="searchNewModelTest"/>
+                </methods>
+            </class>
+
+            <!-- 4. Adding Snippet -->
+            <class name="client.designtool.tests.AddingSnippetTest">
+                <methods>
+                    <include name="addingSnippetToModelTest_alerts"/>
+                    <include name="addingSnippetToModelTest_setup"/>
+                    <include name="addingSnippetToModelTest_instruction"/>
+                </methods>
+            </class>
+
+            <!-- 5. Status Check -->
+            <class name="client.designtool.tests.AllStatusCheckTest">
+                <methods>
+                    <include name="allStatusCheckTest"/>
+                </methods>
+            </class>
+
+            <!-- 6. Manufacturer Check -->
+            <class name="client.designtool.tests.AllManufactureCheckTest">
+                <methods>
+                    <include name="allManufacturersCheckTest_table"/>
+                    <include name="allManufacturersCheckTest_board"/>
+                </methods>
+            </class>
+
+            <!-- 8. Status Change Checking -->
+            <class name="client.designtool.tests.StatusChangeTest">
+                <methods>
+                    <include name="statusCycleCheckTest_readyForReview"/>
+                    <include name="statusCycleCheckTest_inReview"/>
+                    <include name="statusCycleCheckTest_readyForPublish"/>
+                    <include name="statusCycleCheckTest_published"/>
+                    <include name="allStatusCheckTest_searchPage_draft"/>
+                    <include name="allStatusCheckTest_searchPage_readyForReview"/>
+                    <include name="allStatusCheckTest_searchPage_inReview"/>
+                    <include name="allStatusCheckTest_searchPage_readyForPublish"/>
+                    <include name="allStatusCheckTest_searchPage_published"/>
+                </methods>
+            </class>
+
+            <!-- 9. Table Navigation -->
+            <class name="client.designtool.tests.TableNavigationCheckTest">
+                <methods>
+                    <include name="TableNavigationCheckTest_next"/>
+                    <include name="TableNavigationCheckTest_previous"/>
+                </methods>
+            </class>
+
+            <!-- 10. Media Library -->
+            <class name="client.designtool.tests.MediaPageTest">
+                <methods>
+                    <include name="mediaPageTest_fileUpload"/>
+                    <include name="mediaPageTest_multipleFilesUpload"/>
+                    <include name="mediaPageTest_newCollection"/>
+                    <include name="mediaPageTest_collectionFolder"/>
+                    <include name="mediaPageTest_scrolling"/>
+                    <include name="mediaPageTest_nextPrevious"/>
+                    <include name="mediaPageTest_search"/>
+                </methods>
+            </class>
+
+            <!-- 11. Deletion Test -->
+            <class name="client.designtool.tests.NodeDeleteTest">
+                <methods>
+                    <include name="NodeDelete_modelPage_node"/>
+                    <include name="NodeDelete_searchPage_model"/>
+                    <include name="NodeDelete_mainPage_model"/>
+                </methods>
+            </class>
+
+            <!-- 12. Recently Deleted -->
+            <class name="client.designtool.tests.RecentlyDeletedTest">
+                <methods>
+                    <include name="recentlyDeletedTest_creatingAModel"/>
+                    <include name="recentlyDeletedTest_searchingForAModel"/>
+                    <include name="recentlyDeletedTest_verifyingModelInRecentlyDeleted"/>
+                    <include name="recentlyDeletedTest_reinstateModelBack"/>
+                    <include name="recentlyDeletedTest_permanentlyDeletion"/>
+                </methods>
+            </class>
+
+            <!-- 13. End Point -->
+            <class name="client.designtool.tests.EndPointTest">
+                <methods>
+                    <include name="endPointTest"/>
+                </methods>
+            </class>
+
+            <!-- 14. Main Page - Delete Function -->
+            <class name="client.designtool.tests.DeleteFunctionalityTest">
+                <methods>
+                    <include name="MainPageTest_Delete"/>
+                </methods>
+            </class>
+
+            <!-- 15. Duplicating Models   -->
+            <class name="client.designtool.tests.DuplicateModelTest">
+                <methods>
+                    <include name="MainPageTest_DuplicateModels_creating"/>
+                    <include name="MainPageTest_DuplicateModels_deleting"/>
+                    <include name="MainPageTest_DuplicateModels_deletingPermanently"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
