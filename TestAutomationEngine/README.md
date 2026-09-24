@@ -804,8 +804,4 @@ Create Page Object → Add Locators → Create Page Methods
 
 Following these conventions keeps the framework organized, scalable, and easy to maintain.
 
----
 
-## 16. License
-
-Distributed under the **MIT License**.
