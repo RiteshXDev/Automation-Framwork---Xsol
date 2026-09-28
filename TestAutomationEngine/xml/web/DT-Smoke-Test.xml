@@ -139,6 +139,15 @@
                     <include name="MainPageTest_DuplicateModels_deletingPermanently"/>
                 </methods>
             </class>
+
+            <!-- 16. Expandable Panels   -->
+            <class name="client.designtool.tests.ExpandablePanelsTest">
+                <methods>
+                    <include name="ExpandablePanelsTest_leftPanel"/>
+                    <include name="ExpandablePanelsTest_rightPanel"/>
+                </methods>
+            </class>
+            
         </classes>
     </test>
 </suite>

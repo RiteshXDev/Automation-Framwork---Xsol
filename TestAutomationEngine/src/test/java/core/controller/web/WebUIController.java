@@ -15,6 +15,7 @@ import org.openqa.selenium.interactions.Sequence;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 import java.awt.*;
 import java.awt.event.InputEvent;
@@ -1286,4 +1287,42 @@ public class WebUIController  implements WebController
             return false;
         }
     }
+
+    /**
+     * Verify Panel Expansion
+     */
+    public void verifyPanelExpanded(WebElement panel, WebElement expandButton)
+    {
+
+        int initialWidth = panel.getSize().getWidth();
+        log.info("Panel width before expansion: {}", initialWidth);
+        click(expandButton);
+        int expandedWidth = initialWidth;
+        int attempts = 0;
+
+        while (expandedWidth <= initialWidth && attempts < 20) {
+
+            try {
+                Thread.sleep(500);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                break;
+            }
+
+            expandedWidth = panel.getSize().getWidth();
+            attempts++;
+        }
+
+        log.info("Panel width after expansion: {}", expandedWidth);
+        Assert.assertTrue(
+                expandedWidth > initialWidth,
+                "Panel did not expand. Initial width: "
+                        + initialWidth
+                        + ", Expanded width: "
+                        + expandedWidth
+        );
+
+
+    }
+
 }

@@ -86211,3 +86211,136 @@ Ritesh Sharma (C)
 2026-09-16 17:31:53.030 [main] INFO  core.listeners.web.WebTestListener - TEST PASSED : MainPageTest_DuplicateModels_deletingPermanently
 2026-09-16 17:31:53.031 [main] INFO  base.web.WebBaseTest - Closing Browser
 2026-09-16 17:31:53.031 [main] INFO  base.web.WebBaseTest - Browser Closed Successfully
+2026-09-28 13:54:03.226 [TestNG-tests-1] INFO  base.web.WebBaseTest - ====================================
+2026-09-28 13:54:03.241 [TestNG-tests-1] INFO  base.web.WebBaseTest - STARTING WEB EXECUTION
+2026-09-28 13:54:03.241 [TestNG-tests-1] INFO  base.web.WebBaseTest - BROWSER : edge
+2026-09-28 13:54:03.241 [TestNG-tests-1] INFO  base.web.WebBaseTest - ====================================
+2026-09-28 13:54:03.393 [TestNG-tests-1] INFO  core.config.web.WebConfigLoader - Web Configuration Loaded Successfully
+2026-09-28 13:54:45.398 [TestNG-tests-1] INFO  base.web.WebBaseTest - ====================================
+2026-09-28 13:54:45.399 [TestNG-tests-1] INFO  base.web.WebBaseTest - WEB DRIVER INITIALIZED SUCCESSFULLY
+2026-09-28 13:54:45.399 [TestNG-tests-1] INFO  base.web.WebBaseTest - BROWSER : edge
+2026-09-28 13:54:45.399 [TestNG-tests-1] INFO  base.web.WebBaseTest - URL : https://xsol-designtool.dev.centrica.com/
+2026-09-28 13:54:45.400 [TestNG-tests-1] INFO  base.web.WebBaseTest - ====================================
+2026-09-28 13:54:45.457 [TestNG-tests-1] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-28 13:54:45.459 [TestNG-tests-1] INFO  core.listeners.web.WebTestListener - TEST METHOD : ExpandablePanelsTest_LeftPanel
+2026-09-28 13:54:45.460 [TestNG-tests-1] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Expandable Panel : Left Panel Verification 
+2026-09-28 13:54:58.891 [TestNG-tests-1] INFO  core.controller.web.WebUIController - Clicked After Wait
+2026-09-28 13:55:10.320 [TestNG-tests-1] INFO  core.controller.web.WebUIController - Clicked After Wait
+2026-09-28 13:55:10.337 [TestNG-tests-1] INFO  core.controller.web.WebUIController - Panel width before expansion: 320
+2026-09-28 13:55:18.663 [TestNG-tests-1] INFO  core.controller.web.WebUIController - Clicked Element
+2026-09-28 13:55:19.178 [TestNG-tests-1] INFO  core.controller.web.WebUIController - Panel width after expansion: 1720
+2026-09-28 13:55:19.191 [TestNG-tests-1] INFO  core.listeners.web.WebTestListener - TEST PASSED : ExpandablePanelsTest_LeftPanel
+2026-09-28 13:55:19.194 [TestNG-tests-1] INFO  base.web.WebBaseTest - Closing Browser
+2026-09-28 13:55:19.194 [TestNG-tests-1] INFO  base.web.WebBaseTest - Browser Closed Successfully
+2026-09-28 13:57:18.310 [TestNG-tests-1] INFO  base.web.WebBaseTest - ====================================
+2026-09-28 13:57:18.314 [TestNG-tests-1] INFO  base.web.WebBaseTest - STARTING WEB EXECUTION
+2026-09-28 13:57:18.314 [TestNG-tests-1] INFO  base.web.WebBaseTest - BROWSER : edge
+2026-09-28 13:57:18.314 [TestNG-tests-1] INFO  base.web.WebBaseTest - ====================================
+2026-09-28 13:57:18.392 [TestNG-tests-1] INFO  core.config.web.WebConfigLoader - Web Configuration Loaded Successfully
+2026-09-28 13:57:29.693 [TestNG-tests-1] INFO  base.web.WebBaseTest - ====================================
+2026-09-28 13:57:29.693 [TestNG-tests-1] INFO  base.web.WebBaseTest - WEB DRIVER INITIALIZED SUCCESSFULLY
+2026-09-28 13:57:29.693 [TestNG-tests-1] INFO  base.web.WebBaseTest - BROWSER : edge
+2026-09-28 13:57:29.693 [TestNG-tests-1] INFO  base.web.WebBaseTest - URL : https://xsol-designtool.dev.centrica.com/
+2026-09-28 13:57:29.693 [TestNG-tests-1] INFO  base.web.WebBaseTest - ====================================
+2026-09-28 13:57:29.749 [TestNG-tests-1] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-28 13:57:29.751 [TestNG-tests-1] INFO  core.listeners.web.WebTestListener - TEST METHOD : ExpandablePanelsTest_LeftPanel
+2026-09-28 13:57:29.753 [TestNG-tests-1] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Expandable Panel : Left Panel Verification 
+2026-09-28 13:57:38.109 [TestNG-tests-1] INFO  core.controller.web.WebUIController - Clicked After Wait
+2026-09-28 13:57:49.723 [TestNG-tests-1] INFO  core.controller.web.WebUIController - Clicked After Wait
+2026-09-28 13:57:49.740 [TestNG-tests-1] INFO  core.controller.web.WebUIController - Panel width before expansion: 320
+2026-09-28 13:57:58.083 [TestNG-tests-1] INFO  core.controller.web.WebUIController - Clicked Element
+2026-09-28 13:57:58.601 [TestNG-tests-1] INFO  core.controller.web.WebUIController - Panel width after expansion: 1720
+2026-09-28 13:58:15.206 [TestNG-tests-1] WARN  core.retry.web.WebRetryAnalyzer - ====================================
+2026-09-28 13:58:15.207 [TestNG-tests-1] WARN  core.retry.web.WebRetryAnalyzer - RETRY ATTEMPT : 1
+2026-09-28 13:58:15.207 [TestNG-tests-1] WARN  core.retry.web.WebRetryAnalyzer - TEST NAME     : client.designtool.tests.ExpandablePanelsTest.ExpandablePanelsTest_LeftPanel
+2026-09-28 13:58:15.207 [TestNG-tests-1] WARN  core.retry.web.WebRetryAnalyzer - REASON        :
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@title='Expand node tree']//*[name()='svg']"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '26.6.2', java.version: '17.0.15'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 154.0.4258.37, fedcm:accounts: true, goog:processID: 58655, ms:edgeOptions: {debuggerAddress: localhost:53490}, msedge: {msedgedriverVersion: 154.0.4258.37 (f6ddc7bb8d2a..., userDataDir: src/main/resources/browser-...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53490/devtoo..., se:cdpVersion: 154.0.4258.37, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f1111e2796a06d0ee9da6b2505842917
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85) ~[selenium-support-4.46.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234) ~[selenium-support-4.46.0.jar:?]
+	at core.controller.web.WebUIController.waitAndClick(WebUIController.java:146) ~[test-classes/:?]
+	at client.designtool.tests.ExpandablePanelsTest.ExpandablePanelsTest_LeftPanel(ExpandablePanelsTest.java:20) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264) [?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+2026-09-28 13:58:15.213 [TestNG-tests-1] WARN  core.retry.web.WebRetryAnalyzer - ====================================
+2026-09-28 13:58:15.217 [TestNG-tests-1] INFO  core.config.web.WebConfigLoader - Web Configuration Loaded Successfully
+2026-09-28 13:58:16.678 [TestNG-tests-1] INFO  core.retry.web.WebRetryAnalyzer - Navigated back to application URL before retry.
+2026-09-28 13:58:16.679 [TestNG-tests-1] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : ExpandablePanelsTest_LeftPanel
+2026-09-28 13:58:16.681 [TestNG-tests-1] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-28 13:58:16.682 [TestNG-tests-1] INFO  core.listeners.web.WebTestListener - TEST METHOD : ExpandablePanelsTest_LeftPanel
+2026-09-28 13:58:16.682 [TestNG-tests-1] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Expandable Panel : Left Panel Verification 
+2026-09-28 13:58:17.176 [TestNG-tests-1] INFO  core.controller.web.WebUIController - Clicked After Wait
+2026-09-28 13:58:18.854 [TestNG-tests-1] WARN  core.retry.web.WebRetryAnalyzer - ====================================
+2026-09-28 13:58:18.856 [TestNG-tests-1] WARN  core.retry.web.WebRetryAnalyzer - RETRY ATTEMPT : 2
+2026-09-28 13:58:18.856 [TestNG-tests-1] WARN  core.retry.web.WebRetryAnalyzer - TEST NAME     : client.designtool.tests.ExpandablePanelsTest.ExpandablePanelsTest_LeftPanel
+2026-09-28 13:59:44.887 [TestNG-tests-1] INFO  base.web.WebBaseTest - ====================================
+2026-09-28 13:59:44.892 [TestNG-tests-1] INFO  base.web.WebBaseTest - STARTING WEB EXECUTION
+2026-09-28 13:59:44.893 [TestNG-tests-1] INFO  base.web.WebBaseTest - BROWSER : edge
+2026-09-28 13:59:44.893 [TestNG-tests-1] INFO  base.web.WebBaseTest - ====================================
+2026-09-28 13:59:44.970 [TestNG-tests-1] INFO  core.config.web.WebConfigLoader - Web Configuration Loaded Successfully
+2026-09-28 13:59:55.743 [TestNG-tests-1] INFO  base.web.WebBaseTest - ====================================
+2026-09-28 13:59:55.744 [TestNG-tests-1] INFO  base.web.WebBaseTest - WEB DRIVER INITIALIZED SUCCESSFULLY
+2026-09-28 13:59:55.744 [TestNG-tests-1] INFO  base.web.WebBaseTest - BROWSER : edge
+2026-09-28 13:59:55.744 [TestNG-tests-1] INFO  base.web.WebBaseTest - URL : https://xsol-designtool.dev.centrica.com/
+2026-09-28 13:59:55.744 [TestNG-tests-1] INFO  base.web.WebBaseTest - ====================================
+2026-09-28 13:59:55.802 [TestNG-tests-1] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-28 13:59:55.805 [TestNG-tests-1] INFO  core.listeners.web.WebTestListener - TEST METHOD : ExpandablePanelsTest_LeftPanel
+2026-09-28 13:59:55.806 [TestNG-tests-1] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Expandable Panel : Left Panel Verification 
+2026-09-28 14:00:05.204 [TestNG-tests-1] INFO  core.controller.web.WebUIController - Clicked After Wait
+2026-09-28 14:00:15.000 [TestNG-tests-1] INFO  core.controller.web.WebUIController - Clicked After Wait
+2026-09-28 14:00:15.017 [TestNG-tests-1] INFO  core.controller.web.WebUIController - Panel width before expansion: 320
+2026-09-28 14:00:23.330 [TestNG-tests-1] INFO  core.controller.web.WebUIController - Clicked Element
+2026-09-28 14:00:23.843 [TestNG-tests-1] INFO  core.controller.web.WebUIController - Panel width after expansion: 1720
+2026-09-28 14:00:32.178 [TestNG-tests-1] INFO  core.controller.web.WebUIController - Clicked After Wait
+2026-09-28 14:00:32.180 [TestNG-tests-1] INFO  core.listeners.web.WebTestListener - TEST PASSED : ExpandablePanelsTest_LeftPanel
+2026-09-28 14:00:32.184 [TestNG-tests-1] INFO  base.web.WebBaseTest - Closing Browser
+2026-09-28 14:00:32.184 [TestNG-tests-1] INFO  base.web.WebBaseTest - Browser Closed Successfully
+2026-09-28 14:06:16.806 [TestNG-tests-1] INFO  base.web.WebBaseTest - ====================================
+2026-09-28 14:06:16.811 [TestNG-tests-1] INFO  base.web.WebBaseTest - STARTING WEB EXECUTION
+2026-09-28 14:06:16.811 [TestNG-tests-1] INFO  base.web.WebBaseTest - BROWSER : edge
+2026-09-28 14:06:16.811 [TestNG-tests-1] INFO  base.web.WebBaseTest - ====================================
+2026-09-28 14:06:16.885 [TestNG-tests-1] INFO  core.config.web.WebConfigLoader - Web Configuration Loaded Successfully
+2026-09-28 14:06:27.951 [TestNG-tests-1] INFO  base.web.WebBaseTest - ====================================
+2026-09-28 14:06:27.951 [TestNG-tests-1] INFO  base.web.WebBaseTest - WEB DRIVER INITIALIZED SUCCESSFULLY
+2026-09-28 14:06:27.952 [TestNG-tests-1] INFO  base.web.WebBaseTest - BROWSER : edge
+2026-09-28 14:06:27.952 [TestNG-tests-1] INFO  base.web.WebBaseTest - URL : https://xsol-designtool.dev.centrica.com/
+2026-09-28 14:06:27.952 [TestNG-tests-1] INFO  base.web.WebBaseTest - ====================================
+2026-09-28 14:06:28.010 [TestNG-tests-1] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-28 14:06:28.012 [TestNG-tests-1] INFO  core.listeners.web.WebTestListener - TEST METHOD : ExpandablePanelsTest_rightPanel
+2026-09-28 14:06:28.013 [TestNG-tests-1] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Expandable Panel : Left Panel Verification 
+2026-09-28 14:06:36.067 [TestNG-tests-1] INFO  core.controller.web.WebUIController - Clicked After Wait
+2026-09-28 14:06:46.789 [TestNG-tests-1] INFO  core.controller.web.WebUIController - Clicked After Wait
+2026-09-28 14:06:47.605 [TestNG-tests-1] INFO  core.controller.web.WebUIController - Clicked After Wait
+2026-09-28 14:06:47.618 [TestNG-tests-1] INFO  core.controller.web.WebUIController - Panel width before expansion: 320
+2026-09-28 14:06:55.969 [TestNG-tests-1] INFO  core.controller.web.WebUIController - Clicked Element
+2026-09-28 14:06:56.486 [TestNG-tests-1] INFO  core.controller.web.WebUIController - Panel width after expansion: 1720
+2026-09-28 14:07:05.052 [TestNG-tests-1] INFO  core.controller.web.WebUIController - Clicked After Wait
+2026-09-28 14:07:05.055 [TestNG-tests-1] INFO  core.listeners.web.WebTestListener - TEST PASSED : ExpandablePanelsTest_rightPanel
+2026-09-28 14:07:05.061 [TestNG-tests-1] INFO  base.web.WebBaseTest - Closing Browser
+2026-09-28 14:07:05.061 [TestNG-tests-1] INFO  base.web.WebBaseTest - Browser Closed Successfully

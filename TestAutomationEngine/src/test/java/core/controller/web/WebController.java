@@ -218,5 +218,9 @@ public interface WebController
      */
     boolean hoverAndClick(WebElement parent,WebElement button);
 
+    /**
+     * Verify Panel Expansion
+     */
+    void verifyPanelExpanded(WebElement panel, WebElement expandButton);
 
 }

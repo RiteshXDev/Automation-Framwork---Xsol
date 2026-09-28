@@ -13,12 +13,11 @@
         <parameter name="browser" value="edge"/>
         <classes>
 
-            <!-- 15. Duplicating Models   -->
-            <class name="client.designtool.tests.DuplicateModelTest">
+            <!-- 16. Expandable Panels   -->
+            <class name="client.designtool.tests.ExpandablePanelsTest">
                 <methods>
-                    <include name="MainPageTest_DuplicateModels_creating"/>
-                    <include name="MainPageTest_DuplicateModels_deleting"/>
-                    <include name="MainPageTest_DuplicateModels_deletingPermanently"/>
+                    <include name="ExpandablePanelsTest_leftPanel"/>
+                    <include name="ExpandablePanelsTest_rightPanel"/>
                 </methods>
             </class>
         </classes>
