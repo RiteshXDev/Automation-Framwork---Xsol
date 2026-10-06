@@ -134,24 +134,16 @@ public class WebUIController  implements WebController
                 text);
     }
 
-
     /**
      * Wait Until Element Is Clickable And Click
      */
     public void waitAndClick(WebElement element)
     {
-        long start =
-                System.currentTimeMillis();
-
-        wait.until(
-                ExpectedConditions.elementToBeClickable(
-                        element));
-
+        long start = System.currentTimeMillis();
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.elementToBeClickable(element));
         element.click();
-
-        long end =
-                System.currentTimeMillis();
-
+        long end = System.currentTimeMillis();
         WebPerformanceLogger.log(
                 WebBaseTest.testName.get(),
                 "waitAndClick",
@@ -159,8 +151,37 @@ public class WebUIController  implements WebController
                 "CLICK_ACTION",
                 end - start);
 
-        log.info(
-                "Clicked After Wait");
+        log.info("Clicked After Wait");
+    }
+    /**
+     * Wait Until Element Is Clickable And Click (15 Seconds)
+     */
+    public void waitAndClickUntilClickable(WebElement element)
+    {
+        long start = System.currentTimeMillis();
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+        wait.until(ExpectedConditions.elementToBeClickable(element));
+        element.click();
+        long end = System.currentTimeMillis();
+
+        WebPerformanceLogger.log(
+                WebBaseTest.testName.get(),
+                "waitAndClickUntilClickable",
+                element.toString(),
+                "CLICK_ACTION",
+                end - start);
+        log.info("Clicked After Wait Until Clickable");
+    }
+
+    /**
+     * Wait Until Element Is Visible
+     */
+    public void waitUntilVisible(WebElement element)
+    {
+
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+        wait.until(ExpectedConditions.visibilityOf(element));
+        log.info("Element is visible after wait: {}", element);
     }
 
 
@@ -585,30 +606,27 @@ public class WebUIController  implements WebController
 
 
     /**
-     * Save Element Value To File
+     * Save GC Number Value To File
      */
-    public void saveElementValueToFile(
-            WebElement element,
-            String fileName)
+    public void saveGCNumberToFile(WebElement element)
     {
         try
         {
             wait.until(
                     ExpectedConditions.visibilityOf(element));
 
-            String value =
-                    element.getAttribute("value");
+            String value = element.getAttribute("value");
 
             File folder =
                     new File("src/main/resources/model-numbers");
 
-            if(!folder.exists())
+            if (!folder.exists())
             {
                 folder.mkdirs();
             }
 
             File file =
-                    new File(folder, fileName + ".txt");
+                    new File(folder, "gcNumber.txt");
 
             Files.writeString(
                     file.toPath(),
@@ -617,14 +635,14 @@ public class WebUIController  implements WebController
                     StandardOpenOption.TRUNCATE_EXISTING);
 
             log.info(
-                    "Element Value '{}' Saved To {}",
+                    "GC Number '{}' saved to {}",
                     value,
                     file.getAbsolutePath());
         }
         catch (Exception e)
         {
             throw new RuntimeException(
-                    "Failed To Save Element Value",
+                    "Failed to save GC number",
                     e);
         }
     }
@@ -737,78 +755,6 @@ public class WebUIController  implements WebController
         }
     }
 
-    /**
-     * Drag Panel Edge Horizontally Using Pointer Events
-     */
-    public void dragPanelRight(WebElement resizeHandle, int xOffset)
-    {
-        long start =
-                System.currentTimeMillis();
-
-        wait.until(
-                ExpectedConditions.visibilityOf(
-                        resizeHandle));
-
-        Rectangle rect =
-                resizeHandle.getRect();
-
-        int startX =
-                rect.getX()
-                        + (rect.getWidth() / 2);
-
-        int startY =
-                rect.getY()
-                        + (rect.getHeight() / 2);
-
-        PointerInput mouse =
-                new PointerInput(
-                        PointerInput.Kind.MOUSE,
-                        "mouse");
-
-        Sequence drag =
-                new Sequence(
-                        mouse,
-                        1);
-
-        drag.addAction(
-                mouse.createPointerMove(
-                        Duration.ZERO,
-                        PointerInput.Origin.viewport(),
-                        startX,
-                        startY));
-
-        drag.addAction(
-                mouse.createPointerDown(
-                        PointerInput.MouseButton.LEFT.asArg()));
-
-        drag.addAction(
-                mouse.createPointerMove(
-                        Duration.ofMillis(800),
-                        PointerInput.Origin.viewport(),
-                        startX + xOffset,
-                        startY));
-
-        drag.addAction(
-                mouse.createPointerUp(
-                        PointerInput.MouseButton.LEFT.asArg()));
-
-        ((RemoteWebDriver) driver).perform(
-                List.of(drag));
-
-        long end =
-                System.currentTimeMillis();
-
-        WebPerformanceLogger.log(
-                WebBaseTest.testName.get(),
-                "dragPanelRight",
-                resizeHandle.toString(),
-                "DRAG_ACTION",
-                end - start);
-
-        log.info(
-                "Panel Resized By {} Pixels",
-                xOffset);
-    }
 
     /**
      * Scroll Container Horizontally

@@ -716,3 +716,4 @@
 2026-07-15 17:21:05.779 CHROME | mediaPageTest_search | waitAndType | [[ChromeDriver: chrome on mac (bfa342d0908f7d20dc7ca63702fa980c)] -> xpath: //input[@placeholder='Search media…']] | TYPE_ACTION | 1852 ms
 2026-07-15 17:21:07.545 CHROME | mediaPageTest_search | waitAndType | [[ChromeDriver: chrome on mac (bfa342d0908f7d20dc7ca63702fa980c)] -> xpath: //input[@placeholder='Search media…']] | TYPE_ACTION | 104 ms
 2026-07-15 17:21:08.925 CHROME | mediaPageTest_search | waitAndClick | [[ChromeDriver: chrome on mac (bfa342d0908f7d20dc7ca63702fa980c)] -> xpath: //*[@id="root"]/div/header/div[1]/nav/button[1]] | CLICK_ACTION | 441 ms
+2026-09-29 16:17:12.332 CHROME | editingModelTest_partNumberEdit | waitAndClick | [[ChromeDriver: chrome on mac (03156f93a9f01945738828f7e93cb766)] -> xpath: //button[@class='font-bold text-slate-900 hover:text-[#0084FF] transition-colors']] | CLICK_ACTION | 2965 ms

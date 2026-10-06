@@ -70,4 +70,6 @@ public class DuplicateModelPage extends WebBaseTest
 
     @FindBy(xpath = "//button[@class='px-4 py-2 text-sm font-semibold text-white bg-red-600 hover:bg-red-700 rounded-lg transition-colors']")
     public WebElement moveToTrashPopUpButton;
+
+
 }

@@ -9,11 +9,11 @@
 
   "useProfile": true,
 
-  "chromeUserDataDir": "src/main/resources/browser-profiles/chrome-profile",
+  "chromeUserDataDir": "browser-profiles/chrome-profile",
   "chromeProfileDirectory": "Default",
 
-  "edgeUserDataDir": "src/main/resources/browser-profiles/edge-profile",
+  "edgeUserDataDir": "browser-profiles/edge-profile",
   "edgeProfileDirectory": "Default",
 
-  "firefoxProfileDirectory": "src/main/resources/browser-profiles/firefox-profile"
+  "firefoxProfileDirectory": "browser-profiles/firefox-profile"
 }

@@ -131229,3 +131229,2315 @@ Carries out tests associated with the selected fault code.
 2026-09-23 18:02:19.826 [UNKNOWN] END OF TEST SUITE
 2026-09-23 18:02:19.826 ============================================================
 
+2026-09-29 15:06:24.507 
+============================================================
+2026-09-29 15:06:24.522 [UNKNOWN] START OF TEST SUITE: Surefire test
+2026-09-29 15:06:24.522 ============================================================
+
+2026-09-29 15:06:24.727 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_erCommunicationFault --------------------
+
+2026-09-29 15:06:24.739 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_erCommunicationFault ====================
+
+2026-09-29 15:06:24.740 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout --------------------
+
+2026-09-29 15:06:24.742 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout ====================
+
+2026-09-29 15:06:24.743 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_boilerAndSystemRunning_1 --------------------
+
+2026-09-29 15:06:24.748 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_boilerAndSystemRunning_1 ====================
+
+2026-09-29 15:06:24.748 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_boilerAndSystemRunning_2 --------------------
+
+2026-09-29 15:06:24.751 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_boilerAndSystemRunning_2 ====================
+
+2026-09-29 15:06:24.752 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_boilerAndSystemTooCool_1 --------------------
+
+2026-09-29 15:06:24.755 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_boilerAndSystemTooCool_1 ====================
+
+2026-09-29 15:06:24.756 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_boilerAndSystemTooCool_2 --------------------
+
+2026-09-29 15:06:24.758 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_boilerAndSystemTooCool_2 ====================
+
+2026-09-29 15:06:24.759 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_boilerAndSystemTooCool_3 --------------------
+
+2026-09-29 15:06:24.761 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_boilerAndSystemTooCool_3 ====================
+
+2026-09-29 15:06:24.761 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_boilerNoisy_1 --------------------
+
+2026-09-29 15:06:24.766 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_boilerNoisy_1 ====================
+
+2026-09-29 15:06:24.767 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_boilerNoisy_2 --------------------
+
+2026-09-29 15:06:24.771 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_boilerNoisy_2 ====================
+
+2026-09-29 15:06:24.772 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_boilerTemperature_1 --------------------
+
+2026-09-29 15:06:24.775 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_boilerTemperature_1 ====================
+
+2026-09-29 15:06:24.775 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_boilerTemperature_2 --------------------
+
+2026-09-29 15:06:24.778 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_boilerTemperature_2 ====================
+
+2026-09-29 15:06:24.778 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_burnerDoesntEstablish_1 --------------------
+
+2026-09-29 15:06:24.781 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_burnerDoesntEstablish_1 ====================
+
+2026-09-29 15:06:24.782 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_burnerDoesntEstablish_2 --------------------
+
+2026-09-29 15:06:24.784 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_burnerDoesntEstablish_2 ====================
+
+2026-09-29 15:06:24.786 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_burnerDoesntIgnite_1 --------------------
+
+2026-09-29 15:06:24.789 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_burnerDoesntIgnite_1 ====================
+
+2026-09-29 15:06:24.789 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_burnerDoesntIgnite_2 --------------------
+
+2026-09-29 15:06:24.798 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_burnerDoesntIgnite_2 ====================
+
+2026-09-29 15:06:24.799 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_burnerDoesntIgnite_3 --------------------
+
+2026-09-29 15:06:24.806 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_burnerDoesntIgnite_3 ====================
+
+2026-09-29 15:06:24.806 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_burnerIgnites_explosiveIgnition_1 --------------------
+
+2026-09-29 15:06:24.807 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_burnerIgnites_explosiveIgnition_1 ====================
+
+2026-09-29 15:06:24.808 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_burnerIgnites_explosiveIgnition_2 --------------------
+
+2026-09-29 15:06:24.809 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_burnerIgnites_explosiveIgnition_2 ====================
+
+2026-09-29 15:06:24.809 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_burnerIgnites_explosiveIgnition_3 --------------------
+
+2026-09-29 15:06:24.810 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_burnerIgnites_explosiveIgnition_3 ====================
+
+2026-09-29 15:06:24.811 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_ignitesButNoisy_1 --------------------
+
+2026-09-29 15:06:24.812 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_ignitesButNoisy_1 ====================
+
+2026-09-29 15:06:24.812 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_ignitesButNoisy_2 --------------------
+
+2026-09-29 15:06:24.822 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_ignitesButNoisy_2 ====================
+
+2026-09-29 15:06:24.823 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f2FanFault_1 --------------------
+
+2026-09-29 15:06:24.826 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f2FanFault_1 ====================
+
+2026-09-29 15:06:24.826 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f2FanFault_2 --------------------
+
+2026-09-29 15:06:24.828 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f2FanFault_2 ====================
+
+2026-09-29 15:06:24.829 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f2FanFault_3 --------------------
+
+2026-09-29 15:06:24.832 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f2FanFault_3 ====================
+
+2026-09-29 15:06:24.833 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f2FanFault_differentFaultCodeAppears --------------------
+
+2026-09-29 15:06:24.837 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f2FanFault_differentFaultCodeAppears ====================
+
+2026-09-29 15:06:24.837 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f2FanFault_doesNotAlter --------------------
+
+2026-09-29 15:06:24.842 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f2FanFault_doesNotAlter ====================
+
+2026-09-29 15:06:24.843 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f2FanFault_entersStandby --------------------
+
+2026-09-29 15:06:24.844 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f2FanFault_entersStandby ====================
+
+2026-09-29 15:06:24.845 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f6FlowThermistorFault_differentFaultCodes --------------------
+
+2026-09-29 15:06:24.846 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f6FlowThermistorFault_differentFaultCodes ====================
+
+2026-09-29 15:06:24.846 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f6FlowThermistorFault_displayDoesNotAlter --------------------
+
+2026-09-29 15:06:24.854 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f6FlowThermistorFault_displayDoesNotAlter ====================
+
+2026-09-29 15:06:24.854 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f6FlowThermistorFault_entersStandby_1 --------------------
+
+2026-09-29 15:06:24.855 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f6FlowThermistorFault_entersStandby_1 ====================
+
+2026-09-29 15:06:24.855 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f6FlowThermistorFault_entersStandby_2 --------------------
+
+2026-09-29 15:06:24.856 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f6FlowThermistorFault_entersStandby_2 ====================
+
+2026-09-29 15:06:24.856 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f6FlowThermistorFault_entersStandby_3 --------------------
+
+2026-09-29 15:06:24.862 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f6FlowThermistorFault_entersStandby_3 ====================
+
+2026-09-29 15:06:24.863 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f6FlowThermistorFault_faultCodeImmediatelyReoccurs --------------------
+
+2026-09-29 15:06:24.866 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f6FlowThermistorFault_faultCodeImmediatelyReoccurs ====================
+
+2026-09-29 15:06:24.878 
+-------------------- [UNKNOWN] START OF TEST: testmultimetertutorials --------------------
+
+2026-09-29 15:06:24.881 
+==================== [UNKNOWN] END OF TEST: testmultimetertutorials ====================
+
+2026-09-29 15:06:24.884 
+-------------------- [UNKNOWN] START OF TEST: testBeforeOrderingPCB --------------------
+
+2026-09-29 15:06:24.886 
+==================== [UNKNOWN] END OF TEST: testBeforeOrderingPCB ====================
+
+2026-09-29 15:06:24.887 
+-------------------- [UNKNOWN] START OF TEST: testExternalMixing --------------------
+
+2026-09-29 15:06:24.888 
+==================== [UNKNOWN] END OF TEST: testExternalMixing ====================
+
+2026-09-29 15:06:24.889 
+-------------------- [UNKNOWN] START OF TEST: testFaultFindingTools --------------------
+
+2026-09-29 15:06:24.890 
+==================== [UNKNOWN] END OF TEST: testFaultFindingTools ====================
+
+2026-09-29 15:06:24.890 
+-------------------- [UNKNOWN] START OF TEST: testHallSensor --------------------
+
+2026-09-29 15:06:24.896 
+==================== [UNKNOWN] END OF TEST: testHallSensor ====================
+
+2026-09-29 15:06:24.899 
+-------------------- [UNKNOWN] START OF TEST: testInfoBeforeChangingPCB --------------------
+
+2026-09-29 15:06:24.902 
+==================== [UNKNOWN] END OF TEST: testInfoBeforeChangingPCB ====================
+
+2026-09-29 15:06:24.903 
+-------------------- [UNKNOWN] START OF TEST: testInfoSolarAssistedHotWater --------------------
+
+2026-09-29 15:06:24.905 
+==================== [UNKNOWN] END OF TEST: testInfoSolarAssistedHotWater ====================
+
+2026-09-29 15:06:24.905 
+-------------------- [UNKNOWN] START OF TEST: testInsulatingMatAdvice --------------------
+
+2026-09-29 15:06:24.906 
+==================== [UNKNOWN] END OF TEST: testInsulatingMatAdvice ====================
+
+2026-09-29 15:06:24.907 
+-------------------- [UNKNOWN] START OF TEST: testMeasuringRate --------------------
+
+2026-09-29 15:06:24.908 
+==================== [UNKNOWN] END OF TEST: testMeasuringRate ====================
+
+2026-09-29 15:06:24.909 
+-------------------- [UNKNOWN] START OF TEST: testPumpFailureGuide --------------------
+
+2026-09-29 15:06:24.910 
+==================== [UNKNOWN] END OF TEST: testPumpFailureGuide ====================
+
+2026-09-29 15:06:24.910 
+-------------------- [UNKNOWN] START OF TEST: testReplacementGuidePCB --------------------
+
+2026-09-29 15:06:24.910 
+==================== [UNKNOWN] END OF TEST: testReplacementGuidePCB ====================
+
+2026-09-29 15:06:24.911 
+-------------------- [UNKNOWN] START OF TEST: testServiceKitLink --------------------
+
+2026-09-29 15:06:24.912 
+==================== [UNKNOWN] END OF TEST: testServiceKitLink ====================
+
+2026-09-29 15:06:24.912 
+-------------------- [UNKNOWN] START OF TEST: testServicingVessel --------------------
+
+2026-09-29 15:06:24.913 
+==================== [UNKNOWN] END OF TEST: testServicingVessel ====================
+
+2026-09-29 15:06:24.913 
+-------------------- [UNKNOWN] START OF TEST: testTemperatureClamps --------------------
+
+2026-09-29 15:06:24.916 
+==================== [UNKNOWN] END OF TEST: testTemperatureClamps ====================
+
+2026-09-29 15:06:24.916 
+-------------------- [UNKNOWN] START OF TEST: testUsingTheMultimeter --------------------
+
+2026-09-29 15:06:24.921 
+==================== [UNKNOWN] END OF TEST: testUsingTheMultimeter ====================
+
+2026-09-29 15:06:24.927 
+-------------------- [UNKNOWN] START OF TEST: test_feedback --------------------
+
+2026-09-29 15:06:24.928 
+==================== [UNKNOWN] END OF TEST: test_feedback ====================
+
+2026-09-29 15:06:24.929 
+-------------------- [UNKNOWN] START OF TEST: test_liteDiagnostic_investigateAOverheatSituation --------------------
+
+2026-09-29 15:06:24.930 
+==================== [UNKNOWN] END OF TEST: test_liteDiagnostic_investigateAOverheatSituation ====================
+
+2026-09-29 15:06:24.930 
+-------------------- [UNKNOWN] START OF TEST: test_liteDiagnostic_investigateBlankDisplay --------------------
+
+2026-09-29 15:06:24.931 
+==================== [UNKNOWN] END OF TEST: test_liteDiagnostic_investigateBlankDisplay ====================
+
+2026-09-29 15:06:24.931 
+-------------------- [UNKNOWN] START OF TEST: test_liteDiagnostic_investigateBurnerIgnition --------------------
+
+2026-09-29 15:06:24.938 
+==================== [UNKNOWN] END OF TEST: test_liteDiagnostic_investigateBurnerIgnition ====================
+
+2026-09-29 15:06:24.938 
+-------------------- [UNKNOWN] START OF TEST: test_liteDiagnostic_investigateCHOperation --------------------
+
+2026-09-29 15:06:24.939 
+==================== [UNKNOWN] END OF TEST: test_liteDiagnostic_investigateCHOperation ====================
+
+2026-09-29 15:06:24.939 
+-------------------- [UNKNOWN] START OF TEST: test_liteDiagnostic_investigateFanNotRunning --------------------
+
+2026-09-29 15:06:24.940 
+==================== [UNKNOWN] END OF TEST: test_liteDiagnostic_investigateFanNotRunning ====================
+
+2026-09-29 15:06:24.941 
+-------------------- [UNKNOWN] START OF TEST: test_liteDiagnostic_investigatePumpNotRunning --------------------
+
+2026-09-29 15:06:24.941 
+==================== [UNKNOWN] END OF TEST: test_liteDiagnostic_investigatePumpNotRunning ====================
+
+2026-09-29 15:06:24.942 
+-------------------- [UNKNOWN] START OF TEST: test_liteDiagnostic_investigateWhyAFuseMayHaveBlown --------------------
+
+2026-09-29 15:06:24.942 
+==================== [UNKNOWN] END OF TEST: test_liteDiagnostic_investigateWhyAFuseMayHaveBlown ====================
+
+2026-09-29 15:06:24.942 
+-------------------- [UNKNOWN] START OF TEST: test_liteDiagnostic_systemDiagnostics --------------------
+
+2026-09-29 15:06:24.942 
+==================== [UNKNOWN] END OF TEST: test_liteDiagnostic_systemDiagnostics ====================
+
+2026-09-29 15:06:24.945 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_boilerAndSystemRunning --------------------
+
+2026-09-29 15:06:24.945 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_boilerAndSystemRunning ====================
+
+2026-09-29 15:06:24.946 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_boilerAndSystemTooCool_1 --------------------
+
+2026-09-29 15:06:24.946 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_boilerAndSystemTooCool_1 ====================
+
+2026-09-29 15:06:24.947 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_boilerAndSystemTooCool_2 --------------------
+
+2026-09-29 15:06:24.948 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_boilerAndSystemTooCool_2 ====================
+
+2026-09-29 15:06:24.949 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_boilerAtTemperature --------------------
+
+2026-09-29 15:06:24.949 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_boilerAtTemperature ====================
+
+2026-09-29 15:06:24.951 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_boilerFiresWithNoDemand_1 --------------------
+
+2026-09-29 15:06:24.953 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_boilerFiresWithNoDemand_1 ====================
+
+2026-09-29 15:06:24.953 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_boilerFiresWithNoDemand_2 --------------------
+
+2026-09-29 15:06:24.954 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_boilerFiresWithNoDemand_2 ====================
+
+2026-09-29 15:06:24.954 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_boilerNoisy_1 --------------------
+
+2026-09-29 15:06:24.954 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_boilerNoisy_1 ====================
+
+2026-09-29 15:06:24.955 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_boilerNoisy_2 --------------------
+
+2026-09-29 15:06:24.956 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_boilerNoisy_2 ====================
+
+2026-09-29 15:06:24.956 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_boilerOperation --------------------
+
+2026-09-29 15:06:24.957 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_boilerOperation ====================
+
+2026-09-29 15:06:24.957 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_burnerDoesntIgnite_1 --------------------
+
+2026-09-29 15:06:24.957 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_burnerDoesntIgnite_1 ====================
+
+2026-09-29 15:06:24.957 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_burnerDoesntIgnite_2 --------------------
+
+2026-09-29 15:06:24.958 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_burnerDoesntIgnite_2 ====================
+
+2026-09-29 15:06:24.958 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_burnerIgnitesAndEstablishes_1 --------------------
+
+2026-09-29 15:06:24.958 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_burnerIgnitesAndEstablishes_1 ====================
+
+2026-09-29 15:06:24.959 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_burnerIgnitesAndEstablishes_2 --------------------
+
+2026-09-29 15:06:24.959 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_burnerIgnitesAndEstablishes_2 ====================
+
+2026-09-29 15:06:24.959 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_burnerIgnitesbut_1 --------------------
+
+2026-09-29 15:06:24.960 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_burnerIgnitesbut_1 ====================
+
+2026-09-29 15:06:24.960 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_burnerIgnitesbut_2 --------------------
+
+2026-09-29 15:06:24.960 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_burnerIgnitesbut_2 ====================
+
+2026-09-29 15:06:24.960 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_displayDoesNotOperates_1 --------------------
+
+2026-09-29 15:06:24.960 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_displayDoesNotOperates_1 ====================
+
+2026-09-29 15:06:24.961 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_displayDoesNotOperates_2 --------------------
+
+2026-09-29 15:06:24.961 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_displayDoesNotOperates_2 ====================
+
+2026-09-29 15:06:24.961 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_fanDoesntRun_1 --------------------
+
+2026-09-29 15:06:24.963 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_fanDoesntRun_1 ====================
+
+2026-09-29 15:06:24.964 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_fanDoesntRun_2 --------------------
+
+2026-09-29 15:06:24.964 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_fanDoesntRun_2 ====================
+
+2026-09-29 15:06:24.965 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_fanRunsContinually --------------------
+
+2026-09-29 15:06:24.966 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_fanRunsContinually ====================
+
+2026-09-29 15:06:24.966 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_fanRunsForApprox --------------------
+
+2026-09-29 15:06:24.966 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_fanRunsForApprox ====================
+
+2026-09-29 15:06:24.967 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_faultCodeOrER --------------------
+
+2026-09-29 15:06:24.968 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_faultCodeOrER ====================
+
+2026-09-29 15:06:24.968 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_ignitesButNoisy_1 --------------------
+
+2026-09-29 15:06:24.968 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_ignitesButNoisy_1 ====================
+
+2026-09-29 15:06:24.968 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_ignitesButNoisy_2 --------------------
+
+2026-09-29 15:06:24.969 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_ignitesButNoisy_2 ====================
+
+2026-09-29 15:06:24.969 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_pumpDoesNotRun_1 --------------------
+
+2026-09-29 15:06:24.970 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_pumpDoesNotRun_1 ====================
+
+2026-09-29 15:06:24.970 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_pumpDoesNotRun_2 --------------------
+
+2026-09-29 15:06:24.971 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_pumpDoesNotRun_2 ====================
+
+2026-09-29 15:06:24.972 
+-------------------- [UNKNOWN] START OF TEST: test_boilerIsFiring --------------------
+
+2026-09-29 15:06:24.973 
+==================== [UNKNOWN] END OF TEST: test_boilerIsFiring ====================
+
+2026-09-29 15:06:24.973 
+-------------------- [UNKNOWN] START OF TEST: test_boilerIsFiring1_systemStillFires_boilerDoesNot --------------------
+
+2026-09-29 15:06:24.973 
+==================== [UNKNOWN] END OF TEST: test_boilerIsFiring1_systemStillFires_boilerDoesNot ====================
+
+2026-09-29 15:06:24.973 
+-------------------- [UNKNOWN] START OF TEST: test_boilerIsFiring1_systemStillFires_systemNoLonger --------------------
+
+2026-09-29 15:06:24.973 
+==================== [UNKNOWN] END OF TEST: test_boilerIsFiring1_systemStillFires_systemNoLonger ====================
+
+2026-09-29 15:06:24.974 
+-------------------- [UNKNOWN] START OF TEST: test_heatingIsNotWorking_zoneValveMoves_mva --------------------
+
+2026-09-29 15:06:24.974 
+==================== [UNKNOWN] END OF TEST: test_heatingIsNotWorking_zoneValveMoves_mva ====================
+
+2026-09-29 15:06:24.974 
+-------------------- [UNKNOWN] START OF TEST: test_heatingIsNotWorking_zoneValveMoves_mvp --------------------
+
+2026-09-29 15:06:24.974 
+==================== [UNKNOWN] END OF TEST: test_heatingIsNotWorking_zoneValveMoves_mvp ====================
+
+2026-09-29 15:06:24.975 
+-------------------- [UNKNOWN] START OF TEST: test_heatingIsNotWorking_zoneValveNotMoving_mva --------------------
+
+2026-09-29 15:06:24.975 
+==================== [UNKNOWN] END OF TEST: test_heatingIsNotWorking_zoneValveNotMoving_mva ====================
+
+2026-09-29 15:06:24.975 
+-------------------- [UNKNOWN] START OF TEST: test_heatingIsNotWorking_zoneValveNotMoving_mvp --------------------
+
+2026-09-29 15:06:24.975 
+==================== [UNKNOWN] END OF TEST: test_heatingIsNotWorking_zoneValveNotMoving_mvp ====================
+
+2026-09-29 15:06:24.976 
+-------------------- [UNKNOWN] START OF TEST: test_neitherTheHeating_oneOrBoth_heatingValve --------------------
+
+2026-09-29 15:06:24.976 
+==================== [UNKNOWN] END OF TEST: test_neitherTheHeating_oneOrBoth_heatingValve ====================
+
+2026-09-29 15:06:24.976 
+-------------------- [UNKNOWN] START OF TEST: test_neitherTheHeating_oneOrBoth_hotWaterValve --------------------
+
+2026-09-29 15:06:24.976 
+==================== [UNKNOWN] END OF TEST: test_neitherTheHeating_oneOrBoth_hotWaterValve ====================
+
+2026-09-29 15:06:24.976 
+-------------------- [UNKNOWN] START OF TEST: test_neitherTheHeating_oneOrBoth_mva --------------------
+
+2026-09-29 15:06:24.977 
+==================== [UNKNOWN] END OF TEST: test_neitherTheHeating_oneOrBoth_mva ====================
+
+2026-09-29 15:06:24.977 
+-------------------- [UNKNOWN] START OF TEST: test_neitherTheHeating_oneOrBoth_mvp --------------------
+
+2026-09-29 15:06:24.977 
+==================== [UNKNOWN] END OF TEST: test_neitherTheHeating_oneOrBoth_mvp ====================
+
+2026-09-29 15:06:24.977 
+-------------------- [UNKNOWN] START OF TEST: test_neitherTheHeating_zoneValveMoves --------------------
+
+2026-09-29 15:06:24.977 
+==================== [UNKNOWN] END OF TEST: test_neitherTheHeating_zoneValveMoves ====================
+
+2026-09-29 15:06:24.978 
+-------------------- [UNKNOWN] START OF TEST: test_radiatorsAreGettingHot --------------------
+
+2026-09-29 15:06:24.978 
+==================== [UNKNOWN] END OF TEST: test_radiatorsAreGettingHot ====================
+
+2026-09-29 15:06:24.978 
+-------------------- [UNKNOWN] START OF TEST: test_theHotWater_zoneValveMoves --------------------
+
+2026-09-29 15:06:24.978 
+==================== [UNKNOWN] END OF TEST: test_theHotWater_zoneValveMoves ====================
+
+2026-09-29 15:06:24.978 
+-------------------- [UNKNOWN] START OF TEST: test_theHotWater_zoneValveMoves_mva --------------------
+
+2026-09-29 15:06:24.979 
+==================== [UNKNOWN] END OF TEST: test_theHotWater_zoneValveMoves_mva ====================
+
+2026-09-29 15:06:24.979 
+-------------------- [UNKNOWN] START OF TEST: test_theHotWater_zoneValveNotMoving_hotWater --------------------
+
+2026-09-29 15:06:24.979 
+==================== [UNKNOWN] END OF TEST: test_theHotWater_zoneValveNotMoving_hotWater ====================
+
+2026-09-29 15:06:24.979 
+-------------------- [UNKNOWN] START OF TEST: test_theHotWater_zoneValveNotMoving_mva_mva --------------------
+
+2026-09-29 15:06:24.979 
+==================== [UNKNOWN] END OF TEST: test_theHotWater_zoneValveNotMoving_mva_mva ====================
+
+2026-09-29 15:06:24.979 
+-------------------- [UNKNOWN] START OF TEST: test_theHotWater_zoneValveNotMoving_mva_mvp --------------------
+
+2026-09-29 15:06:24.980 
+==================== [UNKNOWN] END OF TEST: test_theHotWater_zoneValveNotMoving_mva_mvp ====================
+
+2026-09-29 15:06:24.980 
+-------------------- [UNKNOWN] START OF TEST: test_theHotWater_zoneValveNotMoving_mvp --------------------
+
+2026-09-29 15:06:24.980 
+==================== [UNKNOWN] END OF TEST: test_theHotWater_zoneValveNotMoving_mvp ====================
+
+2026-09-29 15:06:24.982 
+-------------------- [UNKNOWN] START OF TEST: testManufacturerInfo --------------------
+
+2026-09-29 15:06:24.983 
+==================== [UNKNOWN] END OF TEST: testManufacturerInfo ====================
+
+2026-09-29 15:06:24.985 
+-------------------- [UNKNOWN] START OF TEST: test_quickAccessDataInformation --------------------
+
+2026-09-29 15:06:24.986 
+==================== [UNKNOWN] END OF TEST: test_quickAccessDataInformation ====================
+
+2026-09-29 15:06:24.992 
+-------------------- [UNKNOWN] START OF TEST: test_pumpAndBoilerDoNotRespond --------------------
+
+2026-09-29 15:06:24.992 
+==================== [UNKNOWN] END OF TEST: test_pumpAndBoilerDoNotRespond ====================
+
+2026-09-29 15:06:24.993 
+-------------------- [UNKNOWN] START OF TEST: test_radiatorsHeating_valveDoesNotReach_1 --------------------
+
+2026-09-29 15:06:24.993 
+==================== [UNKNOWN] END OF TEST: test_radiatorsHeating_valveDoesNotReach_1 ====================
+
+2026-09-29 15:06:24.993 
+-------------------- [UNKNOWN] START OF TEST: test_radiatorsHeating_valveDoesNotReach_2 --------------------
+
+2026-09-29 15:06:24.993 
+==================== [UNKNOWN] END OF TEST: test_radiatorsHeating_valveDoesNotReach_2 ====================
+
+2026-09-29 15:06:24.994 
+-------------------- [UNKNOWN] START OF TEST: test_radiatorsHeating_valveDoesNotReach_3 --------------------
+
+2026-09-29 15:06:24.994 
+==================== [UNKNOWN] END OF TEST: test_radiatorsHeating_valveDoesNotReach_3 ====================
+
+2026-09-29 15:06:24.995 
+-------------------- [UNKNOWN] START OF TEST: test_valveInHotWater_pumpIsNotRunning --------------------
+
+2026-09-29 15:06:24.995 
+==================== [UNKNOWN] END OF TEST: test_valveInHotWater_pumpIsNotRunning ====================
+
+2026-09-29 15:06:24.995 
+-------------------- [UNKNOWN] START OF TEST: test_valveInHotWater_pumpIsRunning --------------------
+
+2026-09-29 15:06:24.995 
+==================== [UNKNOWN] END OF TEST: test_valveInHotWater_pumpIsRunning ====================
+
+2026-09-29 15:06:24.995 
+-------------------- [UNKNOWN] START OF TEST: test_valveIsNotMoving_valveDoesNotMove_1 --------------------
+
+2026-09-29 15:06:24.996 
+==================== [UNKNOWN] END OF TEST: test_valveIsNotMoving_valveDoesNotMove_1 ====================
+
+2026-09-29 15:06:24.996 
+-------------------- [UNKNOWN] START OF TEST: test_valveIsNotMoving_valveDoesNotMove_2 --------------------
+
+2026-09-29 15:06:24.997 
+==================== [UNKNOWN] END OF TEST: test_valveIsNotMoving_valveDoesNotMove_2 ====================
+
+2026-09-29 15:06:24.998 
+-------------------- [UNKNOWN] START OF TEST: test_valveIsNotMoving_valveMoves_1 --------------------
+
+2026-09-29 15:06:24.998 
+==================== [UNKNOWN] END OF TEST: test_valveIsNotMoving_valveMoves_1 ====================
+
+2026-09-29 15:06:24.999 
+-------------------- [UNKNOWN] START OF TEST: test_valveIsNotMoving_valveMoves_2 --------------------
+
+2026-09-29 15:06:24.999 
+==================== [UNKNOWN] END OF TEST: test_valveIsNotMoving_valveMoves_2 ====================
+
+2026-09-29 15:06:24.999 
+-------------------- [UNKNOWN] START OF TEST: test_valveMovesToTheHeating_pumpIsNotRunning --------------------
+
+2026-09-29 15:06:24.999 
+==================== [UNKNOWN] END OF TEST: test_valveMovesToTheHeating_pumpIsNotRunning ====================
+
+2026-09-29 15:06:24.999 
+-------------------- [UNKNOWN] START OF TEST: test_valveMovesToTheHeating_pumpIsRunning --------------------
+
+2026-09-29 15:06:25.000 
+==================== [UNKNOWN] END OF TEST: test_valveMovesToTheHeating_pumpIsRunning ====================
+
+2026-09-29 15:06:25.000 
+-------------------- [UNKNOWN] START OF TEST: test_valveNotStopping_valveClicking_voltagePresent --------------------
+
+2026-09-29 15:06:25.000 
+==================== [UNKNOWN] END OF TEST: test_valveNotStopping_valveClicking_voltagePresent ====================
+
+2026-09-29 15:06:25.000 
+-------------------- [UNKNOWN] START OF TEST: test_valveNotStopping_valveDoesNotReturn --------------------
+
+2026-09-29 15:06:25.000 
+==================== [UNKNOWN] END OF TEST: test_valveNotStopping_valveDoesNotReturn ====================
+
+2026-09-29 15:06:25.001 
+-------------------- [UNKNOWN] START OF TEST: test_valveNotStopping_valveSpring_voltageAbsent --------------------
+
+2026-09-29 15:06:25.001 
+==================== [UNKNOWN] END OF TEST: test_valveNotStopping_valveSpring_voltageAbsent ====================
+
+2026-09-29 15:06:25.001 
+-------------------- [UNKNOWN] START OF TEST: test_valveNotStopping_valveSpring_voltagePresent --------------------
+
+2026-09-29 15:06:25.001 
+==================== [UNKNOWN] END OF TEST: test_valveNotStopping_valveSpring_voltagePresent ====================
+
+2026-09-29 15:06:25.001 
+-------------------- [UNKNOWN] START OF TEST: test_valveWorkingProperly --------------------
+
+2026-09-29 15:06:25.002 
+==================== [UNKNOWN] END OF TEST: test_valveWorkingProperly ====================
+
+2026-09-29 15:06:25.009 
+-------------------- [UNKNOWN] START OF TEST: testWiringDiagram_CPlanPlusSystem --------------------
+
+2026-09-29 15:06:25.010 
+==================== [UNKNOWN] END OF TEST: testWiringDiagram_CPlanPlusSystem ====================
+
+2026-09-29 15:06:25.010 
+-------------------- [UNKNOWN] START OF TEST: testWiringDiagram_CPlanSystem --------------------
+
+2026-09-29 15:06:25.011 
+==================== [UNKNOWN] END OF TEST: testWiringDiagram_CPlanSystem ====================
+
+2026-09-29 15:06:25.012 
+-------------------- [UNKNOWN] START OF TEST: testWiringDiagram_GravitySystem --------------------
+
+2026-09-29 15:06:25.013 
+==================== [UNKNOWN] END OF TEST: testWiringDiagram_GravitySystem ====================
+
+2026-09-29 15:06:25.016 
+-------------------- [UNKNOWN] START OF TEST: testWiringDiagram_MPlanSystem --------------------
+
+2026-09-29 15:06:25.016 
+==================== [UNKNOWN] END OF TEST: testWiringDiagram_MPlanSystem ====================
+
+2026-09-29 15:06:25.017 
+-------------------- [UNKNOWN] START OF TEST: testWiringDiagram_SPlanSystem --------------------
+
+2026-09-29 15:06:25.017 
+==================== [UNKNOWN] END OF TEST: testWiringDiagram_SPlanSystem ====================
+
+2026-09-29 15:06:25.017 
+-------------------- [UNKNOWN] START OF TEST: testWiringDiagram_WPlanSystem --------------------
+
+2026-09-29 15:06:25.017 
+==================== [UNKNOWN] END OF TEST: testWiringDiagram_WPlanSystem ====================
+
+2026-09-29 15:06:25.018 
+-------------------- [UNKNOWN] START OF TEST: testWiringDiagram_WPlanSystemWithPrioritySwitch --------------------
+
+2026-09-29 15:06:25.019 
+==================== [UNKNOWN] END OF TEST: testWiringDiagram_WPlanSystemWithPrioritySwitch ====================
+
+2026-09-29 15:06:25.019 
+-------------------- [UNKNOWN] START OF TEST: testWiringDiagram_YPlanSystem --------------------
+
+2026-09-29 15:06:25.020 
+==================== [UNKNOWN] END OF TEST: testWiringDiagram_YPlanSystem ====================
+
+2026-09-29 15:06:25.022 
+-------------------- [UNKNOWN] START OF TEST: test_boiler4704734_1 --------------------
+
+2026-09-29 15:06:25.023 
+==================== [UNKNOWN] END OF TEST: test_boiler4704734_1 ====================
+
+2026-09-29 15:06:25.023 
+-------------------- [UNKNOWN] START OF TEST: test_boiler4704734_2 --------------------
+
+2026-09-29 15:06:25.023 
+==================== [UNKNOWN] END OF TEST: test_boiler4704734_2 ====================
+
+2026-09-29 15:06:25.024 
+-------------------- [UNKNOWN] START OF TEST: test_boiler4704734_3 --------------------
+
+2026-09-29 15:06:25.024 
+==================== [UNKNOWN] END OF TEST: test_boiler4704734_3 ====================
+
+2026-09-29 15:06:25.026 
+-------------------- [UNKNOWN] START OF TEST: test_boiler4731157_1 --------------------
+
+2026-09-29 15:06:25.027 
+==================== [UNKNOWN] END OF TEST: test_boiler4731157_1 ====================
+
+2026-09-29 15:06:25.027 
+-------------------- [UNKNOWN] START OF TEST: test_boiler4731157_10 --------------------
+
+2026-09-29 15:06:25.027 
+==================== [UNKNOWN] END OF TEST: test_boiler4731157_10 ====================
+
+2026-09-29 15:06:25.027 
+-------------------- [UNKNOWN] START OF TEST: test_boiler4731157_11 --------------------
+
+2026-09-29 15:06:25.028 
+==================== [UNKNOWN] END OF TEST: test_boiler4731157_11 ====================
+
+2026-09-29 15:06:25.028 
+-------------------- [UNKNOWN] START OF TEST: test_boiler4731157_12 --------------------
+
+2026-09-29 15:06:25.028 
+==================== [UNKNOWN] END OF TEST: test_boiler4731157_12 ====================
+
+2026-09-29 15:06:25.028 
+-------------------- [UNKNOWN] START OF TEST: test_boiler4731157_2 --------------------
+
+2026-09-29 15:06:25.028 
+==================== [UNKNOWN] END OF TEST: test_boiler4731157_2 ====================
+
+2026-09-29 15:06:25.028 
+-------------------- [UNKNOWN] START OF TEST: test_boiler4731157_3 --------------------
+
+2026-09-29 15:06:25.028 
+==================== [UNKNOWN] END OF TEST: test_boiler4731157_3 ====================
+
+2026-09-29 15:06:25.029 
+-------------------- [UNKNOWN] START OF TEST: test_boiler4731157_4 --------------------
+
+2026-09-29 15:06:25.029 
+==================== [UNKNOWN] END OF TEST: test_boiler4731157_4 ====================
+
+2026-09-29 15:06:25.029 
+-------------------- [UNKNOWN] START OF TEST: test_boiler4731157_5 --------------------
+
+2026-09-29 15:06:25.029 
+==================== [UNKNOWN] END OF TEST: test_boiler4731157_5 ====================
+
+2026-09-29 15:06:25.029 
+-------------------- [UNKNOWN] START OF TEST: test_boiler4731157_6 --------------------
+
+2026-09-29 15:06:25.029 
+==================== [UNKNOWN] END OF TEST: test_boiler4731157_6 ====================
+
+2026-09-29 15:06:25.030 
+-------------------- [UNKNOWN] START OF TEST: test_boiler4731157_7 --------------------
+
+2026-09-29 15:06:25.030 
+==================== [UNKNOWN] END OF TEST: test_boiler4731157_7 ====================
+
+2026-09-29 15:06:25.030 
+-------------------- [UNKNOWN] START OF TEST: test_boiler4731157_8 --------------------
+
+2026-09-29 15:06:25.030 
+==================== [UNKNOWN] END OF TEST: test_boiler4731157_8 ====================
+
+2026-09-29 15:06:25.030 
+-------------------- [UNKNOWN] START OF TEST: test_boiler4731157_9 --------------------
+
+2026-09-29 15:06:25.030 
+==================== [UNKNOWN] END OF TEST: test_boiler4731157_9 ====================
+
+2026-09-29 15:06:25.031 
+-------------------- [UNKNOWN] START OF TEST: ExpandablePanelsTest_leftPanel --------------------
+
+2026-09-29 15:06:25.031 
+==================== [UNKNOWN] END OF TEST: ExpandablePanelsTest_leftPanel ====================
+
+2026-09-29 15:06:25.032 
+-------------------- [UNKNOWN] START OF TEST: ExpandablePanelsTest_rightPanel --------------------
+
+2026-09-29 15:06:25.032 
+==================== [UNKNOWN] END OF TEST: ExpandablePanelsTest_rightPanel ====================
+
+2026-09-29 15:06:25.033 
+-------------------- [UNKNOWN] START OF TEST: createNewModelTest --------------------
+
+2026-09-29 15:06:25.033 
+==================== [UNKNOWN] END OF TEST: createNewModelTest ====================
+
+2026-09-29 15:06:25.033 
+-------------------- [UNKNOWN] START OF TEST: editingModelTest_connection --------------------
+
+2026-09-29 15:06:25.034 
+==================== [UNKNOWN] END OF TEST: editingModelTest_connection ====================
+
+2026-09-29 15:06:25.034 
+-------------------- [UNKNOWN] START OF TEST: editingModelTest_instruction --------------------
+
+2026-09-29 15:06:25.034 
+==================== [UNKNOWN] END OF TEST: editingModelTest_instruction ====================
+
+2026-09-29 15:06:25.034 
+-------------------- [UNKNOWN] START OF TEST: editingModelTest_media --------------------
+
+2026-09-29 15:06:25.034 
+==================== [UNKNOWN] END OF TEST: editingModelTest_media ====================
+
+2026-09-29 15:06:25.035 
+-------------------- [UNKNOWN] START OF TEST: editingModelTest_partNumberEdit --------------------
+
+2026-09-29 15:06:25.035 
+==================== [UNKNOWN] END OF TEST: editingModelTest_partNumberEdit ====================
+
+2026-09-29 15:06:25.035 
+-------------------- [UNKNOWN] START OF TEST: editingModelTest_setup --------------------
+
+2026-09-29 15:06:25.035 
+==================== [UNKNOWN] END OF TEST: editingModelTest_setup ====================
+
+2026-09-29 15:06:25.036 
+-------------------- [UNKNOWN] START OF TEST: addingSnippetToModelTest_alerts --------------------
+
+2026-09-29 15:06:25.036 
+==================== [UNKNOWN] END OF TEST: addingSnippetToModelTest_alerts ====================
+
+2026-09-29 15:06:25.036 
+-------------------- [UNKNOWN] START OF TEST: addingSnippetToModelTest_instruction --------------------
+
+2026-09-29 15:06:25.036 
+==================== [UNKNOWN] END OF TEST: addingSnippetToModelTest_instruction ====================
+
+2026-09-29 15:06:25.036 
+-------------------- [UNKNOWN] START OF TEST: addingSnippetToModelTest_setup --------------------
+
+2026-09-29 15:06:25.036 
+==================== [UNKNOWN] END OF TEST: addingSnippetToModelTest_setup ====================
+
+2026-09-29 15:06:25.037 
+-------------------- [UNKNOWN] START OF TEST: TableNavigationCheckTest_next --------------------
+
+2026-09-29 15:06:25.037 
+==================== [UNKNOWN] END OF TEST: TableNavigationCheckTest_next ====================
+
+2026-09-29 15:06:25.037 
+-------------------- [UNKNOWN] START OF TEST: TableNavigationCheckTest_previous --------------------
+
+2026-09-29 15:06:25.037 
+==================== [UNKNOWN] END OF TEST: TableNavigationCheckTest_previous ====================
+
+2026-09-29 15:06:25.038 
+-------------------- [UNKNOWN] START OF TEST: NodeDelete_mainPage_model --------------------
+
+2026-09-29 15:06:25.038 
+==================== [UNKNOWN] END OF TEST: NodeDelete_mainPage_model ====================
+
+2026-09-29 15:06:25.038 
+-------------------- [UNKNOWN] START OF TEST: NodeDelete_modelPage_node --------------------
+
+2026-09-29 15:06:25.038 
+==================== [UNKNOWN] END OF TEST: NodeDelete_modelPage_node ====================
+
+2026-09-29 15:06:25.038 
+-------------------- [UNKNOWN] START OF TEST: NodeDelete_searchPage_model --------------------
+
+2026-09-29 15:06:25.038 
+==================== [UNKNOWN] END OF TEST: NodeDelete_searchPage_model ====================
+
+2026-09-29 15:06:25.039 
+-------------------- [UNKNOWN] START OF TEST: allStatusCheckTest_MainPage --------------------
+
+2026-09-29 15:06:25.039 
+==================== [UNKNOWN] END OF TEST: allStatusCheckTest_MainPage ====================
+
+2026-09-29 15:06:25.039 
+-------------------- [UNKNOWN] START OF TEST: boardStatusChangeTest --------------------
+
+2026-09-29 15:06:25.039 
+==================== [UNKNOWN] END OF TEST: boardStatusChangeTest ====================
+
+2026-09-29 15:06:25.040 
+-------------------- [UNKNOWN] START OF TEST: recentlyDeletedTest_creatingAModel --------------------
+
+2026-09-29 15:06:25.041 
+==================== [UNKNOWN] END OF TEST: recentlyDeletedTest_creatingAModel ====================
+
+2026-09-29 15:06:25.041 
+-------------------- [UNKNOWN] START OF TEST: recentlyDeletedTest_permanentlyDeletion --------------------
+
+2026-09-29 15:06:25.041 
+==================== [UNKNOWN] END OF TEST: recentlyDeletedTest_permanentlyDeletion ====================
+
+2026-09-29 15:06:25.041 
+-------------------- [UNKNOWN] START OF TEST: recentlyDeletedTest_reinstateModelBack --------------------
+
+2026-09-29 15:06:25.042 
+==================== [UNKNOWN] END OF TEST: recentlyDeletedTest_reinstateModelBack ====================
+
+2026-09-29 15:06:25.042 
+-------------------- [UNKNOWN] START OF TEST: recentlyDeletedTest_searchingForAModel --------------------
+
+2026-09-29 15:06:25.042 
+==================== [UNKNOWN] END OF TEST: recentlyDeletedTest_searchingForAModel ====================
+
+2026-09-29 15:06:25.042 
+-------------------- [UNKNOWN] START OF TEST: recentlyDeletedTest_verifyingModelInRecentlyDeleted --------------------
+
+2026-09-29 15:06:25.042 
+==================== [UNKNOWN] END OF TEST: recentlyDeletedTest_verifyingModelInRecentlyDeleted ====================
+
+2026-09-29 15:06:25.043 
+-------------------- [UNKNOWN] START OF TEST: allStatusCheckTest_searchPage_draft --------------------
+
+2026-09-29 15:06:25.043 
+==================== [UNKNOWN] END OF TEST: allStatusCheckTest_searchPage_draft ====================
+
+2026-09-29 15:06:25.043 
+-------------------- [UNKNOWN] START OF TEST: allStatusCheckTest_searchPage_inReview --------------------
+
+2026-09-29 15:06:25.043 
+==================== [UNKNOWN] END OF TEST: allStatusCheckTest_searchPage_inReview ====================
+
+2026-09-29 15:06:25.043 
+-------------------- [UNKNOWN] START OF TEST: allStatusCheckTest_searchPage_published --------------------
+
+2026-09-29 15:06:25.044 
+==================== [UNKNOWN] END OF TEST: allStatusCheckTest_searchPage_published ====================
+
+2026-09-29 15:06:25.044 
+-------------------- [UNKNOWN] START OF TEST: allStatusCheckTest_searchPage_readyForPublish --------------------
+
+2026-09-29 15:06:25.044 
+==================== [UNKNOWN] END OF TEST: allStatusCheckTest_searchPage_readyForPublish ====================
+
+2026-09-29 15:06:25.044 
+-------------------- [UNKNOWN] START OF TEST: allStatusCheckTest_searchPage_readyForReview --------------------
+
+2026-09-29 15:06:25.044 
+==================== [UNKNOWN] END OF TEST: allStatusCheckTest_searchPage_readyForReview ====================
+
+2026-09-29 15:06:25.044 
+-------------------- [UNKNOWN] START OF TEST: statusCycleCheckTest_inReview --------------------
+
+2026-09-29 15:06:25.045 
+==================== [UNKNOWN] END OF TEST: statusCycleCheckTest_inReview ====================
+
+2026-09-29 15:06:25.045 
+-------------------- [UNKNOWN] START OF TEST: statusCycleCheckTest_published --------------------
+
+2026-09-29 15:06:25.045 
+==================== [UNKNOWN] END OF TEST: statusCycleCheckTest_published ====================
+
+2026-09-29 15:06:25.047 
+-------------------- [UNKNOWN] START OF TEST: statusCycleCheckTest_readyForPublish --------------------
+
+2026-09-29 15:06:25.049 
+==================== [UNKNOWN] END OF TEST: statusCycleCheckTest_readyForPublish ====================
+
+2026-09-29 15:06:25.050 
+-------------------- [UNKNOWN] START OF TEST: statusCycleCheckTest_readyForReview --------------------
+
+2026-09-29 15:06:25.051 
+==================== [UNKNOWN] END OF TEST: statusCycleCheckTest_readyForReview ====================
+
+2026-09-29 15:06:25.052 
+-------------------- [UNKNOWN] START OF TEST: endPointTest --------------------
+
+2026-09-29 15:06:25.053 
+==================== [UNKNOWN] END OF TEST: endPointTest ====================
+
+2026-09-29 15:06:25.053 
+-------------------- [UNKNOWN] START OF TEST: mediaPageTest_collectionFolder --------------------
+
+2026-09-29 15:06:25.058 
+==================== [UNKNOWN] END OF TEST: mediaPageTest_collectionFolder ====================
+
+2026-09-29 15:06:25.059 
+-------------------- [UNKNOWN] START OF TEST: mediaPageTest_fileUpload --------------------
+
+2026-09-29 15:06:25.059 
+==================== [UNKNOWN] END OF TEST: mediaPageTest_fileUpload ====================
+
+2026-09-29 15:06:25.060 
+-------------------- [UNKNOWN] START OF TEST: mediaPageTest_multipleFilesUpload --------------------
+
+2026-09-29 15:06:25.060 
+==================== [UNKNOWN] END OF TEST: mediaPageTest_multipleFilesUpload ====================
+
+2026-09-29 15:06:25.060 
+-------------------- [UNKNOWN] START OF TEST: mediaPageTest_newCollection --------------------
+
+2026-09-29 15:06:25.060 
+==================== [UNKNOWN] END OF TEST: mediaPageTest_newCollection ====================
+
+2026-09-29 15:06:25.060 
+-------------------- [UNKNOWN] START OF TEST: mediaPageTest_nextPrevious --------------------
+
+2026-09-29 15:06:25.061 
+==================== [UNKNOWN] END OF TEST: mediaPageTest_nextPrevious ====================
+
+2026-09-29 15:06:25.061 
+-------------------- [UNKNOWN] START OF TEST: mediaPageTest_scrolling --------------------
+
+2026-09-29 15:06:25.061 
+==================== [UNKNOWN] END OF TEST: mediaPageTest_scrolling ====================
+
+2026-09-29 15:06:25.061 
+-------------------- [UNKNOWN] START OF TEST: mediaPageTest_search --------------------
+
+2026-09-29 15:06:25.061 
+==================== [UNKNOWN] END OF TEST: mediaPageTest_search ====================
+
+2026-09-29 15:06:25.063 
+-------------------- [UNKNOWN] START OF TEST: searchNewModelTest --------------------
+
+2026-09-29 15:06:25.064 
+==================== [UNKNOWN] END OF TEST: searchNewModelTest ====================
+
+2026-09-29 15:06:25.072 
+-------------------- [UNKNOWN] START OF TEST: MainPageTest_DuplicateModels_creating --------------------
+
+2026-09-29 15:06:25.085 
+==================== [UNKNOWN] END OF TEST: MainPageTest_DuplicateModels_creating ====================
+
+2026-09-29 15:06:25.087 
+-------------------- [UNKNOWN] START OF TEST: MainPageTest_DuplicateModels_deleting --------------------
+
+2026-09-29 15:06:25.088 
+==================== [UNKNOWN] END OF TEST: MainPageTest_DuplicateModels_deleting ====================
+
+2026-09-29 15:06:25.089 
+-------------------- [UNKNOWN] START OF TEST: MainPageTest_DuplicateModels_deletingPermanently --------------------
+
+2026-09-29 15:06:25.091 
+==================== [UNKNOWN] END OF TEST: MainPageTest_DuplicateModels_deletingPermanently ====================
+
+2026-09-29 15:06:25.093 
+-------------------- [UNKNOWN] START OF TEST: allManufacturersCheckTest_board --------------------
+
+2026-09-29 15:06:25.093 
+==================== [UNKNOWN] END OF TEST: allManufacturersCheckTest_board ====================
+
+2026-09-29 15:06:25.093 
+-------------------- [UNKNOWN] START OF TEST: allManufacturersCheckTest_table --------------------
+
+2026-09-29 15:06:25.093 
+==================== [UNKNOWN] END OF TEST: allManufacturersCheckTest_table ====================
+
+2026-09-29 15:06:25.094 
+-------------------- [UNKNOWN] START OF TEST: MainPageTest_Delete --------------------
+
+2026-09-29 15:06:25.095 
+==================== [UNKNOWN] END OF TEST: MainPageTest_Delete ====================
+
+2026-09-29 15:06:25.823 
+============================================================
+2026-09-29 15:06:25.826 [UNKNOWN] END OF TEST SUITE
+2026-09-29 15:06:25.826 ============================================================
+
+2026-09-29 15:07:08.137 
+============================================================
+2026-09-29 15:07:08.145 [UNKNOWN] START OF TEST SUITE: Surefire test
+2026-09-29 15:07:08.146 ============================================================
+
+2026-09-29 15:07:08.357 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_erCommunicationFault --------------------
+
+2026-09-29 15:07:08.369 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_erCommunicationFault ====================
+
+2026-09-29 15:07:08.370 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout --------------------
+
+2026-09-29 15:07:08.372 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout ====================
+
+2026-09-29 15:07:08.373 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_boilerAndSystemRunning_1 --------------------
+
+2026-09-29 15:07:08.377 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_boilerAndSystemRunning_1 ====================
+
+2026-09-29 15:07:08.378 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_boilerAndSystemRunning_2 --------------------
+
+2026-09-29 15:07:08.380 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_boilerAndSystemRunning_2 ====================
+
+2026-09-29 15:07:08.381 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_boilerAndSystemTooCool_1 --------------------
+
+2026-09-29 15:07:08.384 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_boilerAndSystemTooCool_1 ====================
+
+2026-09-29 15:07:08.386 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_boilerAndSystemTooCool_2 --------------------
+
+2026-09-29 15:07:08.389 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_boilerAndSystemTooCool_2 ====================
+
+2026-09-29 15:07:08.390 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_boilerAndSystemTooCool_3 --------------------
+
+2026-09-29 15:07:08.392 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_boilerAndSystemTooCool_3 ====================
+
+2026-09-29 15:07:08.392 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_boilerNoisy_1 --------------------
+
+2026-09-29 15:07:08.398 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_boilerNoisy_1 ====================
+
+2026-09-29 15:07:08.398 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_boilerNoisy_2 --------------------
+
+2026-09-29 15:07:08.405 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_boilerNoisy_2 ====================
+
+2026-09-29 15:07:08.406 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_boilerTemperature_1 --------------------
+
+2026-09-29 15:07:08.407 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_boilerTemperature_1 ====================
+
+2026-09-29 15:07:08.408 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_boilerTemperature_2 --------------------
+
+2026-09-29 15:07:08.411 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_boilerTemperature_2 ====================
+
+2026-09-29 15:07:08.411 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_burnerDoesntEstablish_1 --------------------
+
+2026-09-29 15:07:08.414 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_burnerDoesntEstablish_1 ====================
+
+2026-09-29 15:07:08.414 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_burnerDoesntEstablish_2 --------------------
+
+2026-09-29 15:07:08.418 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_burnerDoesntEstablish_2 ====================
+
+2026-09-29 15:07:08.418 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_burnerDoesntIgnite_1 --------------------
+
+2026-09-29 15:07:08.419 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_burnerDoesntIgnite_1 ====================
+
+2026-09-29 15:07:08.420 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_burnerDoesntIgnite_2 --------------------
+
+2026-09-29 15:07:08.423 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_burnerDoesntIgnite_2 ====================
+
+2026-09-29 15:07:08.424 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_burnerDoesntIgnite_3 --------------------
+
+2026-09-29 15:07:08.427 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_burnerDoesntIgnite_3 ====================
+
+2026-09-29 15:07:08.427 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_burnerIgnites_explosiveIgnition_1 --------------------
+
+2026-09-29 15:07:08.428 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_burnerIgnites_explosiveIgnition_1 ====================
+
+2026-09-29 15:07:08.428 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_burnerIgnites_explosiveIgnition_2 --------------------
+
+2026-09-29 15:07:08.429 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_burnerIgnites_explosiveIgnition_2 ====================
+
+2026-09-29 15:07:08.430 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_burnerIgnites_explosiveIgnition_3 --------------------
+
+2026-09-29 15:07:08.431 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_burnerIgnites_explosiveIgnition_3 ====================
+
+2026-09-29 15:07:08.431 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_ignitesButNoisy_1 --------------------
+
+2026-09-29 15:07:08.433 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_ignitesButNoisy_1 ====================
+
+2026-09-29 15:07:08.433 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f1IgnitionLockout_ignitesButNoisy_2 --------------------
+
+2026-09-29 15:07:08.437 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f1IgnitionLockout_ignitesButNoisy_2 ====================
+
+2026-09-29 15:07:08.437 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f2FanFault_1 --------------------
+
+2026-09-29 15:07:08.439 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f2FanFault_1 ====================
+
+2026-09-29 15:07:08.440 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f2FanFault_2 --------------------
+
+2026-09-29 15:07:08.441 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f2FanFault_2 ====================
+
+2026-09-29 15:07:08.442 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f2FanFault_3 --------------------
+
+2026-09-29 15:07:08.448 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f2FanFault_3 ====================
+
+2026-09-29 15:07:08.449 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f2FanFault_differentFaultCodeAppears --------------------
+
+2026-09-29 15:07:08.451 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f2FanFault_differentFaultCodeAppears ====================
+
+2026-09-29 15:07:08.455 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f2FanFault_doesNotAlter --------------------
+
+2026-09-29 15:07:08.458 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f2FanFault_doesNotAlter ====================
+
+2026-09-29 15:07:08.459 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f2FanFault_entersStandby --------------------
+
+2026-09-29 15:07:08.461 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f2FanFault_entersStandby ====================
+
+2026-09-29 15:07:08.461 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f6FlowThermistorFault_differentFaultCodes --------------------
+
+2026-09-29 15:07:08.462 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f6FlowThermistorFault_differentFaultCodes ====================
+
+2026-09-29 15:07:08.463 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f6FlowThermistorFault_displayDoesNotAlter --------------------
+
+2026-09-29 15:07:08.472 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f6FlowThermistorFault_displayDoesNotAlter ====================
+
+2026-09-29 15:07:08.473 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f6FlowThermistorFault_entersStandby_1 --------------------
+
+2026-09-29 15:07:08.475 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f6FlowThermistorFault_entersStandby_1 ====================
+
+2026-09-29 15:07:08.475 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f6FlowThermistorFault_entersStandby_2 --------------------
+
+2026-09-29 15:07:08.476 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f6FlowThermistorFault_entersStandby_2 ====================
+
+2026-09-29 15:07:08.477 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f6FlowThermistorFault_entersStandby_3 --------------------
+
+2026-09-29 15:07:08.481 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f6FlowThermistorFault_entersStandby_3 ====================
+
+2026-09-29 15:07:08.483 
+-------------------- [UNKNOWN] START OF TEST: test_faultCodes_f6FlowThermistorFault_faultCodeImmediatelyReoccurs --------------------
+
+2026-09-29 15:07:08.484 
+==================== [UNKNOWN] END OF TEST: test_faultCodes_f6FlowThermistorFault_faultCodeImmediatelyReoccurs ====================
+
+2026-09-29 15:07:08.505 
+-------------------- [UNKNOWN] START OF TEST: testmultimetertutorials --------------------
+
+2026-09-29 15:07:08.516 
+==================== [UNKNOWN] END OF TEST: testmultimetertutorials ====================
+
+2026-09-29 15:07:08.522 
+-------------------- [UNKNOWN] START OF TEST: testBeforeOrderingPCB --------------------
+
+2026-09-29 15:07:08.523 
+==================== [UNKNOWN] END OF TEST: testBeforeOrderingPCB ====================
+
+2026-09-29 15:07:08.523 
+-------------------- [UNKNOWN] START OF TEST: testExternalMixing --------------------
+
+2026-09-29 15:07:08.524 
+==================== [UNKNOWN] END OF TEST: testExternalMixing ====================
+
+2026-09-29 15:07:08.525 
+-------------------- [UNKNOWN] START OF TEST: testFaultFindingTools --------------------
+
+2026-09-29 15:07:08.528 
+==================== [UNKNOWN] END OF TEST: testFaultFindingTools ====================
+
+2026-09-29 15:07:08.529 
+-------------------- [UNKNOWN] START OF TEST: testHallSensor --------------------
+
+2026-09-29 15:07:08.529 
+==================== [UNKNOWN] END OF TEST: testHallSensor ====================
+
+2026-09-29 15:07:08.530 
+-------------------- [UNKNOWN] START OF TEST: testInfoBeforeChangingPCB --------------------
+
+2026-09-29 15:07:08.536 
+==================== [UNKNOWN] END OF TEST: testInfoBeforeChangingPCB ====================
+
+2026-09-29 15:07:08.537 
+-------------------- [UNKNOWN] START OF TEST: testInfoSolarAssistedHotWater --------------------
+
+2026-09-29 15:07:08.537 
+==================== [UNKNOWN] END OF TEST: testInfoSolarAssistedHotWater ====================
+
+2026-09-29 15:07:08.538 
+-------------------- [UNKNOWN] START OF TEST: testInsulatingMatAdvice --------------------
+
+2026-09-29 15:07:08.542 
+==================== [UNKNOWN] END OF TEST: testInsulatingMatAdvice ====================
+
+2026-09-29 15:07:08.543 
+-------------------- [UNKNOWN] START OF TEST: testMeasuringRate --------------------
+
+2026-09-29 15:07:08.545 
+==================== [UNKNOWN] END OF TEST: testMeasuringRate ====================
+
+2026-09-29 15:07:08.546 
+-------------------- [UNKNOWN] START OF TEST: testPumpFailureGuide --------------------
+
+2026-09-29 15:07:08.549 
+==================== [UNKNOWN] END OF TEST: testPumpFailureGuide ====================
+
+2026-09-29 15:07:08.550 
+-------------------- [UNKNOWN] START OF TEST: testReplacementGuidePCB --------------------
+
+2026-09-29 15:07:08.551 
+==================== [UNKNOWN] END OF TEST: testReplacementGuidePCB ====================
+
+2026-09-29 15:07:08.552 
+-------------------- [UNKNOWN] START OF TEST: testServiceKitLink --------------------
+
+2026-09-29 15:07:08.553 
+==================== [UNKNOWN] END OF TEST: testServiceKitLink ====================
+
+2026-09-29 15:07:08.553 
+-------------------- [UNKNOWN] START OF TEST: testServicingVessel --------------------
+
+2026-09-29 15:07:08.554 
+==================== [UNKNOWN] END OF TEST: testServicingVessel ====================
+
+2026-09-29 15:07:08.554 
+-------------------- [UNKNOWN] START OF TEST: testTemperatureClamps --------------------
+
+2026-09-29 15:07:08.557 
+==================== [UNKNOWN] END OF TEST: testTemperatureClamps ====================
+
+2026-09-29 15:07:08.558 
+-------------------- [UNKNOWN] START OF TEST: testUsingTheMultimeter --------------------
+
+2026-09-29 15:07:08.562 
+==================== [UNKNOWN] END OF TEST: testUsingTheMultimeter ====================
+
+2026-09-29 15:07:08.570 
+-------------------- [UNKNOWN] START OF TEST: test_feedback --------------------
+
+2026-09-29 15:07:08.572 
+==================== [UNKNOWN] END OF TEST: test_feedback ====================
+
+2026-09-29 15:07:08.574 
+-------------------- [UNKNOWN] START OF TEST: test_liteDiagnostic_investigateAOverheatSituation --------------------
+
+2026-09-29 15:07:08.574 
+==================== [UNKNOWN] END OF TEST: test_liteDiagnostic_investigateAOverheatSituation ====================
+
+2026-09-29 15:07:08.575 
+-------------------- [UNKNOWN] START OF TEST: test_liteDiagnostic_investigateBlankDisplay --------------------
+
+2026-09-29 15:07:08.580 
+==================== [UNKNOWN] END OF TEST: test_liteDiagnostic_investigateBlankDisplay ====================
+
+2026-09-29 15:07:08.582 
+-------------------- [UNKNOWN] START OF TEST: test_liteDiagnostic_investigateBurnerIgnition --------------------
+
+2026-09-29 15:07:08.583 
+==================== [UNKNOWN] END OF TEST: test_liteDiagnostic_investigateBurnerIgnition ====================
+
+2026-09-29 15:07:08.583 
+-------------------- [UNKNOWN] START OF TEST: test_liteDiagnostic_investigateCHOperation --------------------
+
+2026-09-29 15:07:08.584 
+==================== [UNKNOWN] END OF TEST: test_liteDiagnostic_investigateCHOperation ====================
+
+2026-09-29 15:07:08.584 
+-------------------- [UNKNOWN] START OF TEST: test_liteDiagnostic_investigateFanNotRunning --------------------
+
+2026-09-29 15:07:08.585 
+==================== [UNKNOWN] END OF TEST: test_liteDiagnostic_investigateFanNotRunning ====================
+
+2026-09-29 15:07:08.586 
+-------------------- [UNKNOWN] START OF TEST: test_liteDiagnostic_investigatePumpNotRunning --------------------
+
+2026-09-29 15:07:08.587 
+==================== [UNKNOWN] END OF TEST: test_liteDiagnostic_investigatePumpNotRunning ====================
+
+2026-09-29 15:07:08.587 
+-------------------- [UNKNOWN] START OF TEST: test_liteDiagnostic_investigateWhyAFuseMayHaveBlown --------------------
+
+2026-09-29 15:07:08.587 
+==================== [UNKNOWN] END OF TEST: test_liteDiagnostic_investigateWhyAFuseMayHaveBlown ====================
+
+2026-09-29 15:07:08.587 
+-------------------- [UNKNOWN] START OF TEST: test_liteDiagnostic_systemDiagnostics --------------------
+
+2026-09-29 15:07:08.588 
+==================== [UNKNOWN] END OF TEST: test_liteDiagnostic_systemDiagnostics ====================
+
+2026-09-29 15:07:08.591 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_boilerAndSystemRunning --------------------
+
+2026-09-29 15:07:08.592 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_boilerAndSystemRunning ====================
+
+2026-09-29 15:07:08.592 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_boilerAndSystemTooCool_1 --------------------
+
+2026-09-29 15:07:08.594 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_boilerAndSystemTooCool_1 ====================
+
+2026-09-29 15:07:08.594 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_boilerAndSystemTooCool_2 --------------------
+
+2026-09-29 15:07:08.596 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_boilerAndSystemTooCool_2 ====================
+
+2026-09-29 15:07:08.597 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_boilerAtTemperature --------------------
+
+2026-09-29 15:07:08.597 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_boilerAtTemperature ====================
+
+2026-09-29 15:07:08.599 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_boilerFiresWithNoDemand_1 --------------------
+
+2026-09-29 15:07:08.601 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_boilerFiresWithNoDemand_1 ====================
+
+2026-09-29 15:07:08.602 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_boilerFiresWithNoDemand_2 --------------------
+
+2026-09-29 15:07:08.602 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_boilerFiresWithNoDemand_2 ====================
+
+2026-09-29 15:07:08.602 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_boilerNoisy_1 --------------------
+
+2026-09-29 15:07:08.603 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_boilerNoisy_1 ====================
+
+2026-09-29 15:07:08.603 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_boilerNoisy_2 --------------------
+
+2026-09-29 15:07:08.606 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_boilerNoisy_2 ====================
+
+2026-09-29 15:07:08.607 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_boilerOperation --------------------
+
+2026-09-29 15:07:08.607 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_boilerOperation ====================
+
+2026-09-29 15:07:08.607 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_burnerDoesntIgnite_1 --------------------
+
+2026-09-29 15:07:08.608 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_burnerDoesntIgnite_1 ====================
+
+2026-09-29 15:07:08.608 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_burnerDoesntIgnite_2 --------------------
+
+2026-09-29 15:07:08.608 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_burnerDoesntIgnite_2 ====================
+
+2026-09-29 15:07:08.608 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_burnerIgnitesAndEstablishes_1 --------------------
+
+2026-09-29 15:07:08.608 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_burnerIgnitesAndEstablishes_1 ====================
+
+2026-09-29 15:07:08.608 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_burnerIgnitesAndEstablishes_2 --------------------
+
+2026-09-29 15:07:08.609 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_burnerIgnitesAndEstablishes_2 ====================
+
+2026-09-29 15:07:08.609 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_burnerIgnitesbut_1 --------------------
+
+2026-09-29 15:07:08.610 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_burnerIgnitesbut_1 ====================
+
+2026-09-29 15:07:08.611 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_burnerIgnitesbut_2 --------------------
+
+2026-09-29 15:07:08.612 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_burnerIgnitesbut_2 ====================
+
+2026-09-29 15:07:08.612 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_displayDoesNotOperates_1 --------------------
+
+2026-09-29 15:07:08.613 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_displayDoesNotOperates_1 ====================
+
+2026-09-29 15:07:08.613 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_displayDoesNotOperates_2 --------------------
+
+2026-09-29 15:07:08.613 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_displayDoesNotOperates_2 ====================
+
+2026-09-29 15:07:08.613 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_fanDoesntRun_1 --------------------
+
+2026-09-29 15:07:08.615 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_fanDoesntRun_1 ====================
+
+2026-09-29 15:07:08.615 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_fanDoesntRun_2 --------------------
+
+2026-09-29 15:07:08.615 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_fanDoesntRun_2 ====================
+
+2026-09-29 15:07:08.616 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_fanRunsContinually --------------------
+
+2026-09-29 15:07:08.618 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_fanRunsContinually ====================
+
+2026-09-29 15:07:08.618 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_fanRunsForApprox --------------------
+
+2026-09-29 15:07:08.618 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_fanRunsForApprox ====================
+
+2026-09-29 15:07:08.620 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_faultCodeOrER --------------------
+
+2026-09-29 15:07:08.621 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_faultCodeOrER ====================
+
+2026-09-29 15:07:08.621 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_ignitesButNoisy_1 --------------------
+
+2026-09-29 15:07:08.622 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_ignitesButNoisy_1 ====================
+
+2026-09-29 15:07:08.622 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_ignitesButNoisy_2 --------------------
+
+2026-09-29 15:07:08.623 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_ignitesButNoisy_2 ====================
+
+2026-09-29 15:07:08.623 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_pumpDoesNotRun_1 --------------------
+
+2026-09-29 15:07:08.625 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_pumpDoesNotRun_1 ====================
+
+2026-09-29 15:07:08.625 
+-------------------- [UNKNOWN] START OF TEST: test_fullDiagnosticsModel_pumpDoesNotRun_2 --------------------
+
+2026-09-29 15:07:08.627 
+==================== [UNKNOWN] END OF TEST: test_fullDiagnosticsModel_pumpDoesNotRun_2 ====================
+
+2026-09-29 15:07:08.628 
+-------------------- [UNKNOWN] START OF TEST: test_boilerIsFiring --------------------
+
+2026-09-29 15:07:08.629 
+==================== [UNKNOWN] END OF TEST: test_boilerIsFiring ====================
+
+2026-09-29 15:07:08.629 
+-------------------- [UNKNOWN] START OF TEST: test_boilerIsFiring1_systemStillFires_boilerDoesNot --------------------
+
+2026-09-29 15:07:08.630 
+==================== [UNKNOWN] END OF TEST: test_boilerIsFiring1_systemStillFires_boilerDoesNot ====================
+
+2026-09-29 15:07:08.631 
+-------------------- [UNKNOWN] START OF TEST: test_boilerIsFiring1_systemStillFires_systemNoLonger --------------------
+
+2026-09-29 15:07:08.631 
+==================== [UNKNOWN] END OF TEST: test_boilerIsFiring1_systemStillFires_systemNoLonger ====================
+
+2026-09-29 15:07:08.631 
+-------------------- [UNKNOWN] START OF TEST: test_heatingIsNotWorking_zoneValveMoves_mva --------------------
+
+2026-09-29 15:07:08.632 
+==================== [UNKNOWN] END OF TEST: test_heatingIsNotWorking_zoneValveMoves_mva ====================
+
+2026-09-29 15:07:08.632 
+-------------------- [UNKNOWN] START OF TEST: test_heatingIsNotWorking_zoneValveMoves_mvp --------------------
+
+2026-09-29 15:07:08.632 
+==================== [UNKNOWN] END OF TEST: test_heatingIsNotWorking_zoneValveMoves_mvp ====================
+
+2026-09-29 15:07:08.632 
+-------------------- [UNKNOWN] START OF TEST: test_heatingIsNotWorking_zoneValveNotMoving_mva --------------------
+
+2026-09-29 15:07:08.632 
+==================== [UNKNOWN] END OF TEST: test_heatingIsNotWorking_zoneValveNotMoving_mva ====================
+
+2026-09-29 15:07:08.633 
+-------------------- [UNKNOWN] START OF TEST: test_heatingIsNotWorking_zoneValveNotMoving_mvp --------------------
+
+2026-09-29 15:07:08.633 
+==================== [UNKNOWN] END OF TEST: test_heatingIsNotWorking_zoneValveNotMoving_mvp ====================
+
+2026-09-29 15:07:08.633 
+-------------------- [UNKNOWN] START OF TEST: test_neitherTheHeating_oneOrBoth_heatingValve --------------------
+
+2026-09-29 15:07:08.634 
+==================== [UNKNOWN] END OF TEST: test_neitherTheHeating_oneOrBoth_heatingValve ====================
+
+2026-09-29 15:07:08.634 
+-------------------- [UNKNOWN] START OF TEST: test_neitherTheHeating_oneOrBoth_hotWaterValve --------------------
+
+2026-09-29 15:07:08.634 
+==================== [UNKNOWN] END OF TEST: test_neitherTheHeating_oneOrBoth_hotWaterValve ====================
+
+2026-09-29 15:07:08.634 
+-------------------- [UNKNOWN] START OF TEST: test_neitherTheHeating_oneOrBoth_mva --------------------
+
+2026-09-29 15:07:08.635 
+==================== [UNKNOWN] END OF TEST: test_neitherTheHeating_oneOrBoth_mva ====================
+
+2026-09-29 15:07:08.635 
+-------------------- [UNKNOWN] START OF TEST: test_neitherTheHeating_oneOrBoth_mvp --------------------
+
+2026-09-29 15:07:08.635 
+==================== [UNKNOWN] END OF TEST: test_neitherTheHeating_oneOrBoth_mvp ====================
+
+2026-09-29 15:07:08.635 
+-------------------- [UNKNOWN] START OF TEST: test_neitherTheHeating_zoneValveMoves --------------------
+
+2026-09-29 15:07:08.635 
+==================== [UNKNOWN] END OF TEST: test_neitherTheHeating_zoneValveMoves ====================
+
+2026-09-29 15:07:08.635 
+-------------------- [UNKNOWN] START OF TEST: test_radiatorsAreGettingHot --------------------
+
+2026-09-29 15:07:08.636 
+==================== [UNKNOWN] END OF TEST: test_radiatorsAreGettingHot ====================
+
+2026-09-29 15:07:08.636 
+-------------------- [UNKNOWN] START OF TEST: test_theHotWater_zoneValveMoves --------------------
+
+2026-09-29 15:07:08.636 
+==================== [UNKNOWN] END OF TEST: test_theHotWater_zoneValveMoves ====================
+
+2026-09-29 15:07:08.637 
+-------------------- [UNKNOWN] START OF TEST: test_theHotWater_zoneValveMoves_mva --------------------
+
+2026-09-29 15:07:08.637 
+==================== [UNKNOWN] END OF TEST: test_theHotWater_zoneValveMoves_mva ====================
+
+2026-09-29 15:07:08.637 
+-------------------- [UNKNOWN] START OF TEST: test_theHotWater_zoneValveNotMoving_hotWater --------------------
+
+2026-09-29 15:07:08.637 
+==================== [UNKNOWN] END OF TEST: test_theHotWater_zoneValveNotMoving_hotWater ====================
+
+2026-09-29 15:07:08.637 
+-------------------- [UNKNOWN] START OF TEST: test_theHotWater_zoneValveNotMoving_mva_mva --------------------
+
+2026-09-29 15:07:08.637 
+==================== [UNKNOWN] END OF TEST: test_theHotWater_zoneValveNotMoving_mva_mva ====================
+
+2026-09-29 15:07:08.639 
+-------------------- [UNKNOWN] START OF TEST: test_theHotWater_zoneValveNotMoving_mva_mvp --------------------
+
+2026-09-29 15:07:08.640 
+==================== [UNKNOWN] END OF TEST: test_theHotWater_zoneValveNotMoving_mva_mvp ====================
+
+2026-09-29 15:07:08.640 
+-------------------- [UNKNOWN] START OF TEST: test_theHotWater_zoneValveNotMoving_mvp --------------------
+
+2026-09-29 15:07:08.641 
+==================== [UNKNOWN] END OF TEST: test_theHotWater_zoneValveNotMoving_mvp ====================
+
+2026-09-29 15:07:08.643 
+-------------------- [UNKNOWN] START OF TEST: testManufacturerInfo --------------------
+
+2026-09-29 15:07:08.644 
+==================== [UNKNOWN] END OF TEST: testManufacturerInfo ====================
+
+2026-09-29 15:07:08.647 
+-------------------- [UNKNOWN] START OF TEST: test_quickAccessDataInformation --------------------
+
+2026-09-29 15:07:08.647 
+==================== [UNKNOWN] END OF TEST: test_quickAccessDataInformation ====================
+
+2026-09-29 15:07:08.654 
+-------------------- [UNKNOWN] START OF TEST: test_pumpAndBoilerDoNotRespond --------------------
+
+2026-09-29 15:07:08.654 
+==================== [UNKNOWN] END OF TEST: test_pumpAndBoilerDoNotRespond ====================
+
+2026-09-29 15:07:08.655 
+-------------------- [UNKNOWN] START OF TEST: test_radiatorsHeating_valveDoesNotReach_1 --------------------
+
+2026-09-29 15:07:08.656 
+==================== [UNKNOWN] END OF TEST: test_radiatorsHeating_valveDoesNotReach_1 ====================
+
+2026-09-29 15:07:08.656 
+-------------------- [UNKNOWN] START OF TEST: test_radiatorsHeating_valveDoesNotReach_2 --------------------
+
+2026-09-29 15:07:08.656 
+==================== [UNKNOWN] END OF TEST: test_radiatorsHeating_valveDoesNotReach_2 ====================
+
+2026-09-29 15:07:08.657 
+-------------------- [UNKNOWN] START OF TEST: test_radiatorsHeating_valveDoesNotReach_3 --------------------
+
+2026-09-29 15:07:08.658 
+==================== [UNKNOWN] END OF TEST: test_radiatorsHeating_valveDoesNotReach_3 ====================
+
+2026-09-29 15:07:08.658 
+-------------------- [UNKNOWN] START OF TEST: test_valveInHotWater_pumpIsNotRunning --------------------
+
+2026-09-29 15:07:08.658 
+==================== [UNKNOWN] END OF TEST: test_valveInHotWater_pumpIsNotRunning ====================
+
+2026-09-29 15:07:08.658 
+-------------------- [UNKNOWN] START OF TEST: test_valveInHotWater_pumpIsRunning --------------------
+
+2026-09-29 15:07:08.659 
+==================== [UNKNOWN] END OF TEST: test_valveInHotWater_pumpIsRunning ====================
+
+2026-09-29 15:07:08.659 
+-------------------- [UNKNOWN] START OF TEST: test_valveIsNotMoving_valveDoesNotMove_1 --------------------
+
+2026-09-29 15:07:08.659 
+==================== [UNKNOWN] END OF TEST: test_valveIsNotMoving_valveDoesNotMove_1 ====================
+
+2026-09-29 15:07:08.659 
+-------------------- [UNKNOWN] START OF TEST: test_valveIsNotMoving_valveDoesNotMove_2 --------------------
+
+2026-09-29 15:07:08.660 
+==================== [UNKNOWN] END OF TEST: test_valveIsNotMoving_valveDoesNotMove_2 ====================
+
+2026-09-29 15:07:08.661 
+-------------------- [UNKNOWN] START OF TEST: test_valveIsNotMoving_valveMoves_1 --------------------
+
+2026-09-29 15:07:08.662 
+==================== [UNKNOWN] END OF TEST: test_valveIsNotMoving_valveMoves_1 ====================
+
+2026-09-29 15:07:08.664 
+-------------------- [UNKNOWN] START OF TEST: test_valveIsNotMoving_valveMoves_2 --------------------
+
+2026-09-29 15:07:08.665 
+==================== [UNKNOWN] END OF TEST: test_valveIsNotMoving_valveMoves_2 ====================
+
+2026-09-29 15:07:08.666 
+-------------------- [UNKNOWN] START OF TEST: test_valveMovesToTheHeating_pumpIsNotRunning --------------------
+
+2026-09-29 15:07:08.666 
+==================== [UNKNOWN] END OF TEST: test_valveMovesToTheHeating_pumpIsNotRunning ====================
+
+2026-09-29 15:07:08.666 
+-------------------- [UNKNOWN] START OF TEST: test_valveMovesToTheHeating_pumpIsRunning --------------------
+
+2026-09-29 15:07:08.666 
+==================== [UNKNOWN] END OF TEST: test_valveMovesToTheHeating_pumpIsRunning ====================
+
+2026-09-29 15:07:08.666 
+-------------------- [UNKNOWN] START OF TEST: test_valveNotStopping_valveClicking_voltagePresent --------------------
+
+2026-09-29 15:07:08.667 
+==================== [UNKNOWN] END OF TEST: test_valveNotStopping_valveClicking_voltagePresent ====================
+
+2026-09-29 15:07:08.667 
+-------------------- [UNKNOWN] START OF TEST: test_valveNotStopping_valveDoesNotReturn --------------------
+
+2026-09-29 15:07:08.668 
+==================== [UNKNOWN] END OF TEST: test_valveNotStopping_valveDoesNotReturn ====================
+
+2026-09-29 15:07:08.668 
+-------------------- [UNKNOWN] START OF TEST: test_valveNotStopping_valveSpring_voltageAbsent --------------------
+
+2026-09-29 15:07:08.669 
+==================== [UNKNOWN] END OF TEST: test_valveNotStopping_valveSpring_voltageAbsent ====================
+
+2026-09-29 15:07:08.672 
+-------------------- [UNKNOWN] START OF TEST: test_valveNotStopping_valveSpring_voltagePresent --------------------
+
+2026-09-29 15:07:08.674 
+==================== [UNKNOWN] END OF TEST: test_valveNotStopping_valveSpring_voltagePresent ====================
+
+2026-09-29 15:07:08.675 
+-------------------- [UNKNOWN] START OF TEST: test_valveWorkingProperly --------------------
+
+2026-09-29 15:07:08.675 
+==================== [UNKNOWN] END OF TEST: test_valveWorkingProperly ====================
+
+2026-09-29 15:07:08.678 
+-------------------- [UNKNOWN] START OF TEST: testWiringDiagram_CPlanPlusSystem --------------------
+
+2026-09-29 15:07:08.679 
+==================== [UNKNOWN] END OF TEST: testWiringDiagram_CPlanPlusSystem ====================
+
+2026-09-29 15:07:08.679 
+-------------------- [UNKNOWN] START OF TEST: testWiringDiagram_CPlanSystem --------------------
+
+2026-09-29 15:07:08.680 
+==================== [UNKNOWN] END OF TEST: testWiringDiagram_CPlanSystem ====================
+
+2026-09-29 15:07:08.682 
+-------------------- [UNKNOWN] START OF TEST: testWiringDiagram_GravitySystem --------------------
+
+2026-09-29 15:07:08.683 
+==================== [UNKNOWN] END OF TEST: testWiringDiagram_GravitySystem ====================
+
+2026-09-29 15:07:08.684 
+-------------------- [UNKNOWN] START OF TEST: testWiringDiagram_MPlanSystem --------------------
+
+2026-09-29 15:07:08.685 
+==================== [UNKNOWN] END OF TEST: testWiringDiagram_MPlanSystem ====================
+
+2026-09-29 15:07:08.685 
+-------------------- [UNKNOWN] START OF TEST: testWiringDiagram_SPlanSystem --------------------
+
+2026-09-29 15:07:08.685 
+==================== [UNKNOWN] END OF TEST: testWiringDiagram_SPlanSystem ====================
+
+2026-09-29 15:07:08.685 
+-------------------- [UNKNOWN] START OF TEST: testWiringDiagram_WPlanSystem --------------------
+
+2026-09-29 15:07:08.686 
+==================== [UNKNOWN] END OF TEST: testWiringDiagram_WPlanSystem ====================
+
+2026-09-29 15:07:08.688 
+-------------------- [UNKNOWN] START OF TEST: testWiringDiagram_WPlanSystemWithPrioritySwitch --------------------
+
+2026-09-29 15:07:08.689 
+==================== [UNKNOWN] END OF TEST: testWiringDiagram_WPlanSystemWithPrioritySwitch ====================
+
+2026-09-29 15:07:08.690 
+-------------------- [UNKNOWN] START OF TEST: testWiringDiagram_YPlanSystem --------------------
+
+2026-09-29 15:07:08.691 
+==================== [UNKNOWN] END OF TEST: testWiringDiagram_YPlanSystem ====================
+
+2026-09-29 15:07:08.692 
+-------------------- [UNKNOWN] START OF TEST: test_boiler4704734_1 --------------------
+
+2026-09-29 15:07:08.693 
+==================== [UNKNOWN] END OF TEST: test_boiler4704734_1 ====================
+
+2026-09-29 15:07:08.693 
+-------------------- [UNKNOWN] START OF TEST: test_boiler4704734_2 --------------------
+
+2026-09-29 15:07:08.693 
+==================== [UNKNOWN] END OF TEST: test_boiler4704734_2 ====================
+
+2026-09-29 15:07:08.694 
+-------------------- [UNKNOWN] START OF TEST: test_boiler4704734_3 --------------------
+
+2026-09-29 15:07:08.695 
+==================== [UNKNOWN] END OF TEST: test_boiler4704734_3 ====================
+
+2026-09-29 15:07:08.701 
+-------------------- [UNKNOWN] START OF TEST: test_boiler4731157_1 --------------------
+
+2026-09-29 15:07:08.702 
+==================== [UNKNOWN] END OF TEST: test_boiler4731157_1 ====================
+
+2026-09-29 15:07:08.702 
+-------------------- [UNKNOWN] START OF TEST: test_boiler4731157_10 --------------------
+
+2026-09-29 15:07:08.702 
+==================== [UNKNOWN] END OF TEST: test_boiler4731157_10 ====================
+
+2026-09-29 15:07:08.702 
+-------------------- [UNKNOWN] START OF TEST: test_boiler4731157_11 --------------------
+
+2026-09-29 15:07:08.705 
+==================== [UNKNOWN] END OF TEST: test_boiler4731157_11 ====================
+
+2026-09-29 15:07:08.706 
+-------------------- [UNKNOWN] START OF TEST: test_boiler4731157_12 --------------------
+
+2026-09-29 15:07:08.706 
+==================== [UNKNOWN] END OF TEST: test_boiler4731157_12 ====================
+
+2026-09-29 15:07:08.707 
+-------------------- [UNKNOWN] START OF TEST: test_boiler4731157_2 --------------------
+
+2026-09-29 15:07:08.707 
+==================== [UNKNOWN] END OF TEST: test_boiler4731157_2 ====================
+
+2026-09-29 15:07:08.707 
+-------------------- [UNKNOWN] START OF TEST: test_boiler4731157_3 --------------------
+
+2026-09-29 15:07:08.707 
+==================== [UNKNOWN] END OF TEST: test_boiler4731157_3 ====================
+
+2026-09-29 15:07:08.708 
+-------------------- [UNKNOWN] START OF TEST: test_boiler4731157_4 --------------------
+
+2026-09-29 15:07:08.708 
+==================== [UNKNOWN] END OF TEST: test_boiler4731157_4 ====================
+
+2026-09-29 15:07:08.708 
+-------------------- [UNKNOWN] START OF TEST: test_boiler4731157_5 --------------------
+
+2026-09-29 15:07:08.708 
+==================== [UNKNOWN] END OF TEST: test_boiler4731157_5 ====================
+
+2026-09-29 15:07:08.708 
+-------------------- [UNKNOWN] START OF TEST: test_boiler4731157_6 --------------------
+
+2026-09-29 15:07:08.708 
+==================== [UNKNOWN] END OF TEST: test_boiler4731157_6 ====================
+
+2026-09-29 15:07:08.709 
+-------------------- [UNKNOWN] START OF TEST: test_boiler4731157_7 --------------------
+
+2026-09-29 15:07:08.709 
+==================== [UNKNOWN] END OF TEST: test_boiler4731157_7 ====================
+
+2026-09-29 15:07:08.709 
+-------------------- [UNKNOWN] START OF TEST: test_boiler4731157_8 --------------------
+
+2026-09-29 15:07:08.709 
+==================== [UNKNOWN] END OF TEST: test_boiler4731157_8 ====================
+
+2026-09-29 15:07:08.709 
+-------------------- [UNKNOWN] START OF TEST: test_boiler4731157_9 --------------------
+
+2026-09-29 15:07:08.710 
+==================== [UNKNOWN] END OF TEST: test_boiler4731157_9 ====================
+
+2026-09-29 15:07:08.711 
+-------------------- [UNKNOWN] START OF TEST: ExpandablePanelsTest_leftPanel --------------------
+
+2026-09-29 15:07:08.711 
+==================== [UNKNOWN] END OF TEST: ExpandablePanelsTest_leftPanel ====================
+
+2026-09-29 15:07:08.712 
+-------------------- [UNKNOWN] START OF TEST: ExpandablePanelsTest_rightPanel --------------------
+
+2026-09-29 15:07:08.712 
+==================== [UNKNOWN] END OF TEST: ExpandablePanelsTest_rightPanel ====================
+
+2026-09-29 15:07:08.713 
+-------------------- [UNKNOWN] START OF TEST: createNewModelTest --------------------
+
+2026-09-29 15:07:08.713 
+==================== [UNKNOWN] END OF TEST: createNewModelTest ====================
+
+2026-09-29 15:07:08.714 
+-------------------- [UNKNOWN] START OF TEST: editingModelTest_connection --------------------
+
+2026-09-29 15:07:08.715 
+==================== [UNKNOWN] END OF TEST: editingModelTest_connection ====================
+
+2026-09-29 15:07:08.715 
+-------------------- [UNKNOWN] START OF TEST: editingModelTest_instruction --------------------
+
+2026-09-29 15:07:08.716 
+==================== [UNKNOWN] END OF TEST: editingModelTest_instruction ====================
+
+2026-09-29 15:07:08.716 
+-------------------- [UNKNOWN] START OF TEST: editingModelTest_media --------------------
+
+2026-09-29 15:07:08.716 
+==================== [UNKNOWN] END OF TEST: editingModelTest_media ====================
+
+2026-09-29 15:07:08.716 
+-------------------- [UNKNOWN] START OF TEST: editingModelTest_partNumberEdit --------------------
+
+2026-09-29 15:07:08.716 
+==================== [UNKNOWN] END OF TEST: editingModelTest_partNumberEdit ====================
+
+2026-09-29 15:07:08.716 
+-------------------- [UNKNOWN] START OF TEST: editingModelTest_setup --------------------
+
+2026-09-29 15:07:08.717 
+==================== [UNKNOWN] END OF TEST: editingModelTest_setup ====================
+
+2026-09-29 15:07:08.717 
+-------------------- [UNKNOWN] START OF TEST: addingSnippetToModelTest_alerts --------------------
+
+2026-09-29 15:07:08.718 
+==================== [UNKNOWN] END OF TEST: addingSnippetToModelTest_alerts ====================
+
+2026-09-29 15:07:08.718 
+-------------------- [UNKNOWN] START OF TEST: addingSnippetToModelTest_instruction --------------------
+
+2026-09-29 15:07:08.718 
+==================== [UNKNOWN] END OF TEST: addingSnippetToModelTest_instruction ====================
+
+2026-09-29 15:07:08.718 
+-------------------- [UNKNOWN] START OF TEST: addingSnippetToModelTest_setup --------------------
+
+2026-09-29 15:07:08.719 
+==================== [UNKNOWN] END OF TEST: addingSnippetToModelTest_setup ====================
+
+2026-09-29 15:07:08.720 
+-------------------- [UNKNOWN] START OF TEST: TableNavigationCheckTest_next --------------------
+
+2026-09-29 15:07:08.720 
+==================== [UNKNOWN] END OF TEST: TableNavigationCheckTest_next ====================
+
+2026-09-29 15:07:08.720 
+-------------------- [UNKNOWN] START OF TEST: TableNavigationCheckTest_previous --------------------
+
+2026-09-29 15:07:08.721 
+==================== [UNKNOWN] END OF TEST: TableNavigationCheckTest_previous ====================
+
+2026-09-29 15:07:08.721 
+-------------------- [UNKNOWN] START OF TEST: NodeDelete_mainPage_model --------------------
+
+2026-09-29 15:07:08.722 
+==================== [UNKNOWN] END OF TEST: NodeDelete_mainPage_model ====================
+
+2026-09-29 15:07:08.722 
+-------------------- [UNKNOWN] START OF TEST: NodeDelete_modelPage_node --------------------
+
+2026-09-29 15:07:08.723 
+==================== [UNKNOWN] END OF TEST: NodeDelete_modelPage_node ====================
+
+2026-09-29 15:07:08.723 
+-------------------- [UNKNOWN] START OF TEST: NodeDelete_searchPage_model --------------------
+
+2026-09-29 15:07:08.723 
+==================== [UNKNOWN] END OF TEST: NodeDelete_searchPage_model ====================
+
+2026-09-29 15:07:08.723 
+-------------------- [UNKNOWN] START OF TEST: allStatusCheckTest_MainPage --------------------
+
+2026-09-29 15:07:08.724 
+==================== [UNKNOWN] END OF TEST: allStatusCheckTest_MainPage ====================
+
+2026-09-29 15:07:08.724 
+-------------------- [UNKNOWN] START OF TEST: boardStatusChangeTest --------------------
+
+2026-09-29 15:07:08.732 
+==================== [UNKNOWN] END OF TEST: boardStatusChangeTest ====================
+
+2026-09-29 15:07:08.733 
+-------------------- [UNKNOWN] START OF TEST: recentlyDeletedTest_creatingAModel --------------------
+
+2026-09-29 15:07:08.738 
+==================== [UNKNOWN] END OF TEST: recentlyDeletedTest_creatingAModel ====================
+
+2026-09-29 15:07:08.738 
+-------------------- [UNKNOWN] START OF TEST: recentlyDeletedTest_permanentlyDeletion --------------------
+
+2026-09-29 15:07:08.739 
+==================== [UNKNOWN] END OF TEST: recentlyDeletedTest_permanentlyDeletion ====================
+
+2026-09-29 15:07:08.739 
+-------------------- [UNKNOWN] START OF TEST: recentlyDeletedTest_reinstateModelBack --------------------
+
+2026-09-29 15:07:08.739 
+==================== [UNKNOWN] END OF TEST: recentlyDeletedTest_reinstateModelBack ====================
+
+2026-09-29 15:07:08.739 
+-------------------- [UNKNOWN] START OF TEST: recentlyDeletedTest_searchingForAModel --------------------
+
+2026-09-29 15:07:08.740 
+==================== [UNKNOWN] END OF TEST: recentlyDeletedTest_searchingForAModel ====================
+
+2026-09-29 15:07:08.740 
+-------------------- [UNKNOWN] START OF TEST: recentlyDeletedTest_verifyingModelInRecentlyDeleted --------------------
+
+2026-09-29 15:07:08.740 
+==================== [UNKNOWN] END OF TEST: recentlyDeletedTest_verifyingModelInRecentlyDeleted ====================
+
+2026-09-29 15:07:08.741 
+-------------------- [UNKNOWN] START OF TEST: allStatusCheckTest_searchPage_draft --------------------
+
+2026-09-29 15:07:08.741 
+==================== [UNKNOWN] END OF TEST: allStatusCheckTest_searchPage_draft ====================
+
+2026-09-29 15:07:08.741 
+-------------------- [UNKNOWN] START OF TEST: allStatusCheckTest_searchPage_inReview --------------------
+
+2026-09-29 15:07:08.741 
+==================== [UNKNOWN] END OF TEST: allStatusCheckTest_searchPage_inReview ====================
+
+2026-09-29 15:07:08.741 
+-------------------- [UNKNOWN] START OF TEST: allStatusCheckTest_searchPage_published --------------------
+
+2026-09-29 15:07:08.742 
+==================== [UNKNOWN] END OF TEST: allStatusCheckTest_searchPage_published ====================
+
+2026-09-29 15:07:08.742 
+-------------------- [UNKNOWN] START OF TEST: allStatusCheckTest_searchPage_readyForPublish --------------------
+
+2026-09-29 15:07:08.742 
+==================== [UNKNOWN] END OF TEST: allStatusCheckTest_searchPage_readyForPublish ====================
+
+2026-09-29 15:07:08.742 
+-------------------- [UNKNOWN] START OF TEST: allStatusCheckTest_searchPage_readyForReview --------------------
+
+2026-09-29 15:07:08.742 
+==================== [UNKNOWN] END OF TEST: allStatusCheckTest_searchPage_readyForReview ====================
+
+2026-09-29 15:07:08.742 
+-------------------- [UNKNOWN] START OF TEST: statusCycleCheckTest_inReview --------------------
+
+2026-09-29 15:07:08.743 
+==================== [UNKNOWN] END OF TEST: statusCycleCheckTest_inReview ====================
+
+2026-09-29 15:07:08.743 
+-------------------- [UNKNOWN] START OF TEST: statusCycleCheckTest_published --------------------
+
+2026-09-29 15:07:08.743 
+==================== [UNKNOWN] END OF TEST: statusCycleCheckTest_published ====================
+
+2026-09-29 15:07:08.744 
+-------------------- [UNKNOWN] START OF TEST: statusCycleCheckTest_readyForPublish --------------------
+
+2026-09-29 15:07:08.744 
+==================== [UNKNOWN] END OF TEST: statusCycleCheckTest_readyForPublish ====================
+
+2026-09-29 15:07:08.745 
+-------------------- [UNKNOWN] START OF TEST: statusCycleCheckTest_readyForReview --------------------
+
+2026-09-29 15:07:08.746 
+==================== [UNKNOWN] END OF TEST: statusCycleCheckTest_readyForReview ====================
+
+2026-09-29 15:07:08.752 
+-------------------- [UNKNOWN] START OF TEST: endPointTest --------------------
+
+2026-09-29 15:07:08.752 
+==================== [UNKNOWN] END OF TEST: endPointTest ====================
+
+2026-09-29 15:07:08.753 
+-------------------- [UNKNOWN] START OF TEST: mediaPageTest_collectionFolder --------------------
+
+2026-09-29 15:07:08.753 
+==================== [UNKNOWN] END OF TEST: mediaPageTest_collectionFolder ====================
+
+2026-09-29 15:07:08.754 
+-------------------- [UNKNOWN] START OF TEST: mediaPageTest_fileUpload --------------------
+
+2026-09-29 15:07:08.754 
+==================== [UNKNOWN] END OF TEST: mediaPageTest_fileUpload ====================
+
+2026-09-29 15:07:08.754 
+-------------------- [UNKNOWN] START OF TEST: mediaPageTest_multipleFilesUpload --------------------
+
+2026-09-29 15:07:08.754 
+==================== [UNKNOWN] END OF TEST: mediaPageTest_multipleFilesUpload ====================
+
+2026-09-29 15:07:08.755 
+-------------------- [UNKNOWN] START OF TEST: mediaPageTest_newCollection --------------------
+
+2026-09-29 15:07:08.755 
+==================== [UNKNOWN] END OF TEST: mediaPageTest_newCollection ====================
+
+2026-09-29 15:07:08.755 
+-------------------- [UNKNOWN] START OF TEST: mediaPageTest_nextPrevious --------------------
+
+2026-09-29 15:07:08.755 
+==================== [UNKNOWN] END OF TEST: mediaPageTest_nextPrevious ====================
+
+2026-09-29 15:07:08.755 
+-------------------- [UNKNOWN] START OF TEST: mediaPageTest_scrolling --------------------
+
+2026-09-29 15:07:08.756 
+==================== [UNKNOWN] END OF TEST: mediaPageTest_scrolling ====================
+
+2026-09-29 15:07:08.756 
+-------------------- [UNKNOWN] START OF TEST: mediaPageTest_search --------------------
+
+2026-09-29 15:07:08.756 
+==================== [UNKNOWN] END OF TEST: mediaPageTest_search ====================
+
+2026-09-29 15:07:08.756 
+-------------------- [UNKNOWN] START OF TEST: searchNewModelTest --------------------
+
+2026-09-29 15:07:08.757 
+==================== [UNKNOWN] END OF TEST: searchNewModelTest ====================
+
+2026-09-29 15:07:08.757 
+-------------------- [UNKNOWN] START OF TEST: MainPageTest_DuplicateModels_creating --------------------
+
+2026-09-29 15:07:08.757 
+==================== [UNKNOWN] END OF TEST: MainPageTest_DuplicateModels_creating ====================
+
+2026-09-29 15:07:08.757 
+-------------------- [UNKNOWN] START OF TEST: MainPageTest_DuplicateModels_deleting --------------------
+
+2026-09-29 15:07:08.757 
+==================== [UNKNOWN] END OF TEST: MainPageTest_DuplicateModels_deleting ====================
+
+2026-09-29 15:07:08.758 
+-------------------- [UNKNOWN] START OF TEST: MainPageTest_DuplicateModels_deletingPermanently --------------------
+
+2026-09-29 15:07:08.769 
+==================== [UNKNOWN] END OF TEST: MainPageTest_DuplicateModels_deletingPermanently ====================
+
+2026-09-29 15:07:08.774 
+-------------------- [UNKNOWN] START OF TEST: allManufacturersCheckTest_board --------------------
+
+2026-09-29 15:07:08.775 
+==================== [UNKNOWN] END OF TEST: allManufacturersCheckTest_board ====================
+
+2026-09-29 15:07:08.775 
+-------------------- [UNKNOWN] START OF TEST: allManufacturersCheckTest_table --------------------
+
+2026-09-29 15:07:08.776 
+==================== [UNKNOWN] END OF TEST: allManufacturersCheckTest_table ====================
+
+2026-09-29 15:07:08.778 
+-------------------- [UNKNOWN] START OF TEST: MainPageTest_Delete --------------------
+
+2026-09-29 15:07:08.778 
+==================== [UNKNOWN] END OF TEST: MainPageTest_Delete ====================
+
+2026-09-29 15:07:09.497 
+============================================================
+2026-09-29 15:07:09.499 [UNKNOWN] END OF TEST SUITE
+2026-09-29 15:07:09.499 ============================================================
+

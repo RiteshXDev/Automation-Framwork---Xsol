@@ -40,7 +40,7 @@ public class EndPointTest extends WebBaseTest
         ui.waitAndClick(page.node4Button);
         ui.waitAndClick(page.endPointTickBox);
         ui.verifyContainsText(page.node4_leftPanel,"END POINT");
-        ui.saveElementValueToFile(page.modelNumberLocation, "createNewModelTest");
+        ui.saveGCNumberToFile(page.modelNumberLocation);
 
     }
 }

@@ -89,24 +89,32 @@
                 <methods>
                     <include name="mediaPageTest_fileUpload"/>
                     <include name="mediaPageTest_multipleFilesUpload"/>
-                    <include name="mediaPageTest_newCollection"/>
-                    <include name="mediaPageTest_collectionFolder"/>
                     <include name="mediaPageTest_scrolling"/>
                     <include name="mediaPageTest_nextPrevious"/>
                     <include name="mediaPageTest_search"/>
                 </methods>
             </class>
 
-            <!-- 11. Deletion Test -->
+            <!-- 11. Deletion Functionality Test -->
+            <class name="client.designtool.tests.DeleteFunctionalityTest">
+                <methods>
+                    <include name="deleteFunctionality_mainPage"/>
+                    <include name="deleteFunctionality_SearchPage"/>
+                    <include name="deleteFunctionality_boardPage"/>
+                    <include name="deleteFunctionality_multipleModels"/>
+                </methods>
+            </class>
+
+            <!-- 12. Node Deletion Test -->
             <class name="client.designtool.tests.NodeDeleteTest">
                 <methods>
                     <include name="NodeDelete_modelPage_node"/>
                     <include name="NodeDelete_searchPage_model"/>
-                    <include name="NodeDelete_mainPage_model"/>
+                    <include name="NodeDelete_revisitingDeleteNode"/>
                 </methods>
             </class>
 
-            <!-- 12. Recently Deleted -->
+            <!-- 13. Recently Deleted -->
             <class name="client.designtool.tests.RecentlyDeletedTest">
                 <methods>
                     <include name="recentlyDeletedTest_creatingAModel"/>
@@ -114,20 +122,14 @@
                     <include name="recentlyDeletedTest_verifyingModelInRecentlyDeleted"/>
                     <include name="recentlyDeletedTest_reinstateModelBack"/>
                     <include name="recentlyDeletedTest_permanentlyDeletion"/>
+                    <include name="recentlyDeletedTest_reinstate"/>
                 </methods>
             </class>
 
-            <!-- 13. End Point -->
+            <!-- 14. End Point -->
             <class name="client.designtool.tests.EndPointTest">
                 <methods>
                     <include name="endPointTest"/>
-                </methods>
-            </class>
-
-            <!-- 14. Main Page - Delete Function -->
-            <class name="client.designtool.tests.DeleteFunctionalityTest">
-                <methods>
-                    <include name="MainPageTest_Delete"/>
                 </methods>
             </class>
 
@@ -145,9 +147,10 @@
                 <methods>
                     <include name="ExpandablePanelsTest_leftPanel"/>
                     <include name="ExpandablePanelsTest_rightPanel"/>
+                    <include name="ExpandablePanelsTest_hideButton"/>
                 </methods>
             </class>
-            
+
         </classes>
     </test>
 </suite>

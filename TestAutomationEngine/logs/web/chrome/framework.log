@@ -4222,3 +4222,714 @@ java.lang.RuntimeException: Menu Option Not Found : Ready for review
 2026-07-15 17:21:08.925 [main] INFO  core.listeners.web.WebTestListener - TEST PASSED : mediaPageTest_search
 2026-07-15 17:21:08.926 [main] INFO  base.web.WebBaseTest - Closing Browser
 2026-07-15 17:21:08.926 [main] INFO  base.web.WebBaseTest - Browser Closed Successfully
+2026-09-29 16:14:16.067 [main] INFO  base.web.WebBaseTest - ====================================
+2026-09-29 16:14:16.082 [main] INFO  base.web.WebBaseTest - STARTING WEB EXECUTION
+2026-09-29 16:14:16.083 [main] INFO  base.web.WebBaseTest - BROWSER : chrome
+2026-09-29 16:14:16.083 [main] INFO  base.web.WebBaseTest - ====================================
+2026-09-29 16:14:16.165 [main] INFO  core.config.web.WebConfigLoader - Web Configuration Loaded Successfully
+2026-09-29 16:15:03.050 [main] INFO  base.web.WebBaseTest - ====================================
+2026-09-29 16:15:03.052 [main] INFO  base.web.WebBaseTest - WEB DRIVER INITIALIZED SUCCESSFULLY
+2026-09-29 16:15:03.052 [main] INFO  base.web.WebBaseTest - BROWSER : chrome
+2026-09-29 16:15:03.052 [main] INFO  base.web.WebBaseTest - URL : https://xsol-designtool.dev.centrica.com/
+2026-09-29 16:15:03.052 [main] INFO  base.web.WebBaseTest - ====================================
+2026-09-29 16:15:03.102 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:15:03.102 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : createNewModelTest
+2026-09-29 16:15:03.103 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Creating a New Model
+2026-09-29 16:15:43.623 [main] WARN  core.retry.web.WebRetryAnalyzer - ====================================
+2026-09-29 16:15:43.624 [main] WARN  core.retry.web.WebRetryAnalyzer - RETRY ATTEMPT : 1
+2026-09-29 16:15:43.625 [main] WARN  core.retry.web.WebRetryAnalyzer - TEST NAME     : client.designtool.tests.CreatingNewModelTest.createNewModelTest
+2026-09-29 16:15:43.625 [main] WARN  core.retry.web.WebRetryAnalyzer - REASON        :
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='flex items-center gap-2 px-4 py-2 bg-[#003366] border border-transparent rounded-lg text-sm font-semibold text-white hover:bg-[#002244] transition-colors shadow-sm']"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '26.6.2', java.version: '17.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.58, chrome: {chromedriverVersion: 154.0.8037.57 (73c14f6228d7..., userDataDir: browser-profiles/chrome-pro...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57746}, goog:processID: 32999, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57746/devtoo..., se:cdpVersion: 154.0.8037.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03156f93a9f01945738828f7e93cb766
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85) ~[selenium-support-4.46.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234) ~[selenium-support-4.46.0.jar:?]
+	at core.controller.web.WebUIController.waitAndClick(WebUIController.java:146) ~[test-classes/:?]
+	at client.designtool.tests.CreatingNewModelTest.createNewModelTest(CreatingNewModelTest.java:17) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:67) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
+2026-09-29 16:15:43.631 [main] WARN  core.retry.web.WebRetryAnalyzer - ====================================
+2026-09-29 16:15:43.637 [main] INFO  core.config.web.WebConfigLoader - Web Configuration Loaded Successfully
+2026-09-29 16:15:45.344 [main] INFO  core.retry.web.WebRetryAnalyzer - Navigated back to application URL before retry.
+2026-09-29 16:15:45.345 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : createNewModelTest
+2026-09-29 16:15:45.347 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:15:45.348 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : createNewModelTest
+2026-09-29 16:15:45.348 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Creating a New Model
+2026-09-29 16:15:58.680 [main] WARN  core.retry.web.WebRetryAnalyzer - ====================================
+2026-09-29 16:15:58.681 [main] WARN  core.retry.web.WebRetryAnalyzer - RETRY ATTEMPT : 2
+2026-09-29 16:15:58.681 [main] WARN  core.retry.web.WebRetryAnalyzer - TEST NAME     : client.designtool.tests.CreatingNewModelTest.createNewModelTest
+2026-09-29 16:15:58.682 [main] WARN  core.retry.web.WebRetryAnalyzer - REASON        :
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='flex items-center gap-2 px-4 py-2 bg-[#003366] border border-transparent rounded-lg text-sm font-semibold text-white hover:bg-[#002244] transition-colors shadow-sm']"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '26.6.2', java.version: '17.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.58, chrome: {chromedriverVersion: 154.0.8037.57 (73c14f6228d7..., userDataDir: browser-profiles/chrome-pro...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57746}, goog:processID: 32999, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57746/devtoo..., se:cdpVersion: 154.0.8037.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03156f93a9f01945738828f7e93cb766
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85) ~[selenium-support-4.46.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234) ~[selenium-support-4.46.0.jar:?]
+	at core.controller.web.WebUIController.waitAndClick(WebUIController.java:146) ~[test-classes/:?]
+	at client.designtool.tests.CreatingNewModelTest.createNewModelTest(CreatingNewModelTest.java:17) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:67) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
+2026-09-29 16:15:58.683 [main] WARN  core.retry.web.WebRetryAnalyzer - ====================================
+2026-09-29 16:15:58.684 [main] INFO  core.config.web.WebConfigLoader - Web Configuration Loaded Successfully
+2026-09-29 16:16:00.760 [main] INFO  core.retry.web.WebRetryAnalyzer - Navigated back to application URL before retry.
+2026-09-29 16:16:00.764 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : createNewModelTest
+2026-09-29 16:16:00.765 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:16:00.766 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : createNewModelTest
+2026-09-29 16:16:00.766 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Creating a New Model
+2026-09-29 16:16:11.586 [main] ERROR core.retry.web.WebRetryAnalyzer - MAX RETRIES REACHED
+2026-09-29 16:16:11.586 [main] ERROR core.listeners.web.WebTestListener - TEST FAILED : createNewModelTest
+2026-09-29 16:16:14.404 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:16:14.405 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : editingModelTest_partNumberEdit
+2026-09-29 16:16:14.405 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Editing Model - Alerts
+2026-09-29 16:17:02.421 [main] INFO  core.controller.web.WebUIController - Typed Value From File : gcNumber.txt
+2026-09-29 16:17:08.102 [main] INFO  core.controller.web.WebUIController - Expected : 7168334
+2026-09-29 16:17:08.103 [main] INFO  core.controller.web.WebUIController - Actual : 7168334
+2026-09-29 16:17:12.333 [main] INFO  core.controller.web.WebUIController - Clicked After Wait
+2026-09-29 16:17:30.399 [main] INFO  base.web.WebBaseTest - ====================================
+2026-09-29 16:17:30.404 [main] INFO  base.web.WebBaseTest - STARTING WEB EXECUTION
+2026-09-29 16:17:30.404 [main] INFO  base.web.WebBaseTest - BROWSER : chrome
+2026-09-29 16:17:30.404 [main] INFO  base.web.WebBaseTest - ====================================
+2026-09-29 16:17:30.481 [main] INFO  core.config.web.WebConfigLoader - Web Configuration Loaded Successfully
+2026-09-29 16:17:47.890 [main] INFO  base.web.WebBaseTest - ====================================
+2026-09-29 16:17:47.892 [main] INFO  base.web.WebBaseTest - WEB DRIVER INITIALIZED SUCCESSFULLY
+2026-09-29 16:17:47.892 [main] INFO  base.web.WebBaseTest - BROWSER : chrome
+2026-09-29 16:17:47.892 [main] INFO  base.web.WebBaseTest - URL : https://xsol-designtool.dev.centrica.com/
+2026-09-29 16:17:47.892 [main] INFO  base.web.WebBaseTest - ====================================
+2026-09-29 16:17:47.932 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:17:47.933 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : createNewModelTest
+2026-09-29 16:17:47.934 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Creating a New Model
+2026-09-29 16:17:59.797 [main] WARN  core.retry.web.WebRetryAnalyzer - ====================================
+2026-09-29 16:17:59.799 [main] WARN  core.retry.web.WebRetryAnalyzer - RETRY ATTEMPT : 1
+2026-09-29 16:17:59.799 [main] WARN  core.retry.web.WebRetryAnalyzer - TEST NAME     : client.designtool.tests.CreatingNewModelTest.createNewModelTest
+2026-09-29 16:17:59.800 [main] WARN  core.retry.web.WebRetryAnalyzer - REASON        :
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='flex items-center gap-2 px-4 py-2 bg-[#003366] border border-transparent rounded-lg text-sm font-semibold text-white hover:bg-[#002244] transition-colors shadow-sm']"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '26.6.2', java.version: '17.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.58, chrome: {chromedriverVersion: 154.0.8037.57 (73c14f6228d7..., userDataDir: browser-profiles/chrome-pro...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58352}, goog:processID: 33246, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58352/devtoo..., se:cdpVersion: 154.0.8037.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 049d0e959ea25786f95a9966484d83c7
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85) ~[selenium-support-4.46.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234) ~[selenium-support-4.46.0.jar:?]
+	at core.controller.web.WebUIController.waitAndClick(WebUIController.java:146) ~[test-classes/:?]
+	at client.designtool.tests.CreatingNewModelTest.createNewModelTest(CreatingNewModelTest.java:17) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:67) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
+2026-09-29 16:17:59.806 [main] WARN  core.retry.web.WebRetryAnalyzer - ====================================
+2026-09-29 16:17:59.810 [main] INFO  core.config.web.WebConfigLoader - Web Configuration Loaded Successfully
+2026-09-29 16:18:02.876 [main] INFO  core.retry.web.WebRetryAnalyzer - Navigated back to application URL before retry.
+2026-09-29 16:18:02.876 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : createNewModelTest
+2026-09-29 16:18:02.880 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:18:02.880 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : createNewModelTest
+2026-09-29 16:18:02.881 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Creating a New Model
+2026-09-29 16:18:13.616 [main] WARN  core.retry.web.WebRetryAnalyzer - ====================================
+2026-09-29 16:18:13.616 [main] WARN  core.retry.web.WebRetryAnalyzer - RETRY ATTEMPT : 2
+2026-09-29 16:18:13.616 [main] WARN  core.retry.web.WebRetryAnalyzer - TEST NAME     : client.designtool.tests.CreatingNewModelTest.createNewModelTest
+2026-09-29 16:18:13.617 [main] WARN  core.retry.web.WebRetryAnalyzer - REASON        :
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='flex items-center gap-2 px-4 py-2 bg-[#003366] border border-transparent rounded-lg text-sm font-semibold text-white hover:bg-[#002244] transition-colors shadow-sm']"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '26.6.2', java.version: '17.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.58, chrome: {chromedriverVersion: 154.0.8037.57 (73c14f6228d7..., userDataDir: browser-profiles/chrome-pro...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58352}, goog:processID: 33246, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58352/devtoo..., se:cdpVersion: 154.0.8037.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 049d0e959ea25786f95a9966484d83c7
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85) ~[selenium-support-4.46.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234) ~[selenium-support-4.46.0.jar:?]
+	at core.controller.web.WebUIController.waitAndClick(WebUIController.java:146) ~[test-classes/:?]
+	at client.designtool.tests.CreatingNewModelTest.createNewModelTest(CreatingNewModelTest.java:17) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:67) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
+2026-09-29 16:18:13.618 [main] WARN  core.retry.web.WebRetryAnalyzer - ====================================
+2026-09-29 16:18:13.619 [main] INFO  core.config.web.WebConfigLoader - Web Configuration Loaded Successfully
+2026-09-29 16:18:16.751 [main] INFO  core.retry.web.WebRetryAnalyzer - Navigated back to application URL before retry.
+2026-09-29 16:18:16.754 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : createNewModelTest
+2026-09-29 16:18:16.755 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:18:16.756 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : createNewModelTest
+2026-09-29 16:18:16.756 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Creating a New Model
+2026-09-29 16:18:27.052 [main] ERROR core.retry.web.WebRetryAnalyzer - MAX RETRIES REACHED
+2026-09-29 16:18:27.053 [main] ERROR core.listeners.web.WebTestListener - TEST FAILED : createNewModelTest
+2026-09-29 16:18:29.891 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:18:29.892 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : editingModelTest_partNumberEdit
+2026-09-29 16:18:29.892 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Editing Model - Alerts
+2026-09-29 16:27:47.159 [main] INFO  base.web.WebBaseTest - ====================================
+2026-09-29 16:27:47.165 [main] INFO  base.web.WebBaseTest - STARTING WEB EXECUTION
+2026-09-29 16:27:47.165 [main] INFO  base.web.WebBaseTest - BROWSER : chrome
+2026-09-29 16:27:47.165 [main] INFO  base.web.WebBaseTest - ====================================
+2026-09-29 16:27:47.255 [main] INFO  core.config.web.WebConfigLoader - Web Configuration Loaded Successfully
+2026-09-29 16:27:48.871 [main] ERROR base.web.WebBaseTest - FAILED TO INITIALIZE WEB DRIVER
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause. 
+Host info: host: 'CMM-LNW45C4TV1', ip: 'fe80:0:0:0:46a:63f4:f8ee:3fb5%en0'
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '26.6.2', java.version: '17.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--user-data-dir=browser-pro..., --profile-directory=Default], binary: /Applications/Google Chrome..., extensions: []}}]}]
+Capabilities {browserName: chrome, goog:chromeOptions: {args: [--user-data-dir=browser-pro..., --profile-directory=Default], binary: /Applications/Google Chrome..., extensions: []}}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115) ~[selenium-remote-driver-4.46.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:76) ~[selenium-remote-driver-4.46.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62) ~[selenium-remote-driver-4.46.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:171) ~[selenium-remote-driver-4.46.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217) ~[selenium-remote-driver-4.46.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175) ~[selenium-remote-driver-4.46.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626) ~[selenium-remote-driver-4.46.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:266) ~[selenium-remote-driver-4.46.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:211) ~[selenium-remote-driver-4.46.0.jar:?]
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114) ~[selenium-chromium-driver-4.45.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:92) ~[selenium-chrome-driver-4.45.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:76) ~[selenium-chrome-driver-4.45.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72) ~[selenium-chrome-driver-4.45.0.jar:?]
+	at core.factory.web.BrowserFactory.getBrowser(BrowserFactory.java:39) ~[test-classes/:?]
+	at base.web.WebBaseTest.setup(WebBaseTest.java:92) [test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.beforeRun(TestRunner.java:646) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:612) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:67) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
+2026-09-29 16:27:48.910 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:48.911 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : createNewModelTest
+2026-09-29 16:27:48.911 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Creating a New Model
+2026-09-29 16:27:48.912 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : createNewModelTest
+2026-09-29 16:27:48.917 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:48.918 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : editingModelTest_partNumberEdit
+2026-09-29 16:27:48.918 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Editing Model - Alerts
+2026-09-29 16:27:48.919 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : editingModelTest_partNumberEdit
+2026-09-29 16:27:48.919 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:48.920 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : editingModelTest_instruction
+2026-09-29 16:27:48.920 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Editing Model - Instructions
+2026-09-29 16:27:48.920 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : editingModelTest_instruction
+2026-09-29 16:27:48.921 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:48.922 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : editingModelTest_setup
+2026-09-29 16:27:48.923 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Editing Model - Setup
+2026-09-29 16:27:48.923 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : editingModelTest_setup
+2026-09-29 16:27:48.925 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:48.925 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : editingModelTest_media
+2026-09-29 16:27:48.925 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Editing Model - Media
+2026-09-29 16:27:48.926 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : editingModelTest_media
+2026-09-29 16:27:48.929 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:48.930 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : editingModelTest_connection
+2026-09-29 16:27:48.930 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Editing Model - Connections
+2026-09-29 16:27:48.931 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : editingModelTest_connection
+2026-09-29 16:27:48.933 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:48.936 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : searchNewModelTest
+2026-09-29 16:27:48.937 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Searching Model in the search Option
+2026-09-29 16:27:48.937 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : searchNewModelTest
+2026-09-29 16:27:48.940 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:48.940 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : addingSnippetToModelTest_alerts
+2026-09-29 16:27:48.940 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Adding snippet - Alerts
+2026-09-29 16:27:48.941 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : addingSnippetToModelTest_alerts
+2026-09-29 16:27:48.942 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:48.943 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : addingSnippetToModelTest_setup
+2026-09-29 16:27:48.943 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Adding snippet - Setup
+2026-09-29 16:27:48.943 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : addingSnippetToModelTest_setup
+2026-09-29 16:27:48.945 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:48.945 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : addingSnippetToModelTest_instruction
+2026-09-29 16:27:48.945 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Adding snippet - Setup
+2026-09-29 16:27:48.946 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : addingSnippetToModelTest_instruction
+2026-09-29 16:27:48.948 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:48.949 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : allManufacturersCheckTest_table
+2026-09-29 16:27:48.949 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : All Manufactures Check
+2026-09-29 16:27:48.949 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : allManufacturersCheckTest_table
+2026-09-29 16:27:48.951 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:48.951 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : allManufacturersCheckTest_board
+2026-09-29 16:27:48.951 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : All Manufactures Check - Board Page
+2026-09-29 16:27:48.952 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : allManufacturersCheckTest_board
+2026-09-29 16:27:48.953 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:48.955 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : statusCycleCheckTest_readyForReview
+2026-09-29 16:27:48.955 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Model Page - Ready For Review
+2026-09-29 16:27:48.956 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : statusCycleCheckTest_readyForReview
+2026-09-29 16:27:48.956 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:48.957 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : statusCycleCheckTest_inReview
+2026-09-29 16:27:48.957 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Model Page - In Review
+2026-09-29 16:27:48.957 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : statusCycleCheckTest_inReview
+2026-09-29 16:27:48.957 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:48.957 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : statusCycleCheckTest_readyForPublish
+2026-09-29 16:27:48.958 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Model Page - Ready for Publish
+2026-09-29 16:27:48.960 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : statusCycleCheckTest_readyForPublish
+2026-09-29 16:27:48.961 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:48.961 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : statusCycleCheckTest_published
+2026-09-29 16:27:48.961 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Model Page - Published
+2026-09-29 16:27:48.962 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : statusCycleCheckTest_published
+2026-09-29 16:27:48.963 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:48.964 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : allStatusCheckTest_searchPage_draft
+2026-09-29 16:27:48.964 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Search Page - Draft
+2026-09-29 16:27:48.965 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : allStatusCheckTest_searchPage_draft
+2026-09-29 16:27:48.967 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:48.968 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : allStatusCheckTest_searchPage_readyForReview
+2026-09-29 16:27:48.968 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Search Page - Ready For Review
+2026-09-29 16:27:48.969 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : allStatusCheckTest_searchPage_readyForReview
+2026-09-29 16:27:48.970 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:48.972 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : allStatusCheckTest_searchPage_inReview
+2026-09-29 16:27:48.975 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Search Page - In Review
+2026-09-29 16:27:48.976 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : allStatusCheckTest_searchPage_inReview
+2026-09-29 16:27:48.978 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:48.978 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : allStatusCheckTest_searchPage_readyForPublish
+2026-09-29 16:27:48.978 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Search Page - Ready For Publish
+2026-09-29 16:27:48.978 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : allStatusCheckTest_searchPage_readyForPublish
+2026-09-29 16:27:48.979 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:48.979 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : allStatusCheckTest_searchPage_published
+2026-09-29 16:27:48.979 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Search Page - Published
+2026-09-29 16:27:48.979 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : allStatusCheckTest_searchPage_published
+2026-09-29 16:27:48.982 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:48.982 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : TableNavigationCheckTest_next
+2026-09-29 16:27:48.982 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Main Page Table Next Button Check
+2026-09-29 16:27:48.983 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : TableNavigationCheckTest_next
+2026-09-29 16:27:48.983 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:48.984 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : TableNavigationCheckTest_previous
+2026-09-29 16:27:48.984 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Main Page Table Previous Button Check
+2026-09-29 16:27:48.986 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : TableNavigationCheckTest_previous
+2026-09-29 16:27:48.988 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:48.989 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : mediaPageTest_fileUpload
+2026-09-29 16:27:48.989 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Media - file Upload
+2026-09-29 16:27:48.989 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : mediaPageTest_fileUpload
+2026-09-29 16:27:48.990 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:48.991 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : mediaPageTest_multipleFilesUpload
+2026-09-29 16:27:48.991 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Media - Multiple file Upload
+2026-09-29 16:27:48.991 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : mediaPageTest_multipleFilesUpload
+2026-09-29 16:27:48.991 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:48.992 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : mediaPageTest_newCollection
+2026-09-29 16:27:48.992 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Media - Creating new collection
+2026-09-29 16:27:48.992 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : mediaPageTest_newCollection
+2026-09-29 16:27:48.994 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:48.995 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : mediaPageTest_collectionFolder
+2026-09-29 16:27:48.995 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Media - Collection folder Check
+2026-09-29 16:27:48.995 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : mediaPageTest_collectionFolder
+2026-09-29 16:27:48.996 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:48.996 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : mediaPageTest_scrolling
+2026-09-29 16:27:48.996 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Media - Scrolling Up & Down Check
+2026-09-29 16:27:48.997 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : mediaPageTest_scrolling
+2026-09-29 16:27:48.997 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:48.997 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : mediaPageTest_nextPrevious
+2026-09-29 16:27:48.997 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Media - Next & Previous Button Check
+2026-09-29 16:27:48.998 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : mediaPageTest_nextPrevious
+2026-09-29 16:27:49.001 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:49.001 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : mediaPageTest_search
+2026-09-29 16:27:49.002 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Media - Search Image Check
+2026-09-29 16:27:49.002 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : mediaPageTest_search
+2026-09-29 16:27:49.005 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:49.006 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : NodeDelete_modelPage_node
+2026-09-29 16:27:49.007 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Node Deletion - Creating A Model 
+2026-09-29 16:27:49.008 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : NodeDelete_modelPage_node
+2026-09-29 16:27:49.008 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:49.009 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : NodeDelete_searchPage_model
+2026-09-29 16:27:49.009 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Node Deletion - Searching A Model And Deleting it
+2026-09-29 16:27:49.010 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : NodeDelete_searchPage_model
+2026-09-29 16:27:49.013 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:49.014 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : NodeDelete_mainPage_model
+2026-09-29 16:27:49.014 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Node Deletion - Deleting Model On The Main Page
+2026-09-29 16:27:49.014 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : NodeDelete_mainPage_model
+2026-09-29 16:27:49.016 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:49.016 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : recentlyDeletedTest_creatingAModel
+2026-09-29 16:27:49.016 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Recently Deleted - Creating a model
+2026-09-29 16:27:49.016 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : recentlyDeletedTest_creatingAModel
+2026-09-29 16:27:49.017 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:49.018 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : recentlyDeletedTest_searchingForAModel
+2026-09-29 16:27:49.018 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Recently Deleted - Searching a model and deleting it
+2026-09-29 16:27:49.021 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : recentlyDeletedTest_searchingForAModel
+2026-09-29 16:27:49.023 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:49.023 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : recentlyDeletedTest_verifyingModelInRecentlyDeleted
+2026-09-29 16:27:49.023 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Recently Deleted - Verifying the deleted model in recently deleted
+2026-09-29 16:27:49.024 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : recentlyDeletedTest_verifyingModelInRecentlyDeleted
+2026-09-29 16:27:49.025 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:49.026 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : recentlyDeletedTest_reinstateModelBack
+2026-09-29 16:27:49.026 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Recently Deleted - Reinstate the model back to model page and verify it
+2026-09-29 16:27:49.028 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : recentlyDeletedTest_reinstateModelBack
+2026-09-29 16:27:49.031 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:49.031 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : recentlyDeletedTest_permanentlyDeletion
+2026-09-29 16:27:49.031 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Recently Deleted - Deleting the model Permanently
+2026-09-29 16:27:49.032 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : recentlyDeletedTest_permanentlyDeletion
+2026-09-29 16:27:49.036 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:49.036 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : endPointTest
+2026-09-29 16:27:49.036 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : EndPoint : Creating a model with end points 
+2026-09-29 16:27:49.036 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : endPointTest
+2026-09-29 16:27:49.039 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:49.040 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : MainPageTest_Delete
+2026-09-29 16:27:49.040 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Delete Functionality - Main Page
+2026-09-29 16:27:49.040 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : MainPageTest_Delete
+2026-09-29 16:27:49.041 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:49.041 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : MainPageTest_DuplicateModels_creating
+2026-09-29 16:27:49.041 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Duplicate Models - Creating a Duplicate Model
+2026-09-29 16:27:49.042 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : MainPageTest_DuplicateModels_creating
+2026-09-29 16:27:49.042 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:49.043 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : MainPageTest_DuplicateModels_deleting
+2026-09-29 16:27:49.043 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Duplicate Models - Deleting the duplicate Model
+2026-09-29 16:27:49.043 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : MainPageTest_DuplicateModels_deleting
+2026-09-29 16:27:49.043 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:49.044 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : MainPageTest_DuplicateModels_deletingPermanently
+2026-09-29 16:27:49.044 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Duplicate Models - Deleting the duplicate Model Permanently
+2026-09-29 16:27:49.045 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : MainPageTest_DuplicateModels_deletingPermanently
+2026-09-29 16:27:49.046 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:49.047 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : ExpandablePanelsTest_leftPanel
+2026-09-29 16:27:49.047 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Expandable Panel : Left Panel Verification 
+2026-09-29 16:27:49.048 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : ExpandablePanelsTest_leftPanel
+2026-09-29 16:27:49.049 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:27:49.049 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : ExpandablePanelsTest_rightPanel
+2026-09-29 16:27:49.049 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Expandable Panel : Left Panel Verification 
+2026-09-29 16:27:49.050 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : ExpandablePanelsTest_rightPanel
+2026-09-29 16:28:01.707 [main] INFO  base.web.WebBaseTest - ====================================
+2026-09-29 16:28:01.712 [main] INFO  base.web.WebBaseTest - STARTING WEB EXECUTION
+2026-09-29 16:28:01.712 [main] INFO  base.web.WebBaseTest - BROWSER : chrome
+2026-09-29 16:28:01.712 [main] INFO  base.web.WebBaseTest - ====================================
+2026-09-29 16:28:01.789 [main] INFO  core.config.web.WebConfigLoader - Web Configuration Loaded Successfully
+2026-09-29 16:28:03.094 [main] ERROR base.web.WebBaseTest - FAILED TO INITIALIZE WEB DRIVER
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause. 
+Host info: host: 'CMM-LNW45C4TV1', ip: 'fe80:0:0:0:46a:63f4:f8ee:3fb5%en0'
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '26.6.2', java.version: '17.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--user-data-dir=browser-pro..., --profile-directory=Default], binary: /Applications/Google Chrome..., extensions: []}}]}]
+Capabilities {browserName: chrome, goog:chromeOptions: {args: [--user-data-dir=browser-pro..., --profile-directory=Default], binary: /Applications/Google Chrome..., extensions: []}}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115) ~[selenium-remote-driver-4.46.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:76) ~[selenium-remote-driver-4.46.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62) ~[selenium-remote-driver-4.46.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:171) ~[selenium-remote-driver-4.46.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217) ~[selenium-remote-driver-4.46.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175) ~[selenium-remote-driver-4.46.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626) ~[selenium-remote-driver-4.46.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:266) ~[selenium-remote-driver-4.46.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:211) ~[selenium-remote-driver-4.46.0.jar:?]
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114) ~[selenium-chromium-driver-4.45.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:92) ~[selenium-chrome-driver-4.45.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:76) ~[selenium-chrome-driver-4.45.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72) ~[selenium-chrome-driver-4.45.0.jar:?]
+	at core.factory.web.BrowserFactory.getBrowser(BrowserFactory.java:39) ~[test-classes/:?]
+	at base.web.WebBaseTest.setup(WebBaseTest.java:92) [test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) [testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.beforeRun(TestRunner.java:646) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:612) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:67) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
+2026-09-29 16:28:03.131 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.132 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : createNewModelTest
+2026-09-29 16:28:03.132 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Creating a New Model
+2026-09-29 16:28:03.134 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : createNewModelTest
+2026-09-29 16:28:03.139 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.141 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : editingModelTest_partNumberEdit
+2026-09-29 16:28:03.142 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Editing Model - Alerts
+2026-09-29 16:28:03.143 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : editingModelTest_partNumberEdit
+2026-09-29 16:28:03.144 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.144 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : editingModelTest_instruction
+2026-09-29 16:28:03.144 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Editing Model - Instructions
+2026-09-29 16:28:03.145 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : editingModelTest_instruction
+2026-09-29 16:28:03.146 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.147 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : editingModelTest_setup
+2026-09-29 16:28:03.147 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Editing Model - Setup
+2026-09-29 16:28:03.148 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : editingModelTest_setup
+2026-09-29 16:28:03.149 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.150 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : editingModelTest_media
+2026-09-29 16:28:03.150 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Editing Model - Media
+2026-09-29 16:28:03.151 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : editingModelTest_media
+2026-09-29 16:28:03.152 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.152 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : editingModelTest_connection
+2026-09-29 16:28:03.153 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Editing Model - Connections
+2026-09-29 16:28:03.154 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : editingModelTest_connection
+2026-09-29 16:28:03.156 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.159 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : searchNewModelTest
+2026-09-29 16:28:03.160 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Searching Model in the search Option
+2026-09-29 16:28:03.160 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : searchNewModelTest
+2026-09-29 16:28:03.163 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.163 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : addingSnippetToModelTest_alerts
+2026-09-29 16:28:03.163 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Adding snippet - Alerts
+2026-09-29 16:28:03.165 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : addingSnippetToModelTest_alerts
+2026-09-29 16:28:03.165 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.166 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : addingSnippetToModelTest_setup
+2026-09-29 16:28:03.166 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Adding snippet - Setup
+2026-09-29 16:28:03.167 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : addingSnippetToModelTest_setup
+2026-09-29 16:28:03.168 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.168 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : addingSnippetToModelTest_instruction
+2026-09-29 16:28:03.168 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Adding snippet - Setup
+2026-09-29 16:28:03.168 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : addingSnippetToModelTest_instruction
+2026-09-29 16:28:03.170 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.171 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : allManufacturersCheckTest_table
+2026-09-29 16:28:03.172 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : All Manufactures Check
+2026-09-29 16:28:03.172 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : allManufacturersCheckTest_table
+2026-09-29 16:28:03.172 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.173 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : allManufacturersCheckTest_board
+2026-09-29 16:28:03.173 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : All Manufactures Check - Board Page
+2026-09-29 16:28:03.173 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : allManufacturersCheckTest_board
+2026-09-29 16:28:03.175 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.176 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : statusCycleCheckTest_readyForReview
+2026-09-29 16:28:03.177 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Model Page - Ready For Review
+2026-09-29 16:28:03.177 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : statusCycleCheckTest_readyForReview
+2026-09-29 16:28:03.178 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.178 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : statusCycleCheckTest_inReview
+2026-09-29 16:28:03.178 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Model Page - In Review
+2026-09-29 16:28:03.178 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : statusCycleCheckTest_inReview
+2026-09-29 16:28:03.179 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.179 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : statusCycleCheckTest_readyForPublish
+2026-09-29 16:28:03.179 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Model Page - Ready for Publish
+2026-09-29 16:28:03.182 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : statusCycleCheckTest_readyForPublish
+2026-09-29 16:28:03.183 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.184 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : statusCycleCheckTest_published
+2026-09-29 16:28:03.185 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Model Page - Published
+2026-09-29 16:28:03.185 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : statusCycleCheckTest_published
+2026-09-29 16:28:03.186 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.187 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : allStatusCheckTest_searchPage_draft
+2026-09-29 16:28:03.187 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Search Page - Draft
+2026-09-29 16:28:03.188 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : allStatusCheckTest_searchPage_draft
+2026-09-29 16:28:03.190 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.191 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : allStatusCheckTest_searchPage_readyForReview
+2026-09-29 16:28:03.191 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Search Page - Ready For Review
+2026-09-29 16:28:03.192 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : allStatusCheckTest_searchPage_readyForReview
+2026-09-29 16:28:03.194 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.195 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : allStatusCheckTest_searchPage_inReview
+2026-09-29 16:28:03.195 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Search Page - In Review
+2026-09-29 16:28:03.198 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : allStatusCheckTest_searchPage_inReview
+2026-09-29 16:28:03.200 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.200 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : allStatusCheckTest_searchPage_readyForPublish
+2026-09-29 16:28:03.200 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Search Page - Ready For Publish
+2026-09-29 16:28:03.200 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : allStatusCheckTest_searchPage_readyForPublish
+2026-09-29 16:28:03.201 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.201 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : allStatusCheckTest_searchPage_published
+2026-09-29 16:28:03.201 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Search Page - Published
+2026-09-29 16:28:03.201 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : allStatusCheckTest_searchPage_published
+2026-09-29 16:28:03.203 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.203 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : TableNavigationCheckTest_next
+2026-09-29 16:28:03.203 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Main Page Table Next Button Check
+2026-09-29 16:28:03.203 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : TableNavigationCheckTest_next
+2026-09-29 16:28:03.204 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.205 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : TableNavigationCheckTest_previous
+2026-09-29 16:28:03.205 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Main Page Table Previous Button Check
+2026-09-29 16:28:03.205 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : TableNavigationCheckTest_previous
+2026-09-29 16:28:03.208 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.209 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : mediaPageTest_fileUpload
+2026-09-29 16:28:03.210 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Media - file Upload
+2026-09-29 16:28:03.210 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : mediaPageTest_fileUpload
+2026-09-29 16:28:03.211 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.211 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : mediaPageTest_multipleFilesUpload
+2026-09-29 16:28:03.211 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Media - Multiple file Upload
+2026-09-29 16:28:03.211 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : mediaPageTest_multipleFilesUpload
+2026-09-29 16:28:03.212 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.212 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : mediaPageTest_newCollection
+2026-09-29 16:28:03.213 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Media - Creating new collection
+2026-09-29 16:28:03.213 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : mediaPageTest_newCollection
+2026-09-29 16:28:03.215 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.216 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : mediaPageTest_collectionFolder
+2026-09-29 16:28:03.216 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Media - Collection folder Check
+2026-09-29 16:28:03.216 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : mediaPageTest_collectionFolder
+2026-09-29 16:28:03.217 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.217 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : mediaPageTest_scrolling
+2026-09-29 16:28:03.217 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Media - Scrolling Up & Down Check
+2026-09-29 16:28:03.217 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : mediaPageTest_scrolling
+2026-09-29 16:28:03.218 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.218 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : mediaPageTest_nextPrevious
+2026-09-29 16:28:03.218 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Media - Next & Previous Button Check
+2026-09-29 16:28:03.218 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : mediaPageTest_nextPrevious
+2026-09-29 16:28:03.220 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.220 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : mediaPageTest_search
+2026-09-29 16:28:03.220 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Media - Search Image Check
+2026-09-29 16:28:03.221 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : mediaPageTest_search
+2026-09-29 16:28:03.225 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.226 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : NodeDelete_modelPage_node
+2026-09-29 16:28:03.228 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Node Deletion - Creating A Model 
+2026-09-29 16:28:03.228 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : NodeDelete_modelPage_node
+2026-09-29 16:28:03.229 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.229 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : NodeDelete_searchPage_model
+2026-09-29 16:28:03.229 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Node Deletion - Searching A Model And Deleting it
+2026-09-29 16:28:03.229 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : NodeDelete_searchPage_model
+2026-09-29 16:28:03.230 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.231 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : NodeDelete_mainPage_model
+2026-09-29 16:28:03.231 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Node Deletion - Deleting Model On The Main Page
+2026-09-29 16:28:03.231 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : NodeDelete_mainPage_model
+2026-09-29 16:28:03.232 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.233 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : recentlyDeletedTest_creatingAModel
+2026-09-29 16:28:03.233 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Recently Deleted - Creating a model
+2026-09-29 16:28:03.233 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : recentlyDeletedTest_creatingAModel
+2026-09-29 16:28:03.234 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.234 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : recentlyDeletedTest_searchingForAModel
+2026-09-29 16:28:03.234 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Recently Deleted - Searching a model and deleting it
+2026-09-29 16:28:03.235 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : recentlyDeletedTest_searchingForAModel
+2026-09-29 16:28:03.239 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.239 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : recentlyDeletedTest_verifyingModelInRecentlyDeleted
+2026-09-29 16:28:03.239 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Recently Deleted - Verifying the deleted model in recently deleted
+2026-09-29 16:28:03.240 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : recentlyDeletedTest_verifyingModelInRecentlyDeleted
+2026-09-29 16:28:03.240 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.240 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : recentlyDeletedTest_reinstateModelBack
+2026-09-29 16:28:03.241 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Recently Deleted - Reinstate the model back to model page and verify it
+2026-09-29 16:28:03.241 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : recentlyDeletedTest_reinstateModelBack
+2026-09-29 16:28:03.242 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.243 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : recentlyDeletedTest_permanentlyDeletion
+2026-09-29 16:28:03.243 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Recently Deleted - Deleting the model Permanently
+2026-09-29 16:28:03.244 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : recentlyDeletedTest_permanentlyDeletion
+2026-09-29 16:28:03.247 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.248 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : endPointTest
+2026-09-29 16:28:03.248 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : EndPoint : Creating a model with end points 
+2026-09-29 16:28:03.248 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : endPointTest
+2026-09-29 16:28:03.250 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.251 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : MainPageTest_Delete
+2026-09-29 16:28:03.251 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Delete Functionality - Main Page
+2026-09-29 16:28:03.251 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : MainPageTest_Delete
+2026-09-29 16:28:03.252 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.252 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : MainPageTest_DuplicateModels_creating
+2026-09-29 16:28:03.252 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Duplicate Models - Creating a Duplicate Model
+2026-09-29 16:28:03.253 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : MainPageTest_DuplicateModels_creating
+2026-09-29 16:28:03.253 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.253 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : MainPageTest_DuplicateModels_deleting
+2026-09-29 16:28:03.253 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Duplicate Models - Deleting the duplicate Model
+2026-09-29 16:28:03.254 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : MainPageTest_DuplicateModels_deleting
+2026-09-29 16:28:03.254 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.255 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : MainPageTest_DuplicateModels_deletingPermanently
+2026-09-29 16:28:03.255 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Duplicate Models - Deleting the duplicate Model Permanently
+2026-09-29 16:28:03.256 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : MainPageTest_DuplicateModels_deletingPermanently
+2026-09-29 16:28:03.259 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.260 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : ExpandablePanelsTest_leftPanel
+2026-09-29 16:28:03.260 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Expandable Panel : Left Panel Verification 
+2026-09-29 16:28:03.260 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : ExpandablePanelsTest_leftPanel
+2026-09-29 16:28:03.262 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:03.262 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : ExpandablePanelsTest_rightPanel
+2026-09-29 16:28:03.262 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Expandable Panel : Left Panel Verification 
+2026-09-29 16:28:03.263 [main] WARN  core.listeners.web.WebTestListener - TEST SKIPPED : ExpandablePanelsTest_rightPanel
+2026-09-29 16:28:13.871 [main] INFO  base.web.WebBaseTest - ====================================
+2026-09-29 16:28:13.877 [main] INFO  base.web.WebBaseTest - STARTING WEB EXECUTION
+2026-09-29 16:28:13.878 [main] INFO  base.web.WebBaseTest - BROWSER : chrome
+2026-09-29 16:28:13.878 [main] INFO  base.web.WebBaseTest - ====================================
+2026-09-29 16:28:13.955 [main] INFO  core.config.web.WebConfigLoader - Web Configuration Loaded Successfully
+2026-09-29 16:28:35.435 [main] INFO  base.web.WebBaseTest - ====================================
+2026-09-29 16:28:35.436 [main] INFO  base.web.WebBaseTest - WEB DRIVER INITIALIZED SUCCESSFULLY
+2026-09-29 16:28:35.436 [main] INFO  base.web.WebBaseTest - BROWSER : chrome
+2026-09-29 16:28:35.436 [main] INFO  base.web.WebBaseTest - URL : https://xsol-designtool.dev.centrica.com/
+2026-09-29 16:28:35.436 [main] INFO  base.web.WebBaseTest - ====================================
+2026-09-29 16:28:35.522 [main] INFO  core.listeners.web.WebTestListener - ========== TEST START ==========
+2026-09-29 16:28:35.523 [main] INFO  core.listeners.web.WebTestListener - TEST METHOD : createNewModelTest
+2026-09-29 16:28:35.523 [main] INFO  core.listeners.web.WebTestListener - DISPLAY NAME : Design Tool : Creating a New Model

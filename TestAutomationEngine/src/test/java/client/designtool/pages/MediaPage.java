@@ -35,7 +35,7 @@ public class MediaPage extends WebBaseTest {
     @FindBy(xpath = "//div[@class='grid grid-cols-[repeat(auto-fill,minmax(180px,1fr))] gap-3.5']")
     public WebElement imageGrid;
 
-    @FindBy(xpath = "//div[@class='flex h-full w-full flex-col gap-6 overflow-y-auto px-12 py-8']")
+    @FindBy(xpath = "//div[@class='grid grid-cols-[repeat(auto-fill,minmax(200px,1fr))] gap-3']")
     public WebElement collectionLocation;
 
     @FindBy(xpath = "//select[@class='ml-7 rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 outline-none focus:border-[#003366]']")

@@ -13,11 +13,9 @@
         <parameter name="browser" value="edge"/>
         <classes>
 
-            <!-- 16. Expandable Panels   -->
-            <class name="client.designtool.tests.ExpandablePanelsTest">
+            <class name="client.designtool.tests.RecentlyDeletedTest">
                 <methods>
-                    <include name="ExpandablePanelsTest_leftPanel"/>
-                    <include name="ExpandablePanelsTest_rightPanel"/>
+                    <include name="recentlyDeletedTest_reinstateExistModel"/>
                 </methods>
             </class>
         </classes>

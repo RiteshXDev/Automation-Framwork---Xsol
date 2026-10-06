@@ -32,4 +32,16 @@ public class ExpandablePanelsTest extends WebBaseTest
         ui.waitAndClick(page.rightPanelRestoreButton);
 
     }
+
+    @Test
+    @StepTestDetails(desc = "Expandable Panel : left panel hide button check ")
+    public void ExpandablePanelsTest_hideButton()
+    {
+        ExpanablePanelsPage page = new ExpanablePanelsPage();
+        ui.clickIfDisplayed(page.modelsButton);
+        ui.waitAndClick(page.firstModelButton);
+        ui.verifyPanelExpanded(page.leftPanelInfo,page.leftPanelExpandButton);
+        ui.waitAndClick(page.hidePanelButton);
+        ui.waitAndClick(page.hidePanelButton_1);
+    }
 }

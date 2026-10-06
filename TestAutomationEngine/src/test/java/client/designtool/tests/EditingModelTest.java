@@ -3,6 +3,7 @@ package client.designtool.tests;
 import base.web.WebBaseTest;
 import client.designtool.pages.EditingModelPage;
 import core.annotations.StepTestDetails;
+import org.openqa.selenium.Keys;
 import org.testng.annotations.Test;
 
 public class EditingModelTest extends WebBaseTest
@@ -13,16 +14,17 @@ public class EditingModelTest extends WebBaseTest
 
         EditingModelPage page = new EditingModelPage();
         ui.clickIfDisplayed(page.newModelTopButton);
+        ui.refreshPage();
         ui.typeValueFromFile(page.searchTextBox);
-        ui.explicitWait(1);
+        //ui.explicitWait(3);
         ui.verifyElementTextFromFile(page.gcNumber);
-        ui.explicitWait(1);
+        //ui.explicitWait(3);
         ui.waitAndClick(page.gcNumber);
         ui.waitAndClick(page.node3Button);
 
-        ui.waitAndClick(page.partNumberTextBox);
-        ui.explicitWait(3);
-        ui.typeUsingKeyboard("Updated");
+        ui.waitAndClick(page.partNumberClickToAddButton);
+        ui.waitAndType(page.partNumberTextBox, "2435546-EDITED");
+        ui.pressKey(Keys.ENTER);
     }
 
     @Test
@@ -32,15 +34,15 @@ public class EditingModelTest extends WebBaseTest
         EditingModelPage page = new EditingModelPage();
         ui.clickIfDisplayed(page.newModelTopButton);
         ui.typeValueFromFile(page.searchTextBox);
-        ui.explicitWait(1);
+        //ui.explicitWait(3);
         ui.verifyElementTextFromFile(page.gcNumber);
-        ui.explicitWait(1);
+        //ui.explicitWait(3);
         ui.waitAndClick(page.gcNumber);
         ui.waitAndClick(page.node3Button);
 
-        ui.explicitWait(2);
+       // ui.explicitWait(3);
         ui.waitAndJsClick(page.addInstructionButton);
-        ui.waitAndType(page.addInstructionTextBox, " - Updated add instruction text box");
+        ui.waitAndType(page.addInstructionTextBox, "Updated - Inspect the component and verify the updated condition.");
         ui.waitAndJsClick(page.addInstructionDoneButton);
 
     }
@@ -52,14 +54,14 @@ public class EditingModelTest extends WebBaseTest
         EditingModelPage page = new EditingModelPage();
         ui.clickIfDisplayed(page.newModelTopButton);
         ui.typeValueFromFile(page.searchTextBox);
-        ui.explicitWait(1);
+        //ui.explicitWait(3);
         ui.verifyElementTextFromFile(page.gcNumber);
-        ui.explicitWait(1);
+        //ui.explicitWait(3);
         ui.waitAndClick(page.gcNumber);
         ui.waitAndClick(page.node3Button);
 
         ui.waitAndClick(page.addStepButton);
-        ui.waitAndType(page.addStepTextBox, " - Updated add step text box");
+        ui.waitAndType(page.addStepTextBox, "Updated - Remove the protective cover and inspect the connection.");
         ui.waitAndClick(page.addStepDoneButton);
     }
 
@@ -70,9 +72,9 @@ public class EditingModelTest extends WebBaseTest
         EditingModelPage page = new EditingModelPage();
         ui.clickIfDisplayed(page.newModelTopButton);
         ui.typeValueFromFile(page.searchTextBox);
-        ui.explicitWait(1);
+        //ui.explicitWait(3);
         ui.verifyElementTextFromFile(page.gcNumber);
-        ui.explicitWait(1);
+        //ui.explicitWait(3);
         ui.waitAndClick(page.gcNumber);
 
         ui.waitAndClick(page.node3Button);
@@ -81,13 +83,13 @@ public class EditingModelTest extends WebBaseTest
         ui.waitAndClick(page.mediaEditButton);
 
         ui.scrollHorizontally(page.mediaBottomNavigationBar, 300);
-        ui.explicitWait(3);
+       // ui.explicitWait(3);
         ui.waitAndJsClick(page.mediaTableBar);
-        ui.explicitWait(3);
+       // ui.explicitWait(3);
         ui.waitAndJsClick(page.mediaTableBarDeleteButton);
 
         ui.waitAndJsClick(page.mediaTextBox);
-        ui.explicitWait(1);
+       // ui.explicitWait(1);
         ui.waitAndJsClick(page.mediaTextBoxDeleteButton);
 
         ui.waitAndJsClick(page.mediaImageBox);
@@ -100,7 +102,7 @@ public class EditingModelTest extends WebBaseTest
 
         ui.waitAndClick(page.addTextBoxButton);
         ui.waitAndClick(page.mediaTextBox);
-        ui.typeUsingKeyboard(" Testing Media TextBox - updated");
+        ui.typeUsingKeyboard("Updated - Component inspection area");
 
         ui.waitAndClick(page.addTableButton);
         ui.waitAndClick(page.mediaDoneButton);
@@ -115,9 +117,9 @@ public class EditingModelTest extends WebBaseTest
         EditingModelPage page = new EditingModelPage();
         ui.clickIfDisplayed(page.newModelTopButton);
         ui.typeValueFromFile(page.searchTextBox);
-        ui.explicitWait(1);
+        //ui.explicitWait(3);
         ui.verifyElementTextFromFile(page.gcNumber);
-        ui.explicitWait(1);
+        //ui.explicitWait(3);
         ui.waitAndClick(page.gcNumber);
 
         ui.waitAndClick(page.node3Button);
@@ -125,7 +127,7 @@ public class EditingModelTest extends WebBaseTest
         ui.scrollToElement(page.connectionHeading);
 
         ui.waitAndClick(page.addConnectionButton);
-        ui.waitAndType(page.addConnectionTextBox, "node5");
+        ui.waitAndType(page.addConnectionTextBox, "Node 5");
         ui.waitAndClick(page.create1Button);
     }
 

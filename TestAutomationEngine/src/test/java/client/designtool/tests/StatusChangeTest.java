@@ -83,7 +83,7 @@ public class StatusChangeTest extends WebBaseTest {
         ui.waitAndClick(page.sendForReviewButton);
         ui.waitAndClick(page.continueViewingButton);
         ui.verifyContainsText(page.waitingForReviewYellowBar, "waiting review.");
-        ui.saveElementValueToFile(page.modelNumberLocation,"createNewModelTest");
+        ui.saveGCNumberToFile(page.modelNumberLocation);
         ui.waitAndClick(page.newModelTopButton);
 
     }
@@ -102,7 +102,7 @@ public class StatusChangeTest extends WebBaseTest {
         ui.waitAndClick(page.statusChangeDropDownMenu);
         ui.waitAndClick(page.inReviewButton);
         ui.verifyContainsText(page.waitingForReviewYellowBar, "Model in review.");
-        ui.saveElementValueToFile(page.modelNumberLocation,"createNewModelTest");
+        ui.saveGCNumberToFile(page.modelNumberLocation);
         ui.waitAndClick(page.newModelTopButton);
 
     }
@@ -122,7 +122,7 @@ public class StatusChangeTest extends WebBaseTest {
         ui.waitAndClick(page.readyForPublishButton);
         ui.verifyContainsText(page.waitingForReviewYellowBar, "Model Ready for Publishing.");
 
-        ui.saveElementValueToFile(page.modelNumberLocation,"createNewModelTest");
+        ui.saveGCNumberToFile(page.modelNumberLocation);
         ui.waitAndClick(page.newModelTopButton);
     }
 
@@ -141,7 +141,7 @@ public class StatusChangeTest extends WebBaseTest {
         ui.waitAndClick(page.publishedButton);
         //ui.verifyContainsText(page.waitingForReviewYellowBar, "Model Ready for Publishing.");
 
-        ui.saveElementValueToFile(page.modelNumberLocation,"createNewModelTest");
+        ui.saveGCNumberToFile(page.modelNumberLocation);
         ui.waitAndClick(page.newModelTopButton);
     }
 

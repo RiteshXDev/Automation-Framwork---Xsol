@@ -28,6 +28,11 @@ public interface WebController
     void waitAndClick(WebElement element);
 
     /**
+     * Wait Until Element Is Clickable And Click (15 Seconds)
+     */
+    void waitAndClickUntilClickable(WebElement element);
+
+    /**
      * Wait Until Element Is Visible And Enter Text
      */
     void waitAndType(WebElement element,String text);
@@ -99,6 +104,11 @@ public interface WebController
     String getPageTitle();
 
     /**
+     * Wait Until Element Is Visible
+     */
+    void waitUntilVisible(WebElement element);
+
+    /**
      * Perform Explicit Wait
      */
     void explicitWait(int seconds);
@@ -124,9 +134,9 @@ public interface WebController
     void typeUsingKeyboard(String text);
 
     /**
-     * Save Element Value To File
+     * Save GC Number Value To File
      */
-    void saveElementValueToFile(WebElement element, String fileName);
+     void saveGCNumberToFile(WebElement element);
 
     /**
      * Read Element Value From File And Type
@@ -143,10 +153,6 @@ public interface WebController
      */
     void waitAndJsClick(WebElement element);
 
-    /**
-     * Drag Panel Edge Horizontally
-     */
-    void dragPanelRight(WebElement resizeHandle, int xOffset);
 
     /**
      * Scroll Container Horizontally

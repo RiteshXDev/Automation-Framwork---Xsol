@@ -24,25 +24,55 @@ public class RecentlyDeletedPage extends  WebBaseTest {
     @FindBy(xpath = "(//button[@title='Reinstate'])[1]")
     public WebElement reinstateButton;
 
+    @FindBy(xpath = "//div[@class='bg-white rounded-xl p-6 w-[440px] shadow-xl']")
+    public WebElement cannotReinstatePopUp;
+
+    @FindBy(xpath = "//button[@class='px-4 py-2 text-sm font-semibold text-white bg-[#003366] hover:bg-[#002244] rounded-lg transition-colors']")
+    public WebElement reinstateOkButton;
+
     @FindBy(xpath = "(//button[@title='Delete permanently'])[1]")
     public WebElement deletePermanentlyButton;
 
     @FindBy(xpath = "//button[@class='px-4 py-2 text-sm font-semibold text-white bg-red-600 hover:bg-red-700 rounded-lg transition-colors']")
     public WebElement deletePermanentlyPopUpButton;
 
-    @FindBy(xpath = "//*[@id=\"root\"]/div/div/div/div/div[1]/div[2]/button")
-    public WebElement newModelButton;
+    @FindBy(xpath = "//td[@class='py-3 px-6']//input[@type='checkbox']")
+    public WebElement modelCheckBox;
 
-    @FindBy(xpath = "//*[@id=\"tilesHolder\"]/div[1]/div/div[1]/div")
-    public WebElement pickAccountButton;
+    @FindBy(xpath = "//button[@class='flex items-center gap-2 px-3 py-1.5 bg-red-50 text-red-600 hover:bg-red-100 border border-red-100 rounded-lg text-sm font-medium transition-colors']")
+    public WebElement moveToTrashButton;
+
+    @FindBy(xpath = "//button[@class='px-4 py-2 text-sm font-semibold text-white bg-red-600 hover:bg-red-700 rounded-lg transition-colors']")
+    public WebElement moveToTrashPopUpButton;
+
+    @FindBy(xpath = "//button[@class='flex items-center gap-2 px-4 py-2 bg-[#003366] border border-transparent rounded-lg text-sm font-semibold text-white hover:bg-[#002244] transition-colors shadow-sm']")
+    public WebElement newModelButton;
 
     @FindBy(xpath = "//button[@title='Create standalone node']//*[name()='svg']")
     public WebElement addNodeButton;
 
-    @FindBy(xpath = "(//span[contains(@class,'text-sm') and normalize-space()='node1'])[1]")
-    public WebElement node1Button;
+    @FindBy(xpath = "//input[@placeholder='Node title, then press Enter']")
+    public WebElement nodeTitleTextBox;
+
+    @FindBy(xpath = "//button[@class='flex items-center gap-1.5 px-3 py-2 text-[12px] font-medium text-emerald-600 hover:text-emerald-700 hover:bg-emerald-50 rounded-lg border border-dashed border-emerald-300 transition-colors mt-1']")
+    public WebElement addConnectionButton;
+
+    @FindBy(xpath = "(//input[@type='text'])[2]")
+    public WebElement addConnectionTextBox;
+
+    @FindBy(xpath = "//button[@class='flex items-center gap-1 px-3 py-1.5 bg-emerald-600 text-white text-xs font-semibold rounded-md hover:bg-emerald-700 disabled:opacity-40 disabled:cursor-not-allowed transition-colors']")
+    public WebElement create1Button;
+
+    @FindBy(xpath = "//*[@id=\"root\"]/div/div/div/div/aside[1]/div[1]/div/div[2]/input[3]")
+    public WebElement modelNumberLocation;
+
+    @FindBy(xpath = "//*[@id=\"root\"]/div/header/div[1]/nav/button[1]")
+    public WebElement newModelTopButton;
 
     @FindBy(xpath = "//span[@class='text-sm font-mono font-semibold flex-1 text-slate-300 italic font-normal cursor-text hover:bg-white rounded px-1 -mx-1 transition-colors']")
+    public WebElement partNumberClickToAddButton;
+
+    @FindBy(xpath = "//input[@class='flex-1 px-2 py-0.5 bg-white border border-emerald-300 rounded text-sm font-mono outline-none']")
     public WebElement partNumberTextBox;
 
     @FindBy(xpath = "//button[normalize-space()='Add alert']")
@@ -55,18 +85,8 @@ public class RecentlyDeletedPage extends  WebBaseTest {
     public WebElement alertDoneButton;
 
 
-    @FindBy(xpath = "//body/div/div/div/div/div/aside/div/div/div/div/div/div[2]/div[1]/button[1]")
-    public WebElement alertSnippetButton;
-
-    @FindBy(xpath = "//input[@placeholder='Search snippets…']")
-    public WebElement alertSearchSnippetTextBox;
-
-    @FindBy(xpath = "//span[normalize-space()='CHDEMAND']")
-    public WebElement chdemandButton;
-
     @FindBy(xpath = "//button[normalize-space()='Add step']")
     public WebElement addStepButton;
-
 
     @FindBy(xpath = "//p[@class='is-empty is-editor-empty']")
     public WebElement addStepTextBox;
@@ -74,61 +94,14 @@ public class RecentlyDeletedPage extends  WebBaseTest {
     @FindBy(xpath = "//button[@class='flex items-center gap-1 text-xs font-medium text-emerald-700 hover:text-emerald-800 transition-colors']")
     public WebElement addStepDoneButton;
 
-
     @FindBy(xpath = "//button[normalize-space()='Add instruction']")
     public WebElement addInstructionButton;
-
 
     @FindBy(xpath = "//p[@class='is-empty is-editor-empty']")
     public WebElement addInstructionTextBox;
 
     @FindBy(xpath = "//button[@class='flex items-center gap-1 text-xs font-medium text-emerald-700 hover:text-emerald-800 transition-colors']")
     public WebElement addInstructionDoneButton;
-
-    @FindBy(xpath = "//*[@id=\"root\"]/div/div/div/div/aside[2]/div/div/div[2]/div/div/div[4]/ol/li/div/div[3]/button[2]")
-    public WebElement addInstructionRemoveButton;
-
-    @FindBy(xpath = "//button[normalize-space()='Edit']")
-    public WebElement mediaEditButton;
-
-    @FindBy(xpath = "//*[@id=\"root\"]/div/div/div/div/aside[2]/div/div/div[2]/div/div/div[5]/div[2]/div[1]/div/button[1]")
-    public WebElement uploadImageFromPCButton;
-
-    @FindBy(xpath = "//button[@title='Browse library']//*[name()='svg']")
-    public WebElement uploadImageFromDatabaseButton;
-
-    @FindBy(xpath = "//button[@title='Add text box']//*[name()='svg']")
-    public WebElement addTextBoxButton;
-
-    @FindBy(xpath = "//button[@title='Add table']//*[name()='svg']")
-    public WebElement addTableButton;
-
-    @FindBy(xpath = "(//img[@class='w-full h-full object-cover'])[1]")
-    public WebElement imageBox;
-
-    @FindBy(xpath = "//button[@class='rounded-lg bg-emerald-600 px-4 py-2 text-sm font-medium text-white hover:bg-emerald-700 disabled:opacity-50 disabled:cursor-not-allowed']")
-    public WebElement imageInsertButton;
-
-    @FindBy(xpath = "//textarea[@placeholder='Type here...']")
-    public WebElement mediaTextBox;
-
-    @FindBy(xpath = "//button[normalize-space()='Done']")
-    public WebElement mediaDoneButton;
-
-    @FindBy(xpath = "//button[@class='flex items-center gap-1.5 px-3 py-2 text-[12px] font-medium text-emerald-600 hover:text-emerald-700 hover:bg-emerald-50 rounded-lg border border-dashed border-emerald-300 transition-colors mt-1']")
-    public WebElement addConnectionButton;
-
-    @FindBy(xpath = "(//input[@type='text'])[2]")
-    public WebElement addConnectionTextBox;
-
-    @FindBy(xpath = "//button[@class='flex items-center gap-1 px-3 py-1.5 bg-emerald-600 text-white text-xs font-semibold rounded-md hover:bg-emerald-700 disabled:opacity-40 disabled:cursor-not-allowed transition-colors']")
-    public WebElement create1Button;
-
-    @FindBy(xpath = "//input[@placeholder='GC number']")
-    public WebElement modelNumberLocation;
-
-    @FindBy(xpath = "//button[normalize-space()='Models']")
-    public WebElement newModelTopButton;
 
     @FindBy(xpath = "//button[normalize-space()='Media']")
     public WebElement mediaTopButton;
@@ -139,50 +112,40 @@ public class RecentlyDeletedPage extends  WebBaseTest {
     @FindBy(xpath = "//button[@class='font-bold text-slate-900 hover:text-[#0084FF] transition-colors']")
     public WebElement gcNumber;
 
-    @FindBy(xpath = "//*[@id=\"root\"]/div/div/div/div/aside[1]/div[3]/div[2]/div[3]/div[1]/div[2]/div/span")
-    public WebElement node3Button;
-
-    @FindBy( xpath = "//*[@id=\"root\"]/div/div/div/div/aside[2]/div/div/div[2]/div/div/div[2]/div[2]/div/div/div")
-    public WebElement alertAddedMessageBox;
-
-    @FindBy(xpath = "//*[@id=\"root\"]/div/div/div/div/aside[2]/div/div/div[2]/div/div/div[2]/div[3]/div/div")
-    public WebElement alertSnippetMessageBox;
-
-    @FindBy(xpath = "//*[@id=\"root\"]/div/div/div/div/aside[2]/div/div/div[2]/div/div/div[5]/div[2]/div[2]/div/div[3]")
-    public WebElement mediaTableBar;
-
-    @FindBy(xpath = "//button[.//*[contains(@class,'lucide-trash2')]]")
-    public WebElement mediaTableBarDeleteButton;
-
-    @FindBy(xpath = "//*[@id=\"root\"]/div/div/div/div/div[3]")
-    public WebElement rightPanelLine;
-
     @FindBy(xpath = "//button[@class='flex items-center gap-1.5 px-3 py-2 text-[12px] font-medium text-emerald-600 hover:text-emerald-700 hover:bg-emerald-50 rounded-lg border border-dashed border-emerald-300 transition-colors mt-1']")
     public WebElement connectionHeading;
 
-    @FindBy(xpath="//div[contains(@class,'border-emerald-300') and contains(@class,'overflow-auto')]")
-    public WebElement mediaBottomNavigationBar;
 
-    @FindBy(xpath = "//button[.//*[contains(@class,'lucide-trash2')]]")
-    public WebElement mediaTextBoxDeleteButton;
+    @FindBy(xpath = "//button[@title='Duplicate']")
+    public WebElement duplicateButton;
 
-    @FindBy(xpath = "//button[.//*[contains(@class,'lucide-trash2')]]")
-    public WebElement mediaImageDeleteButton;
+    @FindBy(xpath = "//tr[.//td[contains(normalize-space(),'British Gas 330+ Open Vented')]]")
+    public WebElement row;
 
-    @FindBy(xpath = "//*[@id=\"root\"]/div/div/div/div/aside[2]/div/div/div[2]/div/div/div[5]/div[2]/div[2]/div/div/div[2]/div")
-    public WebElement mediaImageBox;
+    @FindBy(xpath = "(//tr[@class='border-b border-slate-50 hover:bg-slate-50 transition-colors group bg-white'])[1]")
+    public WebElement row_delete;
 
-    @FindBy(xpath = "//td[@class='py-3 px-6']//input[@type='checkbox']")
-    public WebElement modelCheckBox;
+    @FindBy(xpath = "//input[@placeholder='e.g. Vaillant']")
+    public WebElement manufacturerTextBox;
 
-    @FindBy(xpath = "//button[@class='flex items-center gap-2 px-3 py-1.5 bg-red-50 text-red-600 hover:bg-red-100 border border-red-100 rounded-lg text-sm font-medium transition-colors']")
-    public WebElement moveToTrashButton;
+    @FindBy(xpath = "//input[@placeholder='e.g. ecoTEC plus 24']")
+    public WebElement modelNameTextBox;
 
-    @FindBy(xpath = "//button[@class='px-4 py-2 text-sm font-semibold text-white bg-red-600 hover:bg-red-700 rounded-lg transition-colors']")
-    public WebElement moveToTrashPopUpButton;
+    @FindBy(xpath = "//input[@placeholder='Enter GC number']")
+    public WebElement gcNumberTextBox;
 
-    @FindBy(xpath = "//tbody/tr[1]/td[1]/input[1]")
-    public WebElement modelMainPageCheckBox;
+    @FindBy(xpath = "//button[@class='px-4 py-2 text-sm font-semibold text-white bg-[#003366] hover:bg-[#002244] rounded-lg transition-colors']")
+    public WebElement duplicate_Button;
 
+    @FindBy(xpath = "//tbody[@class='text-slate-700']")
+    public WebElement completeTable;
 
+    @FindBy(xpath = "(//input[@class='rounded border-slate-300 text-[#003366] focus:ring-[#003366] w-4 h-4 cursor-pointer'])[2]")
+    public WebElement checkBoxButton;
+
+    @FindBy(xpath = "//tr[@class='border-b border-slate-50 hover:bg-slate-50 transition-colors group bg-white']//button[@title='Move to Trash']//*[name()='svg']")
+    public WebElement delete_button;
+
+    @FindBy(xpath = "(//button[@title='Delete permanently'])[1]")
+    public WebElement deletePermanently_1;
 }

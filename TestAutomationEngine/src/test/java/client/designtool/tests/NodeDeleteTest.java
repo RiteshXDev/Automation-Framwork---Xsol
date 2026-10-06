@@ -9,88 +9,86 @@ import org.testng.annotations.Test;
 
 public class NodeDeleteTest extends WebBaseTest {
     @Test
-    @StepTestDetails(desc = "Design Tool : Node Deletion - Creating A Model ")
+    @StepTestDetails(desc = "Design Tool : Node Deletion - Creating a model & deleting nodes ")
     public void NodeDelete_modelPage_node() {
         NodeDeletePage page = new NodeDeletePage();
+        ui.refreshPage();
         ui.waitAndClick(page.newModelButton);
-        ui.explicitWait(5);
         ui.waitAndClick(page.addNodeButton);
-        ui.explicitWait(5);
-        ui.typeUsingKeyboard("node1");
+        ui.waitAndType(page.nodeTitleTextBox,"Node 1");
         ui.pressKey(Keys.ENTER);
         ui.explicitWait(5);
         ui.waitAndClick(page.addNodeButton);
-        ui.explicitWait(5);
-        ui.typeUsingKeyboard("node2");
+        ui.waitAndType(page.nodeTitleTextBox,"Node 2");
         ui.pressKey(Keys.ENTER);
         ui.explicitWait(5);
         ui.waitAndClick(page.addNodeButton);
-        ui.explicitWait(5);
-        ui.typeUsingKeyboard("node3");
+        ui.waitAndType(page.nodeTitleTextBox,"Node 3");
         ui.pressKey(Keys.ENTER);
-        ui.explicitWait(5);
-        ui.waitAndClick(page.node3LeftSidePanelButton);
-        ui.waitAndClick(page.nodeDeleteButton);
-        ui.explicitWait(5);
+        ui.waitUntilVisible(page.node2LeftSidePanelButton);
         ui.waitAndClick(page.node2LeftSidePanelButton);
-        ui.explicitWait(3);
-
+        ui.explicitWait(5);
+        ui.waitAndClick(page.deleteNodeButton);
+        ui.waitAndClick(page.confirmDeleteButton);
+        ui.waitAndClick(page.node3LeftSidePanelButton);
+        ui.explicitWait(5);
         ui.waitAndClick(page.addConnectionButton);
-        ui.waitAndType(page.addConnectionTextBox, "node4");
+        ui.waitAndType(page.addConnectionTextBox, "Node 4");
         ui.waitAndClick(page.create1Button);
-
-        ui.explicitWait(2);
-        ui.waitAndClick(page.node4RightSidePanelButton);
-        ui.explicitWait(2);
-        ui.waitAndClick(page.nodeDeleteButton);
-        ui.saveElementValueToFile(page.modelNumberLocation, "createNewModelTest");
+        ui.waitAndClick(page.deleteNodeButton);
+        ui.waitAndClick(page.confirmDeleteButton);
+        ui.saveGCNumberToFile(page.modelNumberLocation);
         ui.waitAndClick(page.newModelTopButton);
     }
 
     @Test
-    @StepTestDetails(desc = "Design Tool : Node Deletion - Searching A Model And Deleting it")
+    @StepTestDetails(desc = "Design Tool : Node Deletion - Searching a model and deleting it")
     public void NodeDelete_searchPage_model() {
         NodeDeletePage page = new NodeDeletePage();
+        ui.refreshPage();
         ui.clickIfDisplayed(page.newModelTopButton);
         ui.typeValueFromFile(page.searchTextBox);
-        ui.explicitWait(1);
+        ui.explicitWait(3);
         ui.verifyElementTextFromFile(page.gcNumber);
-        ui.explicitWait(1);
+        ui.explicitWait(3);
         ui.waitAndClick(page.modelCheckBox);
-        ui.explicitWait(2);
+        ui.explicitWait(3);
         ui.waitAndClick(page.moveToTrashButton);
+        ui.explicitWait(3);
         ui.waitAndClick(page.moveToTrashPopUpButton);
+        ui.explicitWait(3);
         ui.waitAndClick(page.mediaTopButton);
         ui.waitAndClick(page.newModelTopButton);
     }
 
     @Test
-    @StepTestDetails(desc = "Design Tool : Node Deletion - Deleting Model On The Main Page")
-    public void NodeDelete_mainPage_model() {
+    @StepTestDetails(desc = "Design Tool : Node Deletion - Creating a model and deleting node, Revisiting the model and checking if the node is still present")
+    public void NodeDelete_revisitingDeleteNode()
+    {
         NodeDeletePage page = new NodeDeletePage();
         ui.waitAndClick(page.newModelButton);
-        ui.explicitWait(5);
         ui.waitAndClick(page.addNodeButton);
-        ui.explicitWait(5);
-        ui.typeUsingKeyboard("node1");
+        ui.waitAndType(page.nodeTitleTextBox,"Node 1");
         ui.pressKey(Keys.ENTER);
         ui.explicitWait(5);
         ui.waitAndClick(page.addNodeButton);
-        ui.explicitWait(5);
-        ui.typeUsingKeyboard("node2");
+        ui.waitAndType(page.nodeTitleTextBox,"Node 2");
         ui.pressKey(Keys.ENTER);
         ui.explicitWait(5);
         ui.waitAndClick(page.addNodeButton);
-        ui.explicitWait(5);
-        ui.typeUsingKeyboard("node3");
+        ui.waitAndType(page.nodeTitleTextBox,"Node 3");
         ui.pressKey(Keys.ENTER);
+        ui.waitUntilVisible(page.node2LeftSidePanelButton);
+        ui.waitAndClick(page.node2LeftSidePanelButton);
         ui.explicitWait(5);
-        ui.saveElementValueToFile(page.modelNumberLocation, "createNewModelTest");
-        ui.waitAndClick(page.mediaTopButton);
+        ui.waitAndClick(page.deleteNodeButton);
+        ui.waitAndClick(page.confirmDeleteButton);
+        ui.verifyContainsText(page.canvasInfo,"Node 2");
         ui.waitAndClick(page.newModelTopButton);
-        ui.waitAndClick(page.modelMainPageCheckBox);
-        ui.waitAndClick(page.moveToTrashButton);
-        ui.waitAndClick(page.moveToTrashPopUpButton);
+        ui.waitAndClick(page.firstModelInList);
+        ui.verifyContainsText(page.canvasInfo,"Node 2");
         ui.waitAndClick(page.newModelTopButton);
     }
+
+
 }

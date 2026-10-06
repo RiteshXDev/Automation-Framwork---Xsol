@@ -40,4 +40,10 @@ public class ExpanablePanelsPage extends WebBaseTest
     @FindBy(xpath = "//button[contains(@title,'Restore node properties')]//*[name()='svg']")
     public WebElement rightPanelRestoreButton;
 
+    @FindBy(xpath = "//div[@class='p-4 border-b border-slate-100 flex items-start justify-between']//button[2]//*[name()='svg']")
+    public WebElement hidePanelButton;
+
+    @FindBy(xpath = "//button[@class='text-[#003366] hover:text-blue-800 ml-2 self-center']//*[name()='svg']")
+    public WebElement hidePanelButton_1;
+
 }

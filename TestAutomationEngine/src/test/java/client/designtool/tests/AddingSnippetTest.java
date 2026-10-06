@@ -19,12 +19,10 @@ public class AddingSnippetTest extends WebBaseTest {
         ui.explicitWait(1);
         ui.waitAndClick(page.gcNumber);
         ui.waitAndClick(page.node3Button);
-
         ui.waitAndClick(page.alertSnippetButton);
         ui.waitAndType(page.alertSearchSnippetTextBox, "ALLDEMANDOFF");
         ui.pressKey(Keys.ENTER);
-        ui.explicitWait(15);
-        ui.waitAndJsClick(page.allDemandOffSnippetButton);
+        ui.waitAndClickUntilClickable(page.allDemandOffSnippetButton);
     }
 
     @Test
@@ -43,8 +41,7 @@ public class AddingSnippetTest extends WebBaseTest {
         ui.waitAndJsClick(page.setupSnippetButton);
         ui.waitAndType(page.alertSearchSnippetTextBox, "AFTERTESTREFIT");
         ui.pressKey(Keys.ENTER);
-        ui.explicitWait(15);
-        ui.waitAndJsClick(page.afterTestRefitSnippetButton);
+        ui.waitAndClickUntilClickable(page.afterTestRefitSnippetButton);
 
     }
 
@@ -64,7 +61,6 @@ public class AddingSnippetTest extends WebBaseTest {
         ui.waitAndJsClick(page.instructionSnippetButton);
         ui.waitAndType(page.alertSearchSnippetTextBox, "BLRSTATMAX");
         ui.pressKey(Keys.ENTER);
-        ui.explicitWait(15);
-        ui.waitAndJsClick(page.blrStatMaxSnippetButton);
+        ui.waitAndClickUntilClickable(page.blrStatMaxSnippetButton);
     }
 }
