@@ -323,6 +323,37 @@ public class WebUIController  implements WebController
     }
 
     /**
+     * Verify Element Does Not Contain Text
+     */
+    public boolean verifyDoesNotContainText(WebElement container, String unexpectedText)
+    {
+        try
+        {
+            String actualText = container.getText();
+
+            if (actualText == null || actualText.isBlank())
+            {
+                log.info("Verified '{}' is not present because element contains no text.", unexpectedText);
+                return true;
+            }
+
+            if (!actualText.toLowerCase().contains(unexpectedText.toLowerCase()))
+            {
+                log.info("Verified '{}' is not present.", unexpectedText);
+                return true;
+            }
+
+            log.error("'{}' was found in element text: '{}'", unexpectedText, actualText);
+            return false;
+        }
+        catch (Exception e)
+        {
+            log.error("Failed to verify '{}' is not present.", unexpectedText, e);
+            return false;
+        }
+    }
+
+    /**
      * Verify Text Exists And Click It
      */
     public void verifyContainsTextAndClick(WebElement container, String expectedText)

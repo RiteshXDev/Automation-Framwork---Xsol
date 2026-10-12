@@ -44,6 +44,9 @@ public class DuplicateModelPage extends WebBaseTest
     @FindBy(xpath = "//button[@class='px-4 py-2 text-sm font-semibold text-white bg-red-600 hover:bg-red-700 rounded-lg transition-colors']")
     public WebElement deletePermanentlyPopUpButton;
 
+    @FindBy(xpath = "//div[@class='bg-white rounded-xl p-6 w-[400px] shadow-xl']")
+    public WebElement deletePermanentlyDialogBox;
+
     @FindBy(xpath = "//input[@placeholder='e.g. Vaillant']")
     public WebElement manufacturerTextBox;
 
@@ -71,5 +74,7 @@ public class DuplicateModelPage extends WebBaseTest
     @FindBy(xpath = "//button[@class='px-4 py-2 text-sm font-semibold text-white bg-red-600 hover:bg-red-700 rounded-lg transition-colors']")
     public WebElement moveToTrashPopUpButton;
 
+    @FindBy(xpath = "//div[@class='bg-white rounded-xl p-6 w-[400px] shadow-xl']")
+    public WebElement duplicateModelPopUp;
 
 }

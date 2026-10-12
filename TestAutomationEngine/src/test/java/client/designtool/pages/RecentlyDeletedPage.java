@@ -148,4 +148,7 @@ public class RecentlyDeletedPage extends  WebBaseTest {
 
     @FindBy(xpath = "(//button[@title='Delete permanently'])[1]")
     public WebElement deletePermanently_1;
+
+    @FindBy(xpath = "//div[@class='bg-white rounded-xl p-6 w-[400px] shadow-xl']")
+    public WebElement duplicateModelPopUp;
 }

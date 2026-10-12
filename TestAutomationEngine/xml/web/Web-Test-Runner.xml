@@ -13,11 +13,19 @@
         <parameter name="browser" value="edge"/>
         <classes>
 
+            <!-- 13. Recently Deleted -->
             <class name="client.designtool.tests.RecentlyDeletedTest">
                 <methods>
+                    <include name="recentlyDeletedTest_creatingAModel"/>
+                    <include name="recentlyDeletedTest_searchingForAModel"/>
+                    <include name="recentlyDeletedTest_verifyingModelInRecentlyDeleted"/>
+                    <include name="recentlyDeletedTest_reinstateModelBack"/>
+                    <include name="recentlyDeletedTest_permanentlyDeletion"/>
+                    <include name="recentlyDeletedTest_reinstate"/>
                     <include name="recentlyDeletedTest_reinstateExistModel"/>
                 </methods>
             </class>
+
         </classes>
     </test>
 

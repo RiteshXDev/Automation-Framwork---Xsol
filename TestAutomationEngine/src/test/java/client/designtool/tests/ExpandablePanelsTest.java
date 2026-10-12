@@ -14,7 +14,9 @@ public class ExpandablePanelsTest extends WebBaseTest
     public void ExpandablePanelsTest_leftPanel()
     {
         ExpanablePanelsPage page = new ExpanablePanelsPage();
+        ui.refreshPage();
         ui.clickIfDisplayed(page.modelsButton);
+        ui.explicitWait(3);
         ui.waitAndClick(page.firstModelButton);
         ui.verifyPanelExpanded(page.leftPanelInfo,page.leftPanelExpandButton);
         ui.waitAndClick(page.leftPanelRestoreButton);

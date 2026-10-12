@@ -53,6 +53,11 @@ public interface WebController
     boolean verifyContainsText(WebElement element, String expectedText);
 
     /**
+     * Verify Element Does Not Contain Text
+     */
+    boolean verifyDoesNotContainText(WebElement container, String unexpectedText);
+
+    /**
      * Verify Element Is Displayed
      */
     boolean verifyElementDisplayed(WebElement element);

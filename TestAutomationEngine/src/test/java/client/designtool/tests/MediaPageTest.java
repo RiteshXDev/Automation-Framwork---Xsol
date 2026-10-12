@@ -46,14 +46,14 @@ public class MediaPageTest extends WebBaseTest {
             ui.waitAndClick(page.TestButton);
             ui.waitAndClick(page.uploadButton);
             ui.verifyContainsTextAndClick(page.collectionLocation, "Test");
-            ui.verifyContainsText(page.imageGrid, "image-8.jpg");
+            ui.verifyContainsText(page.imageGrid, "image-19.jpg");
         } else {
             ui.uploadMultipleFiles(page.browserFilesBar, "src/main/resources/test-Image-files");
             ui.waitAndClick(page.createNewCollectionButton);
             ui.waitAndType(page.createNewCollectionTextBox, "Test");
             ui.waitAndClick(page.uploadButton);
             ui.verifyContainsTextAndClick(page.collectionLocation, "Test");
-            ui.verifyContainsText(page.imageGrid, "image-8.jpg");
+            ui.verifyContainsText(page.imageGrid, "image-19.jpg");
         }
         ui.waitAndClick(page.newModelTopButton);
     }

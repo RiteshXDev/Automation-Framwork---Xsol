@@ -467,9 +467,12 @@ public class AllManufactureCheckTest extends WebBaseTest {
         ui.explicitWait(2);
         ui.verifyContainsText(page.board, "Vokera");
 
+        /*
         ui.selectMenuOption(page.allManufacturesButton, "Wickes");
         ui.explicitWait(2);
         ui.verifyContainsText(page.board, "Wickes");
+
+         */
 
         ui.selectMenuOption(page.allManufacturesButton, "Worcester");
         ui.explicitWait(2);

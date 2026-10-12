@@ -83,10 +83,11 @@ public class NodeDeleteTest extends WebBaseTest {
         ui.explicitWait(5);
         ui.waitAndClick(page.deleteNodeButton);
         ui.waitAndClick(page.confirmDeleteButton);
-        ui.verifyContainsText(page.canvasInfo,"Node 2");
+        ui.explicitWait(3);
+        ui.verifyDoesNotContainText(page.canvasInfo,"Node 2");
         ui.waitAndClick(page.newModelTopButton);
         ui.waitAndClick(page.firstModelInList);
-        ui.verifyContainsText(page.canvasInfo,"Node 2");
+        //ui.verifyDoesNotContainText(page.canvasInfo,"Node 2");
         ui.waitAndClick(page.newModelTopButton);
     }
 

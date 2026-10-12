@@ -49,7 +49,7 @@
             <!-- 5. Status Check -->
             <class name="client.designtool.tests.AllStatusCheckTest">
                 <methods>
-                    <include name="allStatusCheckTest"/>
+                    <include name="allStatusCheckTest_MainPage"/>
                 </methods>
             </class>
 
@@ -123,6 +123,7 @@
                     <include name="recentlyDeletedTest_reinstateModelBack"/>
                     <include name="recentlyDeletedTest_permanentlyDeletion"/>
                     <include name="recentlyDeletedTest_reinstate"/>
+                    <include name="recentlyDeletedTest_reinstateExistModel"/>
                 </methods>
             </class>
 
@@ -136,8 +137,7 @@
             <!-- 15. Duplicating Models   -->
             <class name="client.designtool.tests.DuplicateModelTest">
                 <methods>
-                    <include name="MainPageTest_DuplicateModels_creating"/>
-                    <include name="MainPageTest_DuplicateModels_deleting"/>
+                    <include name="MainPageTest_DuplicateModels_creatingAndDeleting"/>
                     <include name="MainPageTest_DuplicateModels_deletingPermanently"/>
                 </methods>
             </class>
