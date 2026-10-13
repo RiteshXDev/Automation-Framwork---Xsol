@@ -20,14 +20,9 @@ import java.io.File;
 
 public class WebTestListener implements ITestListener
 {
-    private static final Logger log =
-            LogManager.getLogger(WebTestListener.class);
-
-    private static final ThreadLocal<ExtentReports> extent =
-            new ThreadLocal<>();
-
-    private static final ThreadLocal<ExtentTest> test =
-            new ThreadLocal<>();
+    private static final Logger log = LogManager.getLogger(WebTestListener.class);
+    private static final ThreadLocal<ExtentReports> extent = new ThreadLocal<>();
+    private static final ThreadLocal<ExtentTest> test = new ThreadLocal<>();
 
 
     @Override
@@ -35,101 +30,40 @@ public class WebTestListener implements ITestListener
     {
         try
         {
-            System.out.println(
-                    "====================================");
-
-            System.out.println(
-                    "WEB LISTENER STARTED");
-
-            System.out.println(
-                    "WORKING DIRECTORY : "
-                            + System.getProperty(
-                            "user.dir"));
-
-            String browser =
-                    context.getCurrentXmlTest()
-                            .getParameter(
-                                    "browser");
-
+            System.out.println("====================================");
+            System.out.println("WEB LISTENER STARTED");
+            System.out.println("WORKING DIRECTORY : " + System.getProperty("user.dir"));
+            String browser = context.getCurrentXmlTest().getParameter("browser");
             if(browser == null)
             {
                 browser = "unknown";
             }
 
-            System.out.println(
-                    "BROWSER : "
-                            + browser);
-
-            String reportFolder =
-                    "reports/web/"
-                            + browser.toLowerCase();
-
-            File folder =
-                    new File(
-                            reportFolder);
-
+            System.out.println("BROWSER : " + browser);
+            String reportFolder = "reports/web/" + browser.toLowerCase();
+            File folder = new File(reportFolder);
             if(!folder.exists())
             {
-                boolean created =
-                        folder.mkdirs();
-
-                System.out.println(
-                        "REPORT FOLDER CREATED : "
-                                + created);
+                boolean created = folder.mkdirs();
+                System.out.println("REPORT FOLDER CREATED : " + created);
             }
 
-            System.out.println(
-                    "REPORT FOLDER : "
-                            + folder.getAbsolutePath());
-
-            String reportPath =
-                    reportFolder
-                            + "/ExtentReport.html";
-
-            System.out.println(
-                    "REPORT PATH : "
-                            + reportPath);
-
-            ExtentSparkReporter reporter =
-                    new ExtentSparkReporter(
-                            reportPath);
-
-            reporter.config()
-                    .setReportName(
-                            browser.toUpperCase()
-                                    + " Automation Report");
-
-            reporter.config()
-                    .setDocumentTitle(
-                            browser.toUpperCase()
-                                    + " Execution Report");
-
-            ExtentReports report =
-                    new ExtentReports();
-
-            report.attachReporter(
-                    reporter);
-
-            extent.set(
-                    report);
-
-            log.info(
-                    "Extent Report Initialized For {}",
-                    browser);
-
-            System.out.println(
-                    "EXTENT REPORT CREATED");
-
-            System.out.println(
-                    "====================================");
+            System.out.println("REPORT FOLDER : " + folder.getAbsolutePath());
+            String reportPath = reportFolder + "/ExtentReport.html";
+            System.out.println("REPORT PATH : " + reportPath);
+            ExtentSparkReporter reporter = new ExtentSparkReporter(reportPath);
+            reporter.config().setReportName(browser.toUpperCase() + " Automation Report");
+            reporter.config().setDocumentTitle(browser.toUpperCase() + " Execution Report");
+            ExtentReports report = new ExtentReports();report.attachReporter(reporter);
+            extent.set(report);
+            log.info("Extent Report Initialized For {}", browser);
+            System.out.println("EXTENT REPORT CREATED");
+            System.out.println("====================================");
         }
         catch (Exception e)
         {
             e.printStackTrace();
-
-            log.error(
-                    "Failed To Initialize Extent Report",
-                    e);
+            log.error("Failed To Initialize Extent Report", e);
         }
     }
 
@@ -138,109 +72,62 @@ public class WebTestListener implements ITestListener
     public void onTestStart(ITestResult result)
     {
         // Get Current Test Method Name
-        String methodName =
-                result.getMethod()
-                        .getMethodName();
+        String methodName = result.getMethod().getMethodName();
 
         // Store Test Name
-        WebBaseTest.testName.set(
-                methodName);
+        WebBaseTest.testName.set(methodName);
 
         // Read Step Details Annotation
-        StepTestDetails step =
-                result.getMethod()
-                        .getConstructorOrMethod()
-                        .getMethod()
-                        .getAnnotation(
-                                StepTestDetails.class);
+        StepTestDetails step = result.getMethod().getConstructorOrMethod().getMethod().getAnnotation(StepTestDetails.class);
 
         // Determine Display Name
         String testDisplayName;
-
         if(step != null)
         {
-            testDisplayName =
-                    step.desc();
+            testDisplayName = step.desc();
         }
         else
         {
-            testDisplayName =
-                    methodName;
+            testDisplayName = methodName;
         }
 
         // Create Extent Test Using Step Description
-        ExtentTest extentTest =
-                extent.get()
-                        .createTest(
-                                testDisplayName);
-
-        test.set(
-                extentTest);
-
-        test.get()
-                .info(
-                        "Test Method : "
-                                + methodName);
-
-        log.info(
-                "========== TEST START ==========");
-
-        log.info(
-                "TEST METHOD : {}",
-                methodName);
-
-        log.info(
-                "DISPLAY NAME : {}",
-                testDisplayName);
+        ExtentTest extentTest = extent.get().createTest(testDisplayName);test.set(extentTest);
+        test.get().info("Test Method : " + methodName);
+        log.info("TEST START");
+        log.info("TEST METHOD : {}", methodName);
+        log.info("DISPLAY NAME : {}", testDisplayName);
     }
 
 
     @Override
     public void onTestSuccess(ITestResult result)
     {
-        test.get()
-                .pass(
-                        "Test Passed");
-
-        log.info(
-                "TEST PASSED : {}",
-                result.getName());
+        test.get().pass("Test Passed");
+        log.info("TEST PASSED : {}", result.getName());
     }
 
 
     @Override
     public void onTestFailure(ITestResult result)
     {
-        log.error(
-                "TEST FAILED : {}",
-                result.getName());
-
-        test.get()
-                .fail(
-                        result.getThrowable());
-
+        log.error("TEST FAILED : {}", result.getName());
+        test.get().fail(result.getThrowable());
         try
         {
             if(WebBaseTest.getDriver() != null)
             {
-                String screenshotPath =
-                        WebScreenshotUtil.capture(
-                                WebBaseTest.getDriver(),
-                                result.getName());
+                String screenshotPath = WebScreenshotUtil.capture(WebBaseTest.getDriver(), result.getName());
 
                 if(screenshotPath != null)
                 {
-                    test.get()
-                            .addScreenCaptureFromPath(
-                                    screenshotPath);
+                    test.get().addScreenCaptureFromPath(screenshotPath);
                 }
             }
         }
         catch (Exception e)
         {
-            log.error(
-                    "Failed To Capture Screenshot",
-                    e);
+            log.error("Failed To Capture Screenshot", e);
         }
     }
 
@@ -248,13 +135,8 @@ public class WebTestListener implements ITestListener
     @Override
     public void onTestSkipped(ITestResult result)
     {
-        test.get()
-                .skip(
-                        "Test Skipped");
-
-        log.warn(
-                "TEST SKIPPED : {}",
-                result.getName());
+        test.get().skip("Test Skipped");
+        log.warn("TEST SKIPPED : {}", result.getName());
     }
 
 
@@ -263,28 +145,19 @@ public class WebTestListener implements ITestListener
     {
         try
         {
-            System.out.println(
-                    "FLUSHING EXTENT REPORT");
-
+            System.out.println("FLUSHING EXTENT REPORT");
             if(extent.get() != null)
             {
-                extent.get()
-                        .flush();
-
-                System.out.println(
-                        "EXTENT REPORT FLUSHED");
+                extent.get().flush();
+                System.out.println("EXTENT REPORT FLUSHED");
             }
 
-            log.info(
-                    "Extent Report Generated");
+            log.info("Extent Report Generated");
         }
         catch (Exception e)
         {
             e.printStackTrace();
-
-            log.error(
-                    "Failed To Flush Extent Report",
-                    e);
+            log.error("Failed To Flush Extent Report", e);
         }
         finally
         {
@@ -292,7 +165,6 @@ public class WebTestListener implements ITestListener
             test.remove();
         }
     }
-
 
     public static ExtentTest getTest()
     {

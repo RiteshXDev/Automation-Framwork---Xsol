@@ -20,6 +20,9 @@ public class DeleteFunctionalityPage extends WebBaseTest
     @FindBy(xpath = "//button[@class='flex items-center gap-2 px-3 py-1.5 bg-red-50 text-red-600 hover:bg-red-100 border border-red-100 rounded-lg text-sm font-medium transition-colors']")
     public WebElement moveToTrashButton;
 
+    @FindBy(xpath = "//div[@class='bg-white rounded-xl p-6 w-[400px] shadow-xl']")
+    public WebElement moveTrashDialogBox;
+
     @FindBy(xpath = "//button[@class='px-4 py-2 text-sm font-semibold text-white bg-red-600 hover:bg-red-700 rounded-lg transition-colors']")
     public WebElement moveToTrashPopUpButton;
 

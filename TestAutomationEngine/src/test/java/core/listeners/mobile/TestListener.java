@@ -45,16 +45,10 @@ public class TestListener implements ITestListener
                                 + "/ExtentReport.html");
 
         // Configure Report Name
-        reporter.config()
-                .setReportName(
-                        platform.toUpperCase()
-                                + " Automation Report");
+        reporter.config().setReportName(platform.toUpperCase() + " Automation Report");
 
         // Configure Report Title
-        reporter.config()
-                .setDocumentTitle(
-                        platform.toUpperCase()
-                                + " Execution Report");
+        reporter.config().setDocumentTitle(platform.toUpperCase() + " Execution Report");
 
         // Create Extent Report Instance
         ExtentReports report =new ExtentReports();
@@ -75,17 +69,13 @@ public class TestListener implements ITestListener
     public void onTestStart(ITestResult result)
     {
         // Get Current Test Method Name
-        String methodName =
-                result.getMethod()
-                        .getMethodName();
+        String methodName = result.getMethod().getMethodName();
 
         // Store Test Name For Performance Logging
-        MobileBaseTest.testName.set(
-                methodName);
+        MobileBaseTest.testName.set(methodName);
 
         // Log Test Start In Performance Report
-        PerformanceLogger.logTestStart(
-                methodName);
+        PerformanceLogger.logTestStart(methodName);
 
         // Read Custom Step Annotation
         StepTestDetails step =
@@ -108,16 +98,11 @@ public class TestListener implements ITestListener
         }
 
         // Create Test Entry In Extent Report
-        ExtentTest extentTest =
-                extent.get()
-                        .createTest(
-                                testDisplayName);
-
+        ExtentTest extentTest = extent.get().createTest(testDisplayName);
         test.set(extentTest);
 
         // Log Test Method Name
-        test.get()
-                .info("Test Method : " + methodName);
+        test.get().info("Test Method : " + methodName);
 
         // Capture Device Information
         if(MobileBaseTest.getDriver() != null)
@@ -161,14 +146,10 @@ public class TestListener implements ITestListener
     {
         // Get Overall XML/Screen Comparison Statistics
         double averageSimilarity = ComparisonMetricsUtil.getAverageSimilarity();
-
         int totalComparisons = ComparisonMetricsUtil.getComparisonCount();
 
         // Log Comparison Metrics In Extent Report
-        test.get()
-                .info(
-                        "Total Screens Compared : "
-                                + totalComparisons);
+        test.get().info("Total Screens Compared : " + totalComparisons);
 
         test.get()
                 .info(
@@ -179,17 +160,10 @@ public class TestListener implements ITestListener
                                 + "%");
 
         // Check Whether Test Passed After Retry
-        Object retryCount =
-                result.getAttribute(
-                        "retryCount");
-
+        Object retryCount = result.getAttribute("retryCount");
         if(retryCount != null)
         {
-            test.get()
-                    .pass(
-                            "Test Passed After Retry ("
-                                    + retryCount
-                                    + ")");
+            test.get().pass("Test Passed After Retry (" + retryCount + ")");
         }
         else
         {
@@ -221,17 +195,12 @@ public class TestListener implements ITestListener
 
         // Get Overall XML/Screen Comparison Statistics
         double averageSimilarity = ComparisonMetricsUtil.getAverageSimilarity();
-
         int totalComparisons = ComparisonMetricsUtil.getComparisonCount();
 
         // Log Comparison Metrics In Extent Report
-        test.get()
-                .info(
-                        "Total Screens Compared : "
-                                + totalComparisons);
+        test.get().info("Total Screens Compared : " + totalComparisons);
 
-        test.get()
-                .info(
+        test.get().info(
                         "Overall Average Similarity : "
                                 + String.format(
                                 "%.2f",
@@ -249,11 +218,7 @@ public class TestListener implements ITestListener
         // Capture Screenshot On Failure
         if(MobileBaseTest.getDriver() != null)
         {
-            String path =
-                    ScreenshotUtil.capture(
-                            MobileBaseTest.getDriver(),
-                            result.getName());
-
+            String path = ScreenshotUtil.capture(MobileBaseTest.getDriver(), result.getName());
             if(path != null)
             {
                 try
@@ -268,9 +233,7 @@ public class TestListener implements ITestListener
         }
 
         // Log Test Completion In Performance Report
-        PerformanceLogger.logTestSeparator(
-                result.getMethod()
-                        .getMethodName());
+        PerformanceLogger.logTestSeparator(result.getMethod().getMethodName());
 
         // Clear Comparison Metrics For Next Test
         ComparisonMetricsUtil.clear();
@@ -283,16 +246,13 @@ public class TestListener implements ITestListener
     public void onTestSkipped(ITestResult result)
     {
         // Log Skip In Framework Log
-        log.warn(
-                "TEST SKIPPED : {}",
-                result.getName());
+        log.warn("TEST SKIPPED : {}", result.getName());
 
         // Log Skip Status In Extent Report
         test.get().skip("Test Skipped");
 
         // Get Overall XML/Screen Comparison Statistics
         double averageSimilarity = ComparisonMetricsUtil.getAverageSimilarity();
-
         int totalComparisons = ComparisonMetricsUtil.getComparisonCount();
 
         // Log Comparison Metrics In Extent Report

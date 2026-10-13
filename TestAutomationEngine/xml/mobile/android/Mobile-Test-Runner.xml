@@ -17,20 +17,41 @@
 
         <classes>
             <!-- Diagnostics Type Selection - Fault Codes -->
-            <class name="client.XSol.regression.tests.Boiler_4731157Test">
+            <class name="client.XSol.smoke.tests.FaultCodesTest">
                 <methods>
-                    <include name="test_boiler4731157_1"/>
-                    <include name="test_boiler4731157_2"/>
-                    <include name="test_boiler4731157_3"/>
-                    <include name="test_boiler4731157_4"/>
-                    <include name="test_boiler4731157_5"/>
-                    <include name="test_boiler4731157_6"/>
-                    <include name="test_boiler4731157_7"/>
-                    <include name="test_boiler4731157_8"/>
-                    <include name="test_boiler4731157_9"/>
-                    <include name="test_boiler4731157_10"/>
-                    <include name="test_boiler4731157_11"/>
-                    <include name="test_boiler4731157_12"/>
+                    <include name="test_faultCodes_erCommunicationFault"/>
+                    <include name="test_faultCodes_f1IgnitionLockout"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_boilerTemperature_1"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_boilerTemperature_2"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_boilerAndSystemRunning_1"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_boilerAndSystemRunning_2"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_boilerAndSystemTooCool_1"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_boilerAndSystemTooCool_2"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_boilerAndSystemTooCool_3"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_boilerNoisy_1"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_boilerNoisy_2"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_burnerDoesntEstablish_1"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_burnerDoesntEstablish_2"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_burnerIgnites_explosiveIgnition_1"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_burnerIgnites_explosiveIgnition_2"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_burnerIgnites_explosiveIgnition_3"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_ignitesButNoisy_1"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_ignitesButNoisy_2"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_burnerDoesntIgnite_1"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_burnerDoesntIgnite_2"/>
+                    <include name="test_faultCodes_f1IgnitionLockout_burnerDoesntIgnite_3"/>
+                    <include name="test_faultCodes_f2FanFault_1"/>
+                    <include name="test_faultCodes_f2FanFault_2"/>
+                    <include name="test_faultCodes_f2FanFault_3"/>
+                    <include name="test_faultCodes_f2FanFault_differentFaultCodeAppears"/>
+                    <include name="test_faultCodes_f2FanFault_entersStandby"/>
+                    <include name="test_faultCodes_f2FanFault_doesNotAlter"/>
+                    <include name="test_faultCodes_f6FlowThermistorFault_entersStandby_1"/>
+                    <include name="test_faultCodes_f6FlowThermistorFault_entersStandby_2"/>
+                    <include name="test_faultCodes_f6FlowThermistorFault_entersStandby_3"/>
+                    <include name="test_faultCodes_f6FlowThermistorFault_differentFaultCodes"/>
+                    <include name="test_faultCodes_f6FlowThermistorFault_faultCodeImmediatelyReoccurs"/>
+                    <include name="test_faultCodes_f6FlowThermistorFault_displayDoesNotAlter"/>
                 </methods>
             </class>
         </classes>

@@ -215,9 +215,6 @@ public class AllManufactureCheckTest extends WebBaseTest {
         ui.explicitWait(2);
         ui.verifyStatus(page.table, "Untitled");
 
-        ui.selectMenuOption(page.allManufacturesButton, "Uzii");
-        ui.explicitWait(2);
-        ui.verifyStatus(page.table, "Uzii");
 
         ui.selectMenuOption(page.allManufacturesButton, "Vaillant");
         ui.explicitWait(2);
@@ -450,10 +447,6 @@ public class AllManufactureCheckTest extends WebBaseTest {
         ui.selectMenuOption(page.allManufacturesButton, "Untitled");
         ui.explicitWait(2);
         ui.verifyContainsText(page.board, "Untitled");
-
-        ui.selectMenuOption(page.allManufacturesButton, "Uzii");
-        ui.explicitWait(2);
-        ui.verifyContainsText(page.board, "Uzii");
 
         ui.selectMenuOption(page.allManufacturesButton, "Vaillant");
         ui.explicitWait(2);

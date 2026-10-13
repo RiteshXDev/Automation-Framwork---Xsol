@@ -13,6 +13,7 @@ public class DeleteFunctionalityTest extends WebBaseTest
     @StepTestDetails(desc = "Design Tool : Delete Functionality - Creating and deleting model from the Main Page")
     public void deleteFunctionality_mainPage() {
         DeleteFunctionalityPage page = new DeleteFunctionalityPage();
+        ui.refreshPage();
         ui.waitAndClick(page.newModelButton);
         ui.waitAndClick(page.addNodeButton);
         ui.waitAndType(page.nodeTitleTextBox,"Node 1");
@@ -33,7 +34,7 @@ public class DeleteFunctionalityTest extends WebBaseTest
         ui.waitAndClick(page.modelMainPageCheckBox_1);
         ui.explicitWait(3);
         ui.waitAndClick(page.moveToTrashButton);
-        ui.explicitWait(3);
+        ui.waitUntilVisible(page.moveTrashDialogBox);
         ui.waitAndClick(page.moveToTrashPopUpButton);
         ui.explicitWait(3);
         ui.waitAndClick(page.newModelTopButton);
