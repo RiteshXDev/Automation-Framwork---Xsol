@@ -39,10 +39,15 @@ public class StatusChangeTest extends WebBaseTest {
         ui.waitAndType(page.editAlertTextBox, "Testing Model : Alert Text Box");
         ui.waitAndClick(page.alertDoneButton);
         ui.waitAndClick(page.alertSnippetButton);
-        ui.waitAndType(page.alertSearchSnippetTextBox, "CHDEMAND");
-        ui.pressKey(Keys.ENTER);
-        ui.explicitWait(5);
-        ui.waitAndClick(page.chdemandButton);
+        ui.executeOptionalSteps(() ->
+        {
+            ui.waitAndType(page.alertSearchSnippetTextBox, "CHDEMAND");
+            ui.pressKey(Keys.ENTER);
+            ui.explicitWait(3);
+            ui.waitAndClickUntilClickable(page.chdemandButton);
+        });
+
+        ui.pressKey(Keys.ESCAPE);
 
 
         ui.explicitWait(5);

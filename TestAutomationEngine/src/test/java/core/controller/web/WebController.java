@@ -234,4 +234,8 @@ public interface WebController
      */
     void verifyPanelExpanded(WebElement panel, WebElement expandButton);
 
+    /**
+     * Execute Optional Steps Without Failing The Test
+     */
+    boolean executeOptionalSteps(Runnable steps);
 }

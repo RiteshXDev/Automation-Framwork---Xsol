@@ -141,10 +141,11 @@ public class RecentlyDeletedTest extends WebBaseTest {
         ui.waitAndType(page.manufacturerTextBox, randomModelName);
         ui.waitAndType(page.modelNameTextBox, randomModelName);
         ui.waitAndType(page.gcNumberTextBox, randomModelName);
+        ui.explicitWait(1);
         ui.waitAndClick(page.duplicate_Button);
         ui.explicitWait(3);
-        ui.waitAndClick(page.mediaTopButton);
-        ui.waitAndClick(page.newModelTopButton);
+        ui.waitUntilVisible(page.mediaTopButton);
+        ui.waitUntilVisible(page.newModelTopButton);
         ui.waitUntilVisible(page.completeTable);
         ui.verifyContainsText(page.completeTable, randomModelName);
 
@@ -168,6 +169,7 @@ public class RecentlyDeletedTest extends WebBaseTest {
     {
         RecentlyDeletedPage page = new RecentlyDeletedPage();
         String modelName = "4101911 - 1";
+        ui.refreshPage();
         ui.clickIfDisplayed(page.newModelTopButton);
         ui.waitUntilVisible(page.searchTextBox);
         ui.type(page.searchTextBox,"4101911");
@@ -177,6 +179,7 @@ public class RecentlyDeletedTest extends WebBaseTest {
         ui.waitAndType(page.manufacturerTextBox, modelName);
         ui.waitAndType(page.modelNameTextBox, modelName);
         ui.waitAndType(page.gcNumberTextBox, modelName);
+        ui.explicitWait(1);
         ui.waitAndClick(page.duplicate_Button);
         ui.explicitWait(3);
         ui.waitAndClick(page.mediaTopButton);
@@ -201,6 +204,7 @@ public class RecentlyDeletedTest extends WebBaseTest {
         ui.waitAndType(page.manufacturerTextBox, modelName);
         ui.waitAndType(page.modelNameTextBox, modelName);
         ui.waitAndType(page.gcNumberTextBox, modelName);
+        ui.explicitWait(1);
         ui.waitAndClick(page.duplicate_Button);
         ui.explicitWait(3);
         ui.waitAndClick(page.mediaTopButton);

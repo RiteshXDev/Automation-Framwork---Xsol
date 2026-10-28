@@ -10,50 +10,46 @@
         <listener class-name="core.listeners.mobile.RetryListener"/>
     </listeners>
 
-    <test name="ANDROID">
+    <test name="Android">
 
         <parameter name="platform"
-                   value="android"/>
+                   value="Android"/>
 
         <classes>
-            <!-- Diagnostics Type Selection - Fault Codes -->
-            <class name="client.XSol.smoke.tests.FaultCodesTest">
+
+            <!-- Diagnostics Type Selection - Full Diagnostics Model -->
+            <class name="client.XSol.smoke.tests.FullDiagnosticsModelTest">
                 <methods>
-                    <include name="test_faultCodes_erCommunicationFault"/>
-                    <include name="test_faultCodes_f1IgnitionLockout"/>
-                    <include name="test_faultCodes_f1IgnitionLockout_boilerTemperature_1"/>
-                    <include name="test_faultCodes_f1IgnitionLockout_boilerTemperature_2"/>
-                    <include name="test_faultCodes_f1IgnitionLockout_boilerAndSystemRunning_1"/>
-                    <include name="test_faultCodes_f1IgnitionLockout_boilerAndSystemRunning_2"/>
-                    <include name="test_faultCodes_f1IgnitionLockout_boilerAndSystemTooCool_1"/>
-                    <include name="test_faultCodes_f1IgnitionLockout_boilerAndSystemTooCool_2"/>
-                    <include name="test_faultCodes_f1IgnitionLockout_boilerAndSystemTooCool_3"/>
-                    <include name="test_faultCodes_f1IgnitionLockout_boilerNoisy_1"/>
-                    <include name="test_faultCodes_f1IgnitionLockout_boilerNoisy_2"/>
-                    <include name="test_faultCodes_f1IgnitionLockout_burnerDoesntEstablish_1"/>
-                    <include name="test_faultCodes_f1IgnitionLockout_burnerDoesntEstablish_2"/>
-                    <include name="test_faultCodes_f1IgnitionLockout_burnerIgnites_explosiveIgnition_1"/>
-                    <include name="test_faultCodes_f1IgnitionLockout_burnerIgnites_explosiveIgnition_2"/>
-                    <include name="test_faultCodes_f1IgnitionLockout_burnerIgnites_explosiveIgnition_3"/>
-                    <include name="test_faultCodes_f1IgnitionLockout_ignitesButNoisy_1"/>
-                    <include name="test_faultCodes_f1IgnitionLockout_ignitesButNoisy_2"/>
-                    <include name="test_faultCodes_f1IgnitionLockout_burnerDoesntIgnite_1"/>
-                    <include name="test_faultCodes_f1IgnitionLockout_burnerDoesntIgnite_2"/>
-                    <include name="test_faultCodes_f1IgnitionLockout_burnerDoesntIgnite_3"/>
-                    <include name="test_faultCodes_f2FanFault_1"/>
-                    <include name="test_faultCodes_f2FanFault_2"/>
-                    <include name="test_faultCodes_f2FanFault_3"/>
-                    <include name="test_faultCodes_f2FanFault_differentFaultCodeAppears"/>
-                    <include name="test_faultCodes_f2FanFault_entersStandby"/>
-                    <include name="test_faultCodes_f2FanFault_doesNotAlter"/>
-                    <include name="test_faultCodes_f6FlowThermistorFault_entersStandby_1"/>
-                    <include name="test_faultCodes_f6FlowThermistorFault_entersStandby_2"/>
-                    <include name="test_faultCodes_f6FlowThermistorFault_entersStandby_3"/>
-                    <include name="test_faultCodes_f6FlowThermistorFault_differentFaultCodes"/>
-                    <include name="test_faultCodes_f6FlowThermistorFault_faultCodeImmediatelyReoccurs"/>
-                    <include name="test_faultCodes_f6FlowThermistorFault_displayDoesNotAlter"/>
+                    <include name="test_fullDiagnosticsModel_boilerOperation"/>
+                    <include name="test_fullDiagnosticsModel_boilerAtTemperature"/>
+                    <include name="test_fullDiagnosticsModel_boilerAndSystemRunning"/>
+                    <include name="test_fullDiagnosticsModel_boilerAndSystemTooCool_1"/>
+                    <include name="test_fullDiagnosticsModel_boilerAndSystemTooCool_2"/>
+                    <include name="test_fullDiagnosticsModel_boilerNoisy_1"/>
+                    <include name="test_fullDiagnosticsModel_boilerNoisy_2"/>
+                    <include name="test_fullDiagnosticsModel_burnerIgnitesbut_1"/>
+                    <include name="test_fullDiagnosticsModel_burnerIgnitesbut_2"/>
+                    <include name="test_fullDiagnosticsModel_burnerIgnitesAndEstablishes_1"/>
+                    <include name="test_fullDiagnosticsModel_burnerIgnitesAndEstablishes_2"/>
+                    <include name="test_fullDiagnosticsModel_ignitesButNoisy_1"/>
+                    <include name="test_fullDiagnosticsModel_ignitesButNoisy_2"/>
+                    <include name="test_fullDiagnosticsModel_burnerDoesntIgnite_1"/>
+                    <include name="test_fullDiagnosticsModel_burnerDoesntIgnite_2"/>
+                    <include name="test_fullDiagnosticsModel_fanRunsContinually"/>
+                    <include name="test_fullDiagnosticsModel_fanRunsForApprox"/>
+                    <include name="test_fullDiagnosticsModel_fanDoesntRun_1"/>
+                    <include name="test_fullDiagnosticsModel_fanDoesntRun_2"/>
+                    <include name="test_fullDiagnosticsModel_pumpDoesNotRun_1"/>
+                    <include name="test_fullDiagnosticsModel_pumpDoesNotRun_2"/>
+                    <include name="test_fullDiagnosticsModel_displayDoesNotOperates_1"/>
+                    <include name="test_fullDiagnosticsModel_displayDoesNotOperates_2"/>
+                    <include name="test_fullDiagnosticsModel_boilerFiresWithNoDemand_1"/>
+                    <include name="test_fullDiagnosticsModel_boilerFiresWithNoDemand_2"/>
+                    <include name="test_fullDiagnosticsModel_faultCodeOrER"/>
                 </methods>
             </class>
+
+
         </classes>
     </test>
 </suite>

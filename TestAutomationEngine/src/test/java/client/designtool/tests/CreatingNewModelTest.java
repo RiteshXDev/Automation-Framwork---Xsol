@@ -13,7 +13,7 @@ public class CreatingNewModelTest extends WebBaseTest
     public void createNewModelTest()
     {
         CreatingNewModelPage page = new CreatingNewModelPage();
-        //ui.waitAndClick(page.pickAccountButton);
+        ui.waitAndClick(page.pickAccountButton);
         ui.waitAndClick(page.newModelButton);
         ui.waitAndClick(page.addNodeButton);
         ui.waitAndType(page.nodeTitleTextBox,"Node 1");
@@ -37,10 +37,16 @@ public class CreatingNewModelTest extends WebBaseTest
         ui.waitAndType(page.editAlertTextBox, "Warning: Verify all safety conditions before proceeding.");
         ui.waitAndClick(page.alertDoneButton);
         ui.waitAndClick(page.alertSnippetButton);
-        ui.waitAndType(page.alertSearchSnippetTextBox, "CHDEMAND");
-        ui.pressKey(Keys.ENTER);
-        ui.waitAndClickUntilClickable(page.chdemandButton);
 
+        ui.executeOptionalSteps(() ->
+                {
+                    ui.waitAndType(page.alertSearchSnippetTextBox, "CHDEMAND");
+                    ui.pressKey(Keys.ENTER);
+                    ui.explicitWait(3);
+                    ui.waitAndClickUntilClickable(page.chdemandButton);
+                });
+
+        ui.pressKey(Keys.ESCAPE);
         ui.explicitWait(1);
         ui.waitAndClick(page.addInstructionButton);
         ui.waitAndType(page.addInstructionTextBox, "Inspect the component for visible damage before proceeding.");

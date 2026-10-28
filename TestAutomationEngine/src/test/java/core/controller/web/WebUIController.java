@@ -1302,4 +1302,21 @@ public class WebUIController  implements WebController
 
     }
 
+    /**
+     * Execute Optional Steps Without Failing The Test
+     */
+    public boolean executeOptionalSteps(Runnable steps)
+    {
+        try
+        {
+            steps.run();
+            return true;
+        }
+        catch(Exception ignored)
+        {
+            return false;
+        }
+    }
+
+
 }

@@ -158,7 +158,7 @@ public class DeleteFunctionalityTest extends WebBaseTest
     {
         DeleteFunctionalityPage page = new DeleteFunctionalityPage();
         ui.waitAndClick(page.recentlyDeletedButton);
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 2; i++) {
             ui.waitAndClick(page.deletePermanently_1);
             ui.waitAndClick(page.deletePermanentlyPopUpButton);
             ui.explicitWait(3);

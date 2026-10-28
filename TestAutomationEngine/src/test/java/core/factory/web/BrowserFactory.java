@@ -38,6 +38,7 @@ public class BrowserFactory
 
                 return new ChromeDriver(chromeOptions);
 
+
             case "edge":
 
                 EdgeOptions edgeOptions = new EdgeOptions();
@@ -45,15 +46,19 @@ public class BrowserFactory
                 if(config.isUseProfile())
                 {
                     edgeOptions.addArguments(
-                            "--user-data-dir="
-                                    + config.getEdgeUserDataDir());
+                            "--user-data-dir=" + config.getEdgeUserDataDir());
 
                     edgeOptions.addArguments(
-                            "--profile-directory="
-                                    + config.getEdgeProfileDirectory());
+                            "--profile-directory=" + config.getEdgeProfileDirectory());
                 }
 
+                // Reduce unnecessary browser data
+                edgeOptions.addArguments("--disable-application-cache");
+                edgeOptions.addArguments("--disk-cache-size=1");
+                edgeOptions.addArguments("--media-cache-size=1");
+
                 return new EdgeDriver(edgeOptions);
+
 
             case "firefox":
 

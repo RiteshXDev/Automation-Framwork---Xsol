@@ -5,8 +5,8 @@
   "android": {
     "platformName": "Android",
     "automationName": "UiAutomator2",
-    "deviceName": "RZ8M740GYGH",
-    "platformVersion": "14",
+    "deviceName": "emulator-5554",
+    "platformVersion": "17",
     "app": "src/main/resources/config/apk/app-release.apk",
     "appPackage": "com.xsol.mobile",
     "appActivity": "com.xsol.mobile.MainActivity",

@@ -32,7 +32,7 @@ public class DeleteFunctionalityPage extends WebBaseTest
     @FindBy(xpath = "//span[normalize-space()='Recently Deleted']")
     public WebElement recentlyDeletedButton;
 
-    @FindBy(xpath = "(//input[@type='checkbox'])[2]")
+    @FindBy(xpath = "//tbody/tr[1]/td[1]/input[1]")
     public WebElement modelMainPageCheckBox_1;
 
     @FindBy(xpath = "(//input[@type='checkbox'])[3]")

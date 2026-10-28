@@ -32,8 +32,9 @@ public class DuplicateModelPage extends WebBaseTest
     @FindBy(xpath = "//button[@title='Duplicate']")
     public WebElement duplicateButton;
 
-    @FindBy(xpath = "//tr[.//td[contains(normalize-space(),'British Gas 330+ Open Vented')]]")
+    @FindBy(xpath = "//tr[.//td[contains(normalize-space(), '4101911')]]")
     public WebElement row;
+
 
     @FindBy(xpath = "(//tr[@class='border-b border-slate-50 hover:bg-slate-50 transition-colors group bg-white'])[1]")
     public WebElement row_delete;

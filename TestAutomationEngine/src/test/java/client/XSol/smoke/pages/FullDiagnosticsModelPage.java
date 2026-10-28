@@ -12,11 +12,6 @@ public class FullDiagnosticsModelPage extends MobileBaseTest
 
     }
 
-    @AndroidFindBy(uiAutomator = " @AndroidFindBy(xpath = \"//android.widget.TextView[@text=\\\"Search Appliance\\\"]\")\n" +
-            "    @iOSXCUITFindBy(iOSClassChain = \"**/XCUIElementTypeOther[`name == \\\"\\uF55F, Search Appliance\\\"`]\")\n" +
-            "    public WebElement searchApplianceButton;")
-    public WebElement diagnosticTypeSelectionLinks;
-
     @AndroidFindBy(xpath = "//android.widget.TextView[@text=\"Search Appliance\"]")
     @iOSXCUITFindBy(iOSClassChain = "**/XCUIElementTypeOther[`name == \"\uF55F, Search Appliance\"`]")
     public WebElement searchApplianceButton;
@@ -45,15 +40,15 @@ public class FullDiagnosticsModelPage extends MobileBaseTest
     public WebElement fullDiagnosticsModelButton;
 
     @AndroidFindBy(accessibility = "Select Outcome (3), \uF145")
-    @iOSXCUITFindBy(accessibility = "Select Outcome (3), \uF145")
+    @iOSXCUITFindBy(accessibility = "Select Outcome (3)")
     public WebElement selectOutcome3Button;
 
     @AndroidFindBy(accessibility = "Select Outcome (4), \uF145")
-    @iOSXCUITFindBy(accessibility = "Select Outcome (4), \uF145")
+    @iOSXCUITFindBy(accessibility = "Select Outcome (4)")
     public WebElement selectOutcome4Button;
 
     @AndroidFindBy(accessibility = "Select Outcome (5), \uF145")
-    @iOSXCUITFindBy(iOSClassChain = "**/XCUIElementTypeOther[`name == \"Select Outcome (5), \uF145\"`]")
+    @iOSXCUITFindBy(accessibility = "Select Outcome (5)")
     public WebElement selectOutcome5Button;
 
 
@@ -68,7 +63,7 @@ public class FullDiagnosticsModelPage extends MobileBaseTest
     public WebElement returnToHomeButton;
 
     @AndroidFindBy(uiAutomator = "new UiSelector().text(\"\uF127\")")
-    @iOSXCUITFindBy(iOSClassChain = "**/XCUIElementTypeOther[`name == \"\uF127\"`]")
+    @iOSXCUITFindBy(accessibility = "Go back")
     public WebElement backButton;
 
     @AndroidFindBy(accessibility = "MAINS VOLTAGE PRESENT")
@@ -79,8 +74,8 @@ public class FullDiagnosticsModelPage extends MobileBaseTest
     @iOSXCUITFindBy(accessibility = "MAINS VOLTAGE ABSENT")
     public WebElement mainVoltageAbsentButton;
 
-    @AndroidFindBy(accessibility = "FULL DIAGNOSTIC MODEL")
-    @iOSXCUITFindBy(accessibility = "FULL DIAGNOSTIC MODEL")
+    @AndroidFindBy(accessibility = "FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish.")
+    @iOSXCUITFindBy(accessibility = "FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish.")
     public WebElement fullDiagnosticModelLink;
 
 

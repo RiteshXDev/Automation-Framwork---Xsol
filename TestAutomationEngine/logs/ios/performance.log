@@ -58396,3 +58396,765 @@
 2026-09-10 13:21:28.046 
 ==================== [IOS] END OF TEST: test_boiler4704734_3 ====================
 
+2026-10-16 13:47:36.772 
+-------------------- [IOS] START OF TEST: test_fullDiagnosticsModel_boilerOperation --------------------
+
+2026-10-16 13:47:50.432 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | SCREEN_LOAD | 250 ms
+2026-10-16 13:47:50.433 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | TAP_ACTION | 1276 ms
+2026-10-16 13:47:50.433 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | TOTAL_ACTION | 1526 ms
+2026-10-16 13:47:52.221 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | SCREEN_LOAD | 273 ms
+2026-10-16 13:47:52.222 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | TYPE_ACTION | 1199 ms
+2026-10-16 13:47:52.222 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | TOTAL_ACTION | 1472 ms
+2026-10-16 13:47:54.609 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | SCREEN_LOAD | 307 ms
+2026-10-16 13:47:54.609 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | TAP_ACTION | 1115 ms
+2026-10-16 13:47:54.609 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | TOTAL_ACTION | 1422 ms
+2026-10-16 13:48:02.579 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | SCREEN_LOAD | 234 ms
+2026-10-16 13:48:02.580 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | TAP_ACTION | 960 ms
+2026-10-16 13:48:02.580 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | TOTAL_ACTION | 1194 ms
+2026-10-16 13:48:34.435 
+==================== [IOS] END OF TEST: test_fullDiagnosticsModel_boilerOperation ====================
+
+2026-10-16 13:48:34.443 
+-------------------- [IOS] START OF TEST: test_fullDiagnosticsModel_boilerOperation --------------------
+
+2026-10-16 13:49:07.169 
+==================== [IOS] END OF TEST: test_fullDiagnosticsModel_boilerOperation ====================
+
+2026-10-16 13:49:07.171 
+-------------------- [IOS] START OF TEST: test_fullDiagnosticsModel_boilerOperation --------------------
+
+2026-10-16 13:49:30.354 
+-------------------- [IOS] START OF TEST: test_fullDiagnosticsModel_boilerOperation --------------------
+
+2026-10-16 13:49:43.789 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | SCREEN_LOAD | 242 ms
+2026-10-16 13:49:43.789 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | TAP_ACTION | 1078 ms
+2026-10-16 13:49:43.790 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | TOTAL_ACTION | 1320 ms
+2026-10-16 13:49:45.594 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | SCREEN_LOAD | 284 ms
+2026-10-16 13:49:45.594 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | TYPE_ACTION | 1198 ms
+2026-10-16 13:49:45.594 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | TOTAL_ACTION | 1482 ms
+2026-10-16 13:49:47.278 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | SCREEN_LOAD | 272 ms
+2026-10-16 13:49:47.278 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | TAP_ACTION | 1101 ms
+2026-10-16 13:49:47.279 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | TOTAL_ACTION | 1373 ms
+2026-10-16 13:49:55.125 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | SCREEN_LOAD | 225 ms
+2026-10-16 13:49:55.125 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | TAP_ACTION | 902 ms
+2026-10-16 13:49:55.126 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | TOTAL_ACTION | 1127 ms
+2026-10-16 13:51:24.393 
+-------------------- [IOS] START OF TEST: test_fullDiagnosticsModel_boilerOperation --------------------
+
+2026-10-16 13:51:37.924 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | SCREEN_LOAD | 264 ms
+2026-10-16 13:51:37.927 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | TAP_ACTION | 1103 ms
+2026-10-16 13:51:37.927 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | TOTAL_ACTION | 1367 ms
+2026-10-16 13:51:39.778 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | SCREEN_LOAD | 293 ms
+2026-10-16 13:51:39.778 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | TYPE_ACTION | 1229 ms
+2026-10-16 13:51:39.779 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | TOTAL_ACTION | 1522 ms
+2026-10-16 13:51:41.533 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | SCREEN_LOAD | 314 ms
+2026-10-16 13:51:41.533 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | TAP_ACTION | 1119 ms
+2026-10-16 13:51:41.533 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | TOTAL_ACTION | 1433 ms
+2026-10-16 13:51:49.439 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | SCREEN_LOAD | 217 ms
+2026-10-16 13:51:49.440 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | TAP_ACTION | 904 ms
+2026-10-16 13:51:49.440 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | TOTAL_ACTION | 1121 ms
+2026-10-16 13:52:01.141 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | CONTINUE | SCREEN_LOAD | 264 ms
+2026-10-16 13:52:01.141 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | CONTINUE | TAP_ACTION | 654 ms
+2026-10-16 13:52:01.141 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | CONTINUE | TOTAL_ACTION | 918 ms
+2026-10-16 13:53:46.159 
+-------------------- [IOS] START OF TEST: test_fullDiagnosticsModel_boilerOperation --------------------
+
+2026-10-16 13:53:59.666 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | SCREEN_LOAD | 237 ms
+2026-10-16 13:53:59.668 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | TAP_ACTION | 1113 ms
+2026-10-16 13:53:59.669 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | TOTAL_ACTION | 1350 ms
+2026-10-16 13:54:01.500 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | SCREEN_LOAD | 299 ms
+2026-10-16 13:54:01.500 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | TYPE_ACTION | 1210 ms
+2026-10-16 13:54:01.500 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | TOTAL_ACTION | 1509 ms
+2026-10-16 13:54:03.157 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | SCREEN_LOAD | 271 ms
+2026-10-16 13:54:03.157 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | TAP_ACTION | 1083 ms
+2026-10-16 13:54:03.157 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | TOTAL_ACTION | 1354 ms
+2026-10-16 13:54:11.048 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | SCREEN_LOAD | 207 ms
+2026-10-16 13:54:11.049 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | TAP_ACTION | 890 ms
+2026-10-16 13:54:11.050 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | TOTAL_ACTION | 1097 ms
+2026-10-16 13:54:22.678 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | CONTINUE | SCREEN_LOAD | 253 ms
+2026-10-16 13:54:22.678 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | CONTINUE | TAP_ACTION | 631 ms
+2026-10-16 13:54:22.678 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | CONTINUE | TOTAL_ACTION | 884 ms
+2026-10-16 13:54:33.357 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | SCREEN_LOAD | 213 ms
+2026-10-16 13:54:33.357 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | TAP_ACTION | 698 ms
+2026-10-16 13:54:33.358 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | TOTAL_ACTION | 911 ms
+2026-10-16 13:54:45.578 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select Outcome (4),  | SCREEN_LOAD | 215 ms
+2026-10-16 13:54:45.579 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select Outcome (4),  | TAP_ACTION | 968 ms
+2026-10-16 13:54:45.579 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select Outcome (4),  | TOTAL_ACTION | 1183 ms
+2026-10-16 16:14:55.014 
+-------------------- [IOS] START OF TEST: test_fullDiagnosticsModel_boilerOperation --------------------
+
+2026-10-16 16:15:08.555 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | SCREEN_LOAD | 246 ms
+2026-10-16 16:15:08.558 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | TAP_ACTION | 1137 ms
+2026-10-16 16:15:08.558 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | TOTAL_ACTION | 1383 ms
+2026-10-16 16:15:10.346 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | SCREEN_LOAD | 287 ms
+2026-10-16 16:15:10.346 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | TYPE_ACTION | 1177 ms
+2026-10-16 16:15:10.346 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | TOTAL_ACTION | 1464 ms
+2026-10-16 16:15:12.759 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | SCREEN_LOAD | 315 ms
+2026-10-16 16:15:12.760 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | TAP_ACTION | 1116 ms
+2026-10-16 16:15:12.760 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | TOTAL_ACTION | 1431 ms
+2026-10-16 16:15:20.687 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | SCREEN_LOAD | 215 ms
+2026-10-16 16:15:20.689 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | TAP_ACTION | 916 ms
+2026-10-16 16:15:20.690 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | TOTAL_ACTION | 1131 ms
+2026-10-16 16:15:32.234 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | CONTINUE | SCREEN_LOAD | 245 ms
+2026-10-16 16:15:32.235 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | CONTINUE | TAP_ACTION | 643 ms
+2026-10-16 16:15:32.235 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | CONTINUE | TOTAL_ACTION | 888 ms
+2026-10-16 16:15:43.139 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | SCREEN_LOAD | 203 ms
+2026-10-16 16:15:43.139 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | TAP_ACTION | 736 ms
+2026-10-16 16:15:43.139 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | TOTAL_ACTION | 939 ms
+2026-10-16 16:15:55.248 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select Outcome (4),  | SCREEN_LOAD | 217 ms
+2026-10-16 16:15:55.248 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select Outcome (4),  | TAP_ACTION | 911 ms
+2026-10-16 16:15:55.248 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select Outcome (4),  | TOTAL_ACTION | 1128 ms
+2026-10-16 16:18:16.057 
+-------------------- [IOS] START OF TEST: test_fullDiagnosticsModel_boilerOperation --------------------
+
+2026-10-16 16:18:29.554 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | SCREEN_LOAD | 245 ms
+2026-10-16 16:18:29.555 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | TAP_ACTION | 1086 ms
+2026-10-16 16:18:29.555 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | TOTAL_ACTION | 1331 ms
+2026-10-16 16:18:31.399 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | SCREEN_LOAD | 293 ms
+2026-10-16 16:18:31.400 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | TYPE_ACTION | 1225 ms
+2026-10-16 16:18:31.400 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | TOTAL_ACTION | 1518 ms
+2026-10-16 16:18:33.826 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | SCREEN_LOAD | 308 ms
+2026-10-16 16:18:33.827 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | TAP_ACTION | 1135 ms
+2026-10-16 16:18:33.827 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | TOTAL_ACTION | 1443 ms
+2026-10-16 16:18:41.737 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | SCREEN_LOAD | 225 ms
+2026-10-16 16:18:41.738 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | TAP_ACTION | 904 ms
+2026-10-16 16:18:41.738 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | TOTAL_ACTION | 1129 ms
+2026-10-16 16:18:53.420 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | CONTINUE | SCREEN_LOAD | 242 ms
+2026-10-16 16:18:53.420 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | CONTINUE | TAP_ACTION | 630 ms
+2026-10-16 16:18:53.420 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | CONTINUE | TOTAL_ACTION | 872 ms
+2026-10-16 16:19:04.157 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | SCREEN_LOAD | 239 ms
+2026-10-16 16:19:04.158 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | TAP_ACTION | 631 ms
+2026-10-16 16:19:04.158 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | TOTAL_ACTION | 870 ms
+2026-10-16 16:19:16.111 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select Outcome (4),  | SCREEN_LOAD | 222 ms
+2026-10-16 16:19:16.113 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select Outcome (4),  | TAP_ACTION | 935 ms
+2026-10-16 16:19:16.113 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select Outcome (4),  | TOTAL_ACTION | 1157 ms
+2026-10-16 16:19:17.730 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | DISPLAY OPERATES AND BOILER ENTERS STANDBY AS  ABOVE | SCREEN_LOAD | 260 ms
+2026-10-16 16:19:17.730 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | DISPLAY OPERATES AND BOILER ENTERS STANDBY AS  ABOVE | TAP_ACTION | 1009 ms
+2026-10-16 16:19:17.730 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | DISPLAY OPERATES AND BOILER ENTERS STANDBY AS  ABOVE | TOTAL_ACTION | 1269 ms
+2026-10-16 16:19:49.460 
+==================== [IOS] END OF TEST: test_fullDiagnosticsModel_boilerOperation ====================
+
+2026-10-16 16:19:49.465 
+-------------------- [IOS] START OF TEST: test_fullDiagnosticsModel_boilerOperation --------------------
+
+2026-10-16 16:20:22.137 
+==================== [IOS] END OF TEST: test_fullDiagnosticsModel_boilerOperation ====================
+
+2026-10-16 16:20:22.138 
+-------------------- [IOS] START OF TEST: test_fullDiagnosticsModel_boilerOperation --------------------
+
+2026-10-16 16:20:54.785 
+==================== [IOS] END OF TEST: test_fullDiagnosticsModel_boilerOperation ====================
+
+2026-10-16 16:20:54.798 
+-------------------- [IOS] START OF TEST: test_fullDiagnosticsModel_boilerAtTemperature --------------------
+
+2026-10-16 16:21:27.359 
+==================== [IOS] END OF TEST: test_fullDiagnosticsModel_boilerAtTemperature ====================
+
+2026-10-16 16:21:27.361 
+-------------------- [IOS] START OF TEST: test_fullDiagnosticsModel_boilerAtTemperature --------------------
+
+2026-10-16 16:21:59.883 
+==================== [IOS] END OF TEST: test_fullDiagnosticsModel_boilerAtTemperature ====================
+
+2026-10-16 16:21:59.885 
+-------------------- [IOS] START OF TEST: test_fullDiagnosticsModel_boilerAtTemperature --------------------
+
+2026-10-16 16:22:32.521 
+==================== [IOS] END OF TEST: test_fullDiagnosticsModel_boilerAtTemperature ====================
+
+2026-10-16 16:22:32.525 
+-------------------- [IOS] START OF TEST: test_fullDiagnosticsModel_boilerAndSystemRunning --------------------
+
+2026-10-16 16:22:52.605 
+-------------------- [IOS] START OF TEST: test_fullDiagnosticsModel_boilerOperation --------------------
+
+2026-10-16 16:23:06.021 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | SCREEN_LOAD | 252 ms
+2026-10-16 16:23:06.021 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | TAP_ACTION | 1095 ms
+2026-10-16 16:23:06.022 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | TOTAL_ACTION | 1347 ms
+2026-10-16 16:23:07.828 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | SCREEN_LOAD | 290 ms
+2026-10-16 16:23:07.828 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | TYPE_ACTION | 1188 ms
+2026-10-16 16:23:07.828 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | TOTAL_ACTION | 1478 ms
+2026-10-16 16:23:09.578 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | SCREEN_LOAD | 302 ms
+2026-10-16 16:23:09.578 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | TAP_ACTION | 1136 ms
+2026-10-16 16:23:09.579 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | TOTAL_ACTION | 1438 ms
+2026-10-16 16:23:17.553 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | SCREEN_LOAD | 251 ms
+2026-10-16 16:23:17.554 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | TAP_ACTION | 916 ms
+2026-10-16 16:23:17.554 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | TOTAL_ACTION | 1167 ms
+2026-10-16 16:23:29.066 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | CONTINUE | SCREEN_LOAD | 231 ms
+2026-10-16 16:23:29.066 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | CONTINUE | TAP_ACTION | 630 ms
+2026-10-16 16:23:29.066 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | CONTINUE | TOTAL_ACTION | 861 ms
+2026-10-16 16:23:39.811 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | SCREEN_LOAD | 218 ms
+2026-10-16 16:23:39.811 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | TAP_ACTION | 659 ms
+2026-10-16 16:23:39.812 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | TOTAL_ACTION | 877 ms
+2026-10-16 16:23:51.783 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select Outcome (4),  | SCREEN_LOAD | 224 ms
+2026-10-16 16:23:51.784 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select Outcome (4),  | TAP_ACTION | 976 ms
+2026-10-16 16:23:51.784 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select Outcome (4),  | TOTAL_ACTION | 1200 ms
+2026-10-16 16:23:53.345 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | DISPLAY OPERATES AND BOILER ENTERS STANDBY AS  ABOVE | SCREEN_LOAD | 266 ms
+2026-10-16 16:23:53.346 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | DISPLAY OPERATES AND BOILER ENTERS STANDBY AS  ABOVE | TAP_ACTION | 1006 ms
+2026-10-16 16:23:53.346 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | DISPLAY OPERATES AND BOILER ENTERS STANDBY AS  ABOVE | TOTAL_ACTION | 1272 ms
+2026-10-27 13:51:51.726 
+-------------------- [IOS] START OF TEST: test_fullDiagnosticsModel_boilerOperation --------------------
+
+2026-10-27 13:52:05.487 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | SCREEN_LOAD | 240 ms
+2026-10-27 13:52:05.489 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | TAP_ACTION | 1243 ms
+2026-10-27 13:52:05.490 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | TOTAL_ACTION | 1483 ms
+2026-10-27 13:52:07.213 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | SCREEN_LOAD | 258 ms
+2026-10-27 13:52:07.213 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | TYPE_ACTION | 1166 ms
+2026-10-27 13:52:07.214 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | TOTAL_ACTION | 1424 ms
+2026-10-27 13:52:09.643 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | SCREEN_LOAD | 309 ms
+2026-10-27 13:52:09.643 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | TAP_ACTION | 1133 ms
+2026-10-27 13:52:09.643 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | TOTAL_ACTION | 1442 ms
+2026-10-27 13:52:17.502 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | SCREEN_LOAD | 183 ms
+2026-10-27 13:52:17.503 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | TAP_ACTION | 963 ms
+2026-10-27 13:52:17.503 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | TOTAL_ACTION | 1146 ms
+2026-10-27 13:54:26.329 
+-------------------- [IOS] START OF TEST: test_fullDiagnosticsModel_boilerOperation --------------------
+
+2026-10-27 13:54:39.816 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | SCREEN_LOAD | 242 ms
+2026-10-27 13:54:39.817 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | TAP_ACTION | 1110 ms
+2026-10-27 13:54:39.817 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | TOTAL_ACTION | 1352 ms
+2026-10-27 13:54:41.572 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | SCREEN_LOAD | 268 ms
+2026-10-27 13:54:41.572 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | TYPE_ACTION | 1177 ms
+2026-10-27 13:54:41.572 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | TOTAL_ACTION | 1445 ms
+2026-10-27 13:54:43.256 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | SCREEN_LOAD | 271 ms
+2026-10-27 13:54:43.256 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | TAP_ACTION | 1110 ms
+2026-10-27 13:54:43.256 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | TOTAL_ACTION | 1381 ms
+2026-10-27 14:00:02.112 
+-------------------- [IOS] START OF TEST: test_fullDiagnosticsModel_boilerOperation --------------------
+
+2026-10-27 14:00:15.551 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | SCREEN_LOAD | 235 ms
+2026-10-27 14:00:15.554 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | TAP_ACTION | 1068 ms
+2026-10-27 14:00:15.555 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | TOTAL_ACTION | 1303 ms
+2026-10-27 14:00:17.351 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | SCREEN_LOAD | 282 ms
+2026-10-27 14:00:17.351 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | TYPE_ACTION | 1190 ms
+2026-10-27 14:00:17.351 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | TOTAL_ACTION | 1472 ms
+2026-10-27 14:00:19.051 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | SCREEN_LOAD | 278 ms
+2026-10-27 14:00:19.052 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | TAP_ACTION | 1120 ms
+2026-10-27 14:00:19.052 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | TOTAL_ACTION | 1398 ms
+2026-10-27 14:00:27.268 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | SCREEN_LOAD | 257 ms
+2026-10-27 14:00:27.271 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | TAP_ACTION | 946 ms
+2026-10-27 14:00:27.271 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | TOTAL_ACTION | 1203 ms
+2026-10-27 14:00:38.947 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | CONTINUE | SCREEN_LOAD | 264 ms
+2026-10-27 14:00:38.948 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | CONTINUE | TAP_ACTION | 652 ms
+2026-10-27 14:00:38.948 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | CONTINUE | TOTAL_ACTION | 916 ms
+2026-10-27 14:00:49.813 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | SCREEN_LOAD | 222 ms
+2026-10-27 14:00:49.816 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | TAP_ACTION | 633 ms
+2026-10-27 14:00:49.816 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | TOTAL_ACTION | 855 ms
+2026-10-27 14:02:58.191 
+-------------------- [IOS] START OF TEST: test_fullDiagnosticsModel_boilerOperation --------------------
+
+2026-10-27 14:03:11.660 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | SCREEN_LOAD | 253 ms
+2026-10-27 14:03:11.661 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | TAP_ACTION | 1104 ms
+2026-10-27 14:03:11.661 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | TOTAL_ACTION | 1357 ms
+2026-10-27 14:03:13.523 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | SCREEN_LOAD | 306 ms
+2026-10-27 14:03:13.523 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | TYPE_ACTION | 1226 ms
+2026-10-27 14:03:13.523 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | TOTAL_ACTION | 1532 ms
+2026-10-27 14:03:15.265 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | SCREEN_LOAD | 307 ms
+2026-10-27 14:03:15.265 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | TAP_ACTION | 1112 ms
+2026-10-27 14:03:15.265 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | TOTAL_ACTION | 1419 ms
+2026-10-27 14:03:23.212 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | SCREEN_LOAD | 250 ms
+2026-10-27 14:03:23.213 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | TAP_ACTION | 953 ms
+2026-10-27 14:03:23.213 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | TOTAL_ACTION | 1203 ms
+2026-10-27 14:03:34.740 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | CONTINUE | SCREEN_LOAD | 247 ms
+2026-10-27 14:03:34.741 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | CONTINUE | TAP_ACTION | 610 ms
+2026-10-27 14:03:34.741 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | CONTINUE | TOTAL_ACTION | 857 ms
+2026-10-27 14:03:45.596 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | SCREEN_LOAD | 216 ms
+2026-10-27 14:03:45.596 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | TAP_ACTION | 675 ms
+2026-10-27 14:03:45.597 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | TOTAL_ACTION | 891 ms
+2026-10-27 14:03:57.586 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (4) | SCREEN_LOAD | 211 ms
+2026-10-27 14:03:57.587 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (4) | TAP_ACTION | 954 ms
+2026-10-27 14:03:57.588 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (4) | TOTAL_ACTION | 1165 ms
+2026-10-27 14:03:59.236 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | DISPLAY OPERATES AND BOILER ENTERS STANDBY AS  ABOVE | SCREEN_LOAD | 284 ms
+2026-10-27 14:03:59.238 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | DISPLAY OPERATES AND BOILER ENTERS STANDBY AS  ABOVE | TAP_ACTION | 1006 ms
+2026-10-27 14:03:59.238 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | DISPLAY OPERATES AND BOILER ENTERS STANDBY AS  ABOVE | TOTAL_ACTION | 1290 ms
+2026-10-27 14:04:11.082 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | PUMP RUNNING | SCREEN_LOAD | 280 ms
+2026-10-27 14:04:11.082 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | PUMP RUNNING | TAP_ACTION | 646 ms
+2026-10-27 14:04:11.082 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | PUMP RUNNING | TOTAL_ACTION | 926 ms
+2026-10-27 14:04:23.745 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (4) | SCREEN_LOAD | 413 ms
+2026-10-27 14:04:23.745 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (4) | TAP_ACTION | 1004 ms
+2026-10-27 14:04:23.745 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (4) | TOTAL_ACTION | 1417 ms
+2026-10-27 14:04:25.479 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FAN RUNS | SCREEN_LOAD | 308 ms
+2026-10-27 14:04:25.479 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FAN RUNS | TAP_ACTION | 1039 ms
+2026-10-27 14:04:25.479 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FAN RUNS | TOTAL_ACTION | 1347 ms
+2026-10-27 14:04:56.437 
+==================== [IOS] END OF TEST: test_fullDiagnosticsModel_boilerOperation ====================
+
+2026-10-27 14:04:56.442 
+-------------------- [IOS] START OF TEST: test_fullDiagnosticsModel_boilerOperation --------------------
+
+2026-10-27 14:07:46.819 
+-------------------- [IOS] START OF TEST: test_fullDiagnosticsModel_boilerOperation --------------------
+
+2026-10-27 14:08:00.279 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | SCREEN_LOAD | 271 ms
+2026-10-27 14:08:00.279 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | TAP_ACTION | 1104 ms
+2026-10-27 14:08:00.280 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | TOTAL_ACTION | 1375 ms
+2026-10-27 14:08:02.103 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | SCREEN_LOAD | 284 ms
+2026-10-27 14:08:02.103 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | TYPE_ACTION | 1207 ms
+2026-10-27 14:08:02.103 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | TOTAL_ACTION | 1491 ms
+2026-10-27 14:08:03.788 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | SCREEN_LOAD | 294 ms
+2026-10-27 14:08:03.788 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | TAP_ACTION | 1065 ms
+2026-10-27 14:08:03.788 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | TOTAL_ACTION | 1359 ms
+2026-10-27 14:08:11.928 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | SCREEN_LOAD | 235 ms
+2026-10-27 14:08:11.929 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | TAP_ACTION | 918 ms
+2026-10-27 14:08:11.929 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | TOTAL_ACTION | 1153 ms
+2026-10-27 14:08:23.538 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | CONTINUE | SCREEN_LOAD | 247 ms
+2026-10-27 14:08:23.538 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | CONTINUE | TAP_ACTION | 642 ms
+2026-10-27 14:08:23.538 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | CONTINUE | TOTAL_ACTION | 889 ms
+2026-10-27 14:08:34.285 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | SCREEN_LOAD | 223 ms
+2026-10-27 14:08:34.286 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | TAP_ACTION | 652 ms
+2026-10-27 14:08:34.286 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | TOTAL_ACTION | 875 ms
+2026-10-27 14:08:46.257 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (4) | SCREEN_LOAD | 201 ms
+2026-10-27 14:08:46.258 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (4) | TAP_ACTION | 951 ms
+2026-10-27 14:08:46.258 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (4) | TOTAL_ACTION | 1152 ms
+2026-10-27 14:08:47.873 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | DISPLAY OPERATES AND BOILER ENTERS STANDBY AS  ABOVE | SCREEN_LOAD | 272 ms
+2026-10-27 14:08:47.873 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | DISPLAY OPERATES AND BOILER ENTERS STANDBY AS  ABOVE | TAP_ACTION | 1000 ms
+2026-10-27 14:08:47.873 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | DISPLAY OPERATES AND BOILER ENTERS STANDBY AS  ABOVE | TOTAL_ACTION | 1272 ms
+2026-10-27 14:08:59.415 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | PUMP RUNNING | SCREEN_LOAD | 229 ms
+2026-10-27 14:08:59.417 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | PUMP RUNNING | TAP_ACTION | 623 ms
+2026-10-27 14:08:59.417 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | PUMP RUNNING | TOTAL_ACTION | 852 ms
+2026-10-27 14:09:11.781 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (4) | SCREEN_LOAD | 214 ms
+2026-10-27 14:09:11.784 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (4) | TAP_ACTION | 948 ms
+2026-10-27 14:09:11.784 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (4) | TOTAL_ACTION | 1162 ms
+2026-10-27 14:09:13.499 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FAN RUNS | SCREEN_LOAD | 306 ms
+2026-10-27 14:09:13.500 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FAN RUNS | TAP_ACTION | 1018 ms
+2026-10-27 14:09:13.500 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FAN RUNS | TOTAL_ACTION | 1324 ms
+2026-10-27 14:09:25.445 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (5) | SCREEN_LOAD | 213 ms
+2026-10-27 14:09:25.447 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (5) | TAP_ACTION | 954 ms
+2026-10-27 14:09:25.447 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (5) | TOTAL_ACTION | 1167 ms
+2026-10-27 14:09:27.077 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | BURNER IGNITES AND ESTABLISHES | SCREEN_LOAD | 273 ms
+2026-10-27 14:09:27.077 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | BURNER IGNITES AND ESTABLISHES | TAP_ACTION | 1007 ms
+2026-10-27 14:09:27.077 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | BURNER IGNITES AND ESTABLISHES | TOTAL_ACTION | 1280 ms
+2026-10-27 14:09:38.955 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (5) | SCREEN_LOAD | 229 ms
+2026-10-27 14:09:38.956 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (5) | TAP_ACTION | 970 ms
+2026-10-27 14:09:38.956 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (5) | TOTAL_ACTION | 1199 ms
+2026-10-27 14:09:40.606 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | BOILER OPERATION SATISFACTORY | SCREEN_LOAD | 282 ms
+2026-10-27 14:09:40.606 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | BOILER OPERATION SATISFACTORY | TAP_ACTION | 1024 ms
+2026-10-27 14:09:40.606 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | BOILER OPERATION SATISFACTORY | TOTAL_ACTION | 1306 ms
+2026-10-27 14:09:53.939 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FAN SPEED DOES NOT REDUCE | SCREEN_LOAD | 246 ms
+2026-10-27 14:09:53.939 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FAN SPEED DOES NOT REDUCE | TAP_ACTION | 676 ms
+2026-10-27 14:09:53.939 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FAN SPEED DOES NOT REDUCE | TOTAL_ACTION | 922 ms
+2026-10-27 14:10:15.250 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | RESISTANCE AS EXPECTED | SCREEN_LOAD | 327 ms
+2026-10-27 14:10:15.250 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | RESISTANCE AS EXPECTED | TAP_ACTION | 749 ms
+2026-10-27 14:10:15.251 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | RESISTANCE AS EXPECTED | TOTAL_ACTION | 1076 ms
+2026-10-27 14:10:46.805 
+==================== [IOS] END OF TEST: test_fullDiagnosticsModel_boilerOperation ====================
+
+2026-10-27 14:10:46.812 
+-------------------- [IOS] START OF TEST: test_fullDiagnosticsModel_boilerOperation --------------------
+
+2026-10-27 14:11:19.501 
+==================== [IOS] END OF TEST: test_fullDiagnosticsModel_boilerOperation ====================
+
+2026-10-27 14:11:19.503 
+-------------------- [IOS] START OF TEST: test_fullDiagnosticsModel_boilerOperation --------------------
+
+2026-10-27 14:13:05.937 
+-------------------- [IOS] START OF TEST: test_fullDiagnosticsModel_boilerOperation --------------------
+
+2026-10-27 14:13:19.498 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | SCREEN_LOAD | 240 ms
+2026-10-27 14:13:19.499 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | TAP_ACTION | 1111 ms
+2026-10-27 14:13:19.499 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | TOTAL_ACTION | 1351 ms
+2026-10-27 14:13:21.342 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | SCREEN_LOAD | 279 ms
+2026-10-27 14:13:21.342 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | TYPE_ACTION | 1244 ms
+2026-10-27 14:13:21.342 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | TOTAL_ACTION | 1523 ms
+2026-10-27 14:13:23.024 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | SCREEN_LOAD | 294 ms
+2026-10-27 14:13:23.024 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | TAP_ACTION | 1084 ms
+2026-10-27 14:13:23.024 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | TOTAL_ACTION | 1378 ms
+2026-10-27 14:13:31.014 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | SCREEN_LOAD | 247 ms
+2026-10-27 14:13:31.015 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | TAP_ACTION | 948 ms
+2026-10-27 14:13:31.016 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | TOTAL_ACTION | 1195 ms
+2026-10-27 14:13:42.597 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | CONTINUE | SCREEN_LOAD | 256 ms
+2026-10-27 14:13:42.597 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | CONTINUE | TAP_ACTION | 647 ms
+2026-10-27 14:13:42.598 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | CONTINUE | TOTAL_ACTION | 903 ms
+2026-10-27 14:13:53.398 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | SCREEN_LOAD | 231 ms
+2026-10-27 14:13:53.398 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | TAP_ACTION | 655 ms
+2026-10-27 14:13:53.398 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | TOTAL_ACTION | 886 ms
+2026-10-27 14:14:05.558 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (4) | SCREEN_LOAD | 206 ms
+2026-10-27 14:14:05.561 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (4) | TAP_ACTION | 954 ms
+2026-10-27 14:14:05.561 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (4) | TOTAL_ACTION | 1160 ms
+2026-10-27 14:14:07.189 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | DISPLAY OPERATES AND BOILER ENTERS STANDBY AS  ABOVE | SCREEN_LOAD | 284 ms
+2026-10-27 14:14:07.189 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | DISPLAY OPERATES AND BOILER ENTERS STANDBY AS  ABOVE | TAP_ACTION | 997 ms
+2026-10-27 14:14:07.189 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | DISPLAY OPERATES AND BOILER ENTERS STANDBY AS  ABOVE | TOTAL_ACTION | 1281 ms
+2026-10-27 14:14:19.053 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | PUMP RUNNING | SCREEN_LOAD | 334 ms
+2026-10-27 14:14:19.054 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | PUMP RUNNING | TAP_ACTION | 656 ms
+2026-10-27 14:14:19.054 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | PUMP RUNNING | TOTAL_ACTION | 990 ms
+2026-10-27 14:14:31.802 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (4) | SCREEN_LOAD | 422 ms
+2026-10-27 14:14:31.802 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (4) | TAP_ACTION | 1039 ms
+2026-10-27 14:14:31.802 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (4) | TOTAL_ACTION | 1461 ms
+2026-10-27 14:14:33.532 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FAN RUNS | SCREEN_LOAD | 314 ms
+2026-10-27 14:14:33.532 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FAN RUNS | TAP_ACTION | 1035 ms
+2026-10-27 14:14:33.532 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FAN RUNS | TOTAL_ACTION | 1349 ms
+2026-10-27 14:14:45.429 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (5) | SCREEN_LOAD | 217 ms
+2026-10-27 14:14:45.432 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (5) | TAP_ACTION | 949 ms
+2026-10-27 14:14:45.433 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (5) | TOTAL_ACTION | 1166 ms
+2026-10-27 14:14:47.128 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | BURNER IGNITES AND ESTABLISHES | SCREEN_LOAD | 294 ms
+2026-10-27 14:14:47.128 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | BURNER IGNITES AND ESTABLISHES | TAP_ACTION | 1027 ms
+2026-10-27 14:14:47.128 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | BURNER IGNITES AND ESTABLISHES | TOTAL_ACTION | 1321 ms
+2026-10-27 14:14:58.991 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (5) | SCREEN_LOAD | 233 ms
+2026-10-27 14:14:58.993 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (5) | TAP_ACTION | 975 ms
+2026-10-27 14:14:58.993 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (5) | TOTAL_ACTION | 1208 ms
+2026-10-27 14:15:00.656 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | BOILER OPERATION SATISFACTORY | SCREEN_LOAD | 290 ms
+2026-10-27 14:15:00.656 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | BOILER OPERATION SATISFACTORY | TAP_ACTION | 1020 ms
+2026-10-27 14:15:00.656 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | BOILER OPERATION SATISFACTORY | TOTAL_ACTION | 1310 ms
+2026-10-27 14:15:13.902 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FAN SPEED DOES NOT REDUCE | SCREEN_LOAD | 224 ms
+2026-10-27 14:15:13.905 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FAN SPEED DOES NOT REDUCE | TAP_ACTION | 648 ms
+2026-10-27 14:15:13.905 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FAN SPEED DOES NOT REDUCE | TOTAL_ACTION | 872 ms
+2026-10-27 14:15:35.245 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | RESISTANCE AS EXPECTED | SCREEN_LOAD | 342 ms
+2026-10-27 14:15:35.248 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | RESISTANCE AS EXPECTED | TAP_ACTION | 779 ms
+2026-10-27 14:15:35.248 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | RESISTANCE AS EXPECTED | TOTAL_ACTION | 1121 ms
+2026-10-27 14:16:54.450 
+-------------------- [IOS] START OF TEST: test_fullDiagnosticsModel_boilerOperation --------------------
+
+2026-10-27 14:17:07.939 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | SCREEN_LOAD | 267 ms
+2026-10-27 14:17:07.939 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | TAP_ACTION | 1099 ms
+2026-10-27 14:17:07.939 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | TOTAL_ACTION | 1366 ms
+2026-10-27 14:17:09.748 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | SCREEN_LOAD | 271 ms
+2026-10-27 14:17:09.748 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | TYPE_ACTION | 1223 ms
+2026-10-27 14:17:09.749 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | TOTAL_ACTION | 1494 ms
+2026-10-27 14:17:11.449 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | SCREEN_LOAD | 304 ms
+2026-10-27 14:17:11.450 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | TAP_ACTION | 1073 ms
+2026-10-27 14:17:11.450 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | TOTAL_ACTION | 1377 ms
+2026-10-27 14:17:19.439 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | SCREEN_LOAD | 249 ms
+2026-10-27 14:17:19.440 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | TAP_ACTION | 951 ms
+2026-10-27 14:17:19.441 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | TOTAL_ACTION | 1200 ms
+2026-10-27 14:17:31.152 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | CONTINUE | SCREEN_LOAD | 260 ms
+2026-10-27 14:17:31.155 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | CONTINUE | TAP_ACTION | 635 ms
+2026-10-27 14:17:31.155 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | CONTINUE | TOTAL_ACTION | 895 ms
+2026-10-27 14:17:41.949 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | SCREEN_LOAD | 209 ms
+2026-10-27 14:17:41.949 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | TAP_ACTION | 701 ms
+2026-10-27 14:17:41.950 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | TOTAL_ACTION | 910 ms
+2026-10-27 14:17:53.997 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (4) | SCREEN_LOAD | 230 ms
+2026-10-27 14:17:53.998 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (4) | TAP_ACTION | 969 ms
+2026-10-27 14:17:53.998 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (4) | TOTAL_ACTION | 1199 ms
+2026-10-27 14:17:55.615 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | DISPLAY OPERATES AND BOILER ENTERS STANDBY AS  ABOVE | SCREEN_LOAD | 267 ms
+2026-10-27 14:17:55.615 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | DISPLAY OPERATES AND BOILER ENTERS STANDBY AS  ABOVE | TAP_ACTION | 1002 ms
+2026-10-27 14:17:55.615 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | DISPLAY OPERATES AND BOILER ENTERS STANDBY AS  ABOVE | TOTAL_ACTION | 1269 ms
+2026-10-27 14:18:07.224 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | PUMP RUNNING | SCREEN_LOAD | 222 ms
+2026-10-27 14:18:07.224 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | PUMP RUNNING | TAP_ACTION | 609 ms
+2026-10-27 14:18:07.224 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | PUMP RUNNING | TOTAL_ACTION | 831 ms
+2026-10-27 14:18:19.657 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (4) | SCREEN_LOAD | 217 ms
+2026-10-27 14:18:19.657 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (4) | TAP_ACTION | 967 ms
+2026-10-27 14:18:19.658 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (4) | TOTAL_ACTION | 1184 ms
+2026-10-27 14:18:21.356 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FAN RUNS | SCREEN_LOAD | 292 ms
+2026-10-27 14:18:21.356 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FAN RUNS | TAP_ACTION | 1033 ms
+2026-10-27 14:18:21.356 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FAN RUNS | TOTAL_ACTION | 1325 ms
+2026-10-27 14:18:33.352 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (5) | SCREEN_LOAD | 222 ms
+2026-10-27 14:18:33.354 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (5) | TAP_ACTION | 942 ms
+2026-10-27 14:18:33.355 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (5) | TOTAL_ACTION | 1164 ms
+2026-10-27 14:18:35.020 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | BURNER IGNITES AND ESTABLISHES | SCREEN_LOAD | 287 ms
+2026-10-27 14:18:35.020 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | BURNER IGNITES AND ESTABLISHES | TAP_ACTION | 1020 ms
+2026-10-27 14:18:35.020 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | BURNER IGNITES AND ESTABLISHES | TOTAL_ACTION | 1307 ms
+2026-10-27 14:18:46.828 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (5) | SCREEN_LOAD | 216 ms
+2026-10-27 14:18:46.829 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (5) | TAP_ACTION | 945 ms
+2026-10-27 14:18:46.829 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (5) | TOTAL_ACTION | 1161 ms
+2026-10-27 14:18:48.462 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | BOILER OPERATION SATISFACTORY | SCREEN_LOAD | 270 ms
+2026-10-27 14:18:48.462 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | BOILER OPERATION SATISFACTORY | TAP_ACTION | 1007 ms
+2026-10-27 14:18:48.462 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | BOILER OPERATION SATISFACTORY | TOTAL_ACTION | 1277 ms
+2026-10-27 14:19:01.745 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FAN SPEED DOES NOT REDUCE | SCREEN_LOAD | 224 ms
+2026-10-27 14:19:01.745 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FAN SPEED DOES NOT REDUCE | TAP_ACTION | 658 ms
+2026-10-27 14:19:01.745 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FAN SPEED DOES NOT REDUCE | TOTAL_ACTION | 882 ms
+2026-10-27 14:19:23.069 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | RESISTANCE AS EXPECTED | SCREEN_LOAD | 320 ms
+2026-10-27 14:19:23.069 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | RESISTANCE AS EXPECTED | TAP_ACTION | 755 ms
+2026-10-27 14:19:23.069 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | RESISTANCE AS EXPECTED | TOTAL_ACTION | 1075 ms
+2026-10-27 14:19:54.751 
+==================== [IOS] END OF TEST: test_fullDiagnosticsModel_boilerOperation ====================
+
+2026-10-27 14:19:54.758 
+-------------------- [IOS] START OF TEST: test_fullDiagnosticsModel_boilerOperation --------------------
+
+2026-10-27 14:23:19.027 
+-------------------- [IOS] START OF TEST: test_fullDiagnosticsModel_boilerOperation --------------------
+
+2026-10-27 14:23:32.515 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | SCREEN_LOAD | 264 ms
+2026-10-27 14:23:32.518 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | TAP_ACTION | 1096 ms
+2026-10-27 14:23:32.519 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | , Search Appliance | TOTAL_ACTION | 1360 ms
+2026-10-27 14:23:34.340 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | SCREEN_LOAD | 281 ms
+2026-10-27 14:23:34.340 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | TYPE_ACTION | 1212 ms
+2026-10-27 14:23:34.340 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndType | Search Appliance | TOTAL_ACTION | 1493 ms
+2026-10-27 14:23:36.771 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | SCREEN_LOAD | 327 ms
+2026-10-27 14:23:36.772 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | TAP_ACTION | 1114 ms
+2026-10-27 14:23:36.772 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | TOTAL_ACTION | 1441 ms
+2026-10-27 14:23:44.645 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | SCREEN_LOAD | 218 ms
+2026-10-27 14:23:44.646 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | TAP_ACTION | 936 ms
+2026-10-27 14:23:44.646 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Continue | TOTAL_ACTION | 1154 ms
+2026-10-27 14:23:56.434 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | CONTINUE | SCREEN_LOAD | 279 ms
+2026-10-27 14:23:56.434 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | CONTINUE | TAP_ACTION | 636 ms
+2026-10-27 14:23:56.434 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | CONTINUE | TOTAL_ACTION | 915 ms
+2026-10-27 14:24:07.367 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | SCREEN_LOAD | 249 ms
+2026-10-27 14:24:07.368 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | TAP_ACTION | 623 ms
+2026-10-27 14:24:07.368 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | TOTAL_ACTION | 872 ms
+2026-10-27 14:24:19.355 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (4) | SCREEN_LOAD | 183 ms
+2026-10-27 14:24:19.355 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (4) | TAP_ACTION | 940 ms
+2026-10-27 14:24:19.356 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (4) | TOTAL_ACTION | 1123 ms
+2026-10-27 14:24:21.038 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | DISPLAY OPERATES AND BOILER ENTERS STANDBY AS  ABOVE | SCREEN_LOAD | 300 ms
+2026-10-27 14:24:21.038 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | DISPLAY OPERATES AND BOILER ENTERS STANDBY AS  ABOVE | TAP_ACTION | 1038 ms
+2026-10-27 14:24:21.038 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | DISPLAY OPERATES AND BOILER ENTERS STANDBY AS  ABOVE | TOTAL_ACTION | 1338 ms
+2026-10-27 14:24:32.723 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | PUMP RUNNING | SCREEN_LOAD | 230 ms
+2026-10-27 14:24:32.726 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | PUMP RUNNING | TAP_ACTION | 604 ms
+2026-10-27 14:24:32.726 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | PUMP RUNNING | TOTAL_ACTION | 834 ms
+2026-10-27 14:24:45.180 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (4) | SCREEN_LOAD | 209 ms
+2026-10-27 14:24:45.180 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (4) | TAP_ACTION | 944 ms
+2026-10-27 14:24:45.180 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (4) | TOTAL_ACTION | 1153 ms
+2026-10-27 14:24:46.930 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FAN RUNS | SCREEN_LOAD | 321 ms
+2026-10-27 14:24:46.930 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FAN RUNS | TAP_ACTION | 1061 ms
+2026-10-27 14:24:46.930 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FAN RUNS | TOTAL_ACTION | 1382 ms
+2026-10-27 14:24:58.892 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (5) | SCREEN_LOAD | 224 ms
+2026-10-27 14:24:58.893 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (5) | TAP_ACTION | 954 ms
+2026-10-27 14:24:58.893 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (5) | TOTAL_ACTION | 1178 ms
+2026-10-27 14:25:00.542 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | BURNER IGNITES AND ESTABLISHES | SCREEN_LOAD | 280 ms
+2026-10-27 14:25:00.542 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | BURNER IGNITES AND ESTABLISHES | TAP_ACTION | 1022 ms
+2026-10-27 14:25:00.542 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | BURNER IGNITES AND ESTABLISHES | TOTAL_ACTION | 1302 ms
+2026-10-27 14:25:12.404 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (5) | SCREEN_LOAD | 235 ms
+2026-10-27 14:25:12.404 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (5) | TAP_ACTION | 944 ms
+2026-10-27 14:25:12.404 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Select outcome (5) | TOTAL_ACTION | 1179 ms
+2026-10-27 14:25:14.071 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | BOILER OPERATION SATISFACTORY | SCREEN_LOAD | 292 ms
+2026-10-27 14:25:14.071 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | BOILER OPERATION SATISFACTORY | TAP_ACTION | 1027 ms
+2026-10-27 14:25:14.071 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | BOILER OPERATION SATISFACTORY | TOTAL_ACTION | 1319 ms
+2026-10-27 14:25:27.447 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FAN SPEED DOES NOT REDUCE | SCREEN_LOAD | 211 ms
+2026-10-27 14:25:27.448 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FAN SPEED DOES NOT REDUCE | TAP_ACTION | 626 ms
+2026-10-27 14:25:27.448 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FAN SPEED DOES NOT REDUCE | TOTAL_ACTION | 837 ms
+2026-10-27 14:25:48.782 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | RESISTANCE AS EXPECTED | SCREEN_LOAD | 322 ms
+2026-10-27 14:25:48.783 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | RESISTANCE AS EXPECTED | TAP_ACTION | 716 ms
+2026-10-27 14:25:48.783 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | RESISTANCE AS EXPECTED | TOTAL_ACTION | 1038 ms
+2026-10-27 14:26:00.307 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Go back | SCREEN_LOAD | 214 ms
+2026-10-27 14:26:00.310 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Go back | TAP_ACTION | 592 ms
+2026-10-27 14:26:00.310 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Go back | TOTAL_ACTION | 806 ms
+2026-10-27 14:26:01.728 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | RESISTANCE OUTSIDE RANGE | SCREEN_LOAD | 326 ms
+2026-10-27 14:26:01.728 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | RESISTANCE OUTSIDE RANGE | TAP_ACTION | 732 ms
+2026-10-27 14:26:01.728 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | RESISTANCE OUTSIDE RANGE | TOTAL_ACTION | 1058 ms
+2026-10-27 14:26:13.198 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Go back | SCREEN_LOAD | 244 ms
+2026-10-27 14:26:13.199 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Go back | TAP_ACTION | 607 ms
+2026-10-27 14:26:13.199 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Go back | TOTAL_ACTION | 851 ms
+2026-10-27 14:26:14.620 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Go back | SCREEN_LOAD | 316 ms
+2026-10-27 14:26:14.621 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Go back | TAP_ACTION | 757 ms
+2026-10-27 14:26:14.621 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Go back | TOTAL_ACTION | 1073 ms
+2026-10-27 14:26:15.888 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FAN SPEED REDUCES | SCREEN_LOAD | 268 ms
+2026-10-27 14:26:15.888 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FAN SPEED REDUCES | TAP_ACTION | 668 ms
+2026-10-27 14:26:15.888 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | FAN SPEED REDUCES | TOTAL_ACTION | 936 ms
+2026-10-27 14:26:27.634 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | BOILER DOES NOT RESPOND | SCREEN_LOAD | 200 ms
+2026-10-27 14:26:27.634 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | BOILER DOES NOT RESPOND | TAP_ACTION | 615 ms
+2026-10-27 14:26:27.634 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | BOILER DOES NOT RESPOND | TOTAL_ACTION | 815 ms
+2026-10-27 14:26:40.507 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Go back | SCREEN_LOAD | 270 ms
+2026-10-27 14:26:40.508 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Go back | TAP_ACTION | 692 ms
+2026-10-27 14:26:40.509 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Go back | TOTAL_ACTION | 962 ms
+2026-10-27 14:26:41.548 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | BOILER RESPONDS TO DEMAND | SCREEN_LOAD | 219 ms
+2026-10-27 14:26:41.548 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | BOILER RESPONDS TO DEMAND | TAP_ACTION | 615 ms
+2026-10-27 14:26:41.548 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | BOILER RESPONDS TO DEMAND | TOTAL_ACTION | 834 ms
+2026-10-27 14:26:52.770 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | DHW OPERATION UNSATISFACTORY | SCREEN_LOAD | 223 ms
+2026-10-27 14:26:52.771 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | DHW OPERATION UNSATISFACTORY | TAP_ACTION | 587 ms
+2026-10-27 14:26:52.772 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | DHW OPERATION UNSATISFACTORY | TOTAL_ACTION | 810 ms
+2026-10-27 14:26:59.615 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Go back | SCREEN_LOAD | 238 ms
+2026-10-27 14:26:59.615 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Go back | TAP_ACTION | 579 ms
+2026-10-27 14:26:59.616 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Go back | TOTAL_ACTION | 817 ms
+2026-10-27 14:27:00.799 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | DHW OPERATION SATISFACTORY | SCREEN_LOAD | 233 ms
+2026-10-27 14:27:00.800 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | DHW OPERATION SATISFACTORY | TAP_ACTION | 631 ms
+2026-10-27 14:27:00.800 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | DHW OPERATION SATISFACTORY | TOTAL_ACTION | 864 ms
+2026-10-27 14:27:13.744 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | SET CORRECTLY | SCREEN_LOAD | 276 ms
+2026-10-27 14:27:13.744 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | SET CORRECTLY | TAP_ACTION | 681 ms
+2026-10-27 14:27:13.744 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | SET CORRECTLY | TOTAL_ACTION | 957 ms
+2026-10-27 14:27:20.360 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Go back | SCREEN_LOAD | 197 ms
+2026-10-27 14:27:20.361 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Go back | TAP_ACTION | 533 ms
+2026-10-27 14:27:20.361 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Go back | TOTAL_ACTION | 730 ms
+2026-10-27 14:27:22.262 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | SET INCORRECTLY OR FOR TOO LONG | SCREEN_LOAD | 291 ms
+2026-10-27 14:27:22.264 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | SET INCORRECTLY OR FOR TOO LONG | TAP_ACTION | 686 ms
+2026-10-27 14:27:22.264 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | SET INCORRECTLY OR FOR TOO LONG | TOTAL_ACTION | 977 ms
+2026-10-27 14:27:33.856 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Return to home | SCREEN_LOAD | 209 ms
+2026-10-27 14:27:33.858 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Return to home | TAP_ACTION | 925 ms
+2026-10-27 14:27:33.858 IOS | test_fullDiagnosticsModel_boilerOperation | waitAndTap | Return to home | TOTAL_ACTION | 1134 ms
+2026-10-27 14:27:33.876 
+==================== [IOS] END OF TEST: test_fullDiagnosticsModel_boilerOperation ====================
+
+2026-10-27 14:27:33.882 
+-------------------- [IOS] START OF TEST: test_fullDiagnosticsModel_boilerAtTemperature --------------------
+
+2026-10-27 14:27:46.866 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | , Search Appliance | SCREEN_LOAD | 196 ms
+2026-10-27 14:27:46.867 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | , Search Appliance | TAP_ACTION | 1006 ms
+2026-10-27 14:27:46.867 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | , Search Appliance | TOTAL_ACTION | 1202 ms
+2026-10-27 14:27:48.577 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndType | Search Appliance | SCREEN_LOAD | 284 ms
+2026-10-27 14:27:48.577 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndType | Search Appliance | TYPE_ACTION | 1118 ms
+2026-10-27 14:27:48.577 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndType | Search Appliance | TOTAL_ACTION | 1402 ms
+2026-10-27 14:27:50.206 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | SCREEN_LOAD | 241 ms
+2026-10-27 14:27:50.206 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | TAP_ACTION | 1086 ms
+2026-10-27 14:27:50.206 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | TOTAL_ACTION | 1327 ms
+2026-10-27 14:27:51.642 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Continue | SCREEN_LOAD | 226 ms
+2026-10-27 14:27:51.642 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Continue | TAP_ACTION | 943 ms
+2026-10-27 14:27:51.642 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Continue | TOTAL_ACTION | 1169 ms
+2026-10-27 14:27:52.787 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | CONTINUE | SCREEN_LOAD | 228 ms
+2026-10-27 14:27:52.787 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | CONTINUE | TAP_ACTION | 599 ms
+2026-10-27 14:27:52.787 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | CONTINUE | TOTAL_ACTION | 827 ms
+2026-10-27 14:28:03.519 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | SCREEN_LOAD | 227 ms
+2026-10-27 14:28:03.519 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | TAP_ACTION | 663 ms
+2026-10-27 14:28:03.519 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | TOTAL_ACTION | 890 ms
+2026-10-27 14:28:04.887 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Select outcome (4) | SCREEN_LOAD | 205 ms
+2026-10-27 14:28:04.887 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Select outcome (4) | TAP_ACTION | 957 ms
+2026-10-27 14:28:04.887 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Select outcome (4) | TOTAL_ACTION | 1162 ms
+2026-10-27 14:28:06.500 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | DISPLAY OPERATES AND BOILER ENTERS STANDBY AS  ABOVE | SCREEN_LOAD | 271 ms
+2026-10-27 14:28:06.501 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | DISPLAY OPERATES AND BOILER ENTERS STANDBY AS  ABOVE | TAP_ACTION | 1003 ms
+2026-10-27 14:28:06.501 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | DISPLAY OPERATES AND BOILER ENTERS STANDBY AS  ABOVE | TOTAL_ACTION | 1274 ms
+2026-10-27 14:28:07.747 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | PUMP RUNNING | SCREEN_LOAD | 263 ms
+2026-10-27 14:28:07.747 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | PUMP RUNNING | TAP_ACTION | 657 ms
+2026-10-27 14:28:07.747 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | PUMP RUNNING | TOTAL_ACTION | 920 ms
+2026-10-27 14:28:09.278 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Select outcome (4) | SCREEN_LOAD | 275 ms
+2026-10-27 14:28:09.278 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Select outcome (4) | TAP_ACTION | 977 ms
+2026-10-27 14:28:09.278 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Select outcome (4) | TOTAL_ACTION | 1252 ms
+2026-10-27 14:28:10.959 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | FAN RUNS | SCREEN_LOAD | 298 ms
+2026-10-27 14:28:10.959 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | FAN RUNS | TAP_ACTION | 1017 ms
+2026-10-27 14:28:10.959 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | FAN RUNS | TOTAL_ACTION | 1315 ms
+2026-10-27 14:28:12.524 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Select outcome (5) | SCREEN_LOAD | 252 ms
+2026-10-27 14:28:12.524 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Select outcome (5) | TAP_ACTION | 989 ms
+2026-10-27 14:28:12.524 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Select outcome (5) | TOTAL_ACTION | 1241 ms
+2026-10-27 14:28:14.187 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | BURNER IGNITES AND ESTABLISHES | SCREEN_LOAD | 291 ms
+2026-10-27 14:28:14.187 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | BURNER IGNITES AND ESTABLISHES | TAP_ACTION | 1014 ms
+2026-10-27 14:28:14.187 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | BURNER IGNITES AND ESTABLISHES | TOTAL_ACTION | 1305 ms
+2026-10-27 14:28:16.084 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Select outcome (5) | SCREEN_LOAD | 330 ms
+2026-10-27 14:28:16.086 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Select outcome (5) | TAP_ACTION | 1195 ms
+2026-10-27 14:28:16.086 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Select outcome (5) | TOTAL_ACTION | 1525 ms
+2026-10-27 14:28:17.750 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | BOILER AT TEMPERATURE BUT SYSTEM TOO COOL | SCREEN_LOAD | 278 ms
+2026-10-27 14:28:17.754 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | BOILER AT TEMPERATURE BUT SYSTEM TOO COOL | TAP_ACTION | 1032 ms
+2026-10-27 14:28:17.755 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | BOILER AT TEMPERATURE BUT SYSTEM TOO COOL | TOTAL_ACTION | 1310 ms
+2026-10-27 14:28:28.683 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | SYSTEM NOT FILLED OR FULLY VENTED | SCREEN_LOAD | 216 ms
+2026-10-27 14:28:28.683 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | SYSTEM NOT FILLED OR FULLY VENTED | TAP_ACTION | 573 ms
+2026-10-27 14:28:28.683 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | SYSTEM NOT FILLED OR FULLY VENTED | TOTAL_ACTION | 789 ms
+2026-10-27 14:28:40.788 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | SCREEN_LOAD | 204 ms
+2026-10-27 14:28:40.790 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | TAP_ACTION | 610 ms
+2026-10-27 14:28:40.790 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | TOTAL_ACTION | 814 ms
+2026-10-27 14:28:41.764 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | SYSTEM FILLED AND FULLY VENTED | SCREEN_LOAD | 188 ms
+2026-10-27 14:28:41.764 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | SYSTEM FILLED AND FULLY VENTED | TAP_ACTION | 566 ms
+2026-10-27 14:28:41.764 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | SYSTEM FILLED AND FULLY VENTED | TOTAL_ACTION | 754 ms
+2026-10-27 14:28:49.267 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | CH SET POINT UNSATISFACTORY | SCREEN_LOAD | 216 ms
+2026-10-27 14:28:49.267 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | CH SET POINT UNSATISFACTORY | TAP_ACTION | 602 ms
+2026-10-27 14:28:49.267 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | CH SET POINT UNSATISFACTORY | TOTAL_ACTION | 818 ms
+2026-10-27 14:29:00.443 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | SCREEN_LOAD | 221 ms
+2026-10-27 14:29:00.443 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | TAP_ACTION | 612 ms
+2026-10-27 14:29:00.443 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | TOTAL_ACTION | 833 ms
+2026-10-27 14:29:01.538 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | CH SET POINT SATISFACTORY | SCREEN_LOAD | 216 ms
+2026-10-27 14:29:01.538 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | CH SET POINT SATISFACTORY | TAP_ACTION | 597 ms
+2026-10-27 14:29:01.538 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | CH SET POINT SATISFACTORY | TOTAL_ACTION | 813 ms
+2026-10-27 14:29:15.372 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | HEAT OUTPUT INCORRECT | SCREEN_LOAD | 236 ms
+2026-10-27 14:29:15.372 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | HEAT OUTPUT INCORRECT | TAP_ACTION | 658 ms
+2026-10-27 14:29:15.372 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | HEAT OUTPUT INCORRECT | TOTAL_ACTION | 894 ms
+2026-10-27 14:29:27.258 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | SCREEN_LOAD | 222 ms
+2026-10-27 14:29:27.258 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | TAP_ACTION | 629 ms
+2026-10-27 14:29:27.258 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | TOTAL_ACTION | 851 ms
+2026-10-27 14:29:29.147 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | HEAT OUTPUT CORRECT | SCREEN_LOAD | 266 ms
+2026-10-27 14:29:29.147 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | HEAT OUTPUT CORRECT | TAP_ACTION | 693 ms
+2026-10-27 14:29:29.147 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | HEAT OUTPUT CORRECT | TOTAL_ACTION | 959 ms
+2026-10-27 14:29:50.106 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | RESISTANCE NOT AS EXPECTED | SCREEN_LOAD | 308 ms
+2026-10-27 14:29:50.107 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | RESISTANCE NOT AS EXPECTED | TAP_ACTION | 744 ms
+2026-10-27 14:29:50.107 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | RESISTANCE NOT AS EXPECTED | TOTAL_ACTION | 1052 ms
+2026-10-27 14:30:11.757 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | RESISTANCE OUTSIDE RANGE | SCREEN_LOAD | 329 ms
+2026-10-27 14:30:11.757 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | RESISTANCE OUTSIDE RANGE | TAP_ACTION | 748 ms
+2026-10-27 14:30:11.757 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | RESISTANCE OUTSIDE RANGE | TOTAL_ACTION | 1077 ms
+2026-10-27 14:30:22.980 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | SCREEN_LOAD | 202 ms
+2026-10-27 14:30:22.983 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | TAP_ACTION | 583 ms
+2026-10-27 14:30:22.983 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | TOTAL_ACTION | 785 ms
+2026-10-27 14:30:24.364 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | RESISTANCE AS EXPECTED | SCREEN_LOAD | 311 ms
+2026-10-27 14:30:24.364 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | RESISTANCE AS EXPECTED | TAP_ACTION | 725 ms
+2026-10-27 14:30:24.364 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | RESISTANCE AS EXPECTED | TOTAL_ACTION | 1036 ms
+2026-10-27 14:30:35.925 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | SCREEN_LOAD | 204 ms
+2026-10-27 14:30:35.925 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | TAP_ACTION | 583 ms
+2026-10-27 14:30:35.925 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | TOTAL_ACTION | 787 ms
+2026-10-27 14:30:38.396 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | SCREEN_LOAD | 318 ms
+2026-10-27 14:30:38.396 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | TAP_ACTION | 738 ms
+2026-10-27 14:30:38.396 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | TOTAL_ACTION | 1056 ms
+2026-10-27 14:30:40.900 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | RESISTANCE AS EXPECTED | SCREEN_LOAD | 325 ms
+2026-10-27 14:30:40.900 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | RESISTANCE AS EXPECTED | TAP_ACTION | 748 ms
+2026-10-27 14:30:40.900 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | RESISTANCE AS EXPECTED | TOTAL_ACTION | 1073 ms
+2026-10-27 14:31:01.852 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | RESISTANCE OUTSIDE RANGE | SCREEN_LOAD | 319 ms
+2026-10-27 14:31:01.852 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | RESISTANCE OUTSIDE RANGE | TAP_ACTION | 730 ms
+2026-10-27 14:31:01.852 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | RESISTANCE OUTSIDE RANGE | TOTAL_ACTION | 1049 ms
+2026-10-27 14:31:22.944 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | RESISTANCE OUTSIDE RANGE | SCREEN_LOAD | 305 ms
+2026-10-27 14:31:22.945 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | RESISTANCE OUTSIDE RANGE | TAP_ACTION | 730 ms
+2026-10-27 14:31:22.945 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | RESISTANCE OUTSIDE RANGE | TOTAL_ACTION | 1035 ms
+2026-10-27 14:31:34.194 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | SCREEN_LOAD | 181 ms
+2026-10-27 14:31:34.195 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | TAP_ACTION | 646 ms
+2026-10-27 14:31:34.195 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | TOTAL_ACTION | 827 ms
+2026-10-27 14:31:35.555 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | RESISTANCE AS EXPECTED | SCREEN_LOAD | 303 ms
+2026-10-27 14:31:35.555 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | RESISTANCE AS EXPECTED | TAP_ACTION | 713 ms
+2026-10-27 14:31:35.555 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | RESISTANCE AS EXPECTED | TOTAL_ACTION | 1016 ms
+2026-10-27 14:31:46.974 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | SCREEN_LOAD | 198 ms
+2026-10-27 14:31:46.975 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | TAP_ACTION | 593 ms
+2026-10-27 14:31:46.975 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | TOTAL_ACTION | 791 ms
+2026-10-27 14:31:49.453 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | SCREEN_LOAD | 327 ms
+2026-10-27 14:31:49.454 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | TAP_ACTION | 731 ms
+2026-10-27 14:31:49.454 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | TOTAL_ACTION | 1058 ms
+2026-10-27 14:32:00.597 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | RESISTANCE AS EXPECTED | SCREEN_LOAD | 335 ms
+2026-10-27 14:32:00.597 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | RESISTANCE AS EXPECTED | TAP_ACTION | 746 ms
+2026-10-27 14:32:00.597 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | RESISTANCE AS EXPECTED | TOTAL_ACTION | 1081 ms
+2026-10-27 14:32:12.192 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | NO WATER RUNNING THROUGH TRAP | SCREEN_LOAD | 236 ms
+2026-10-27 14:32:12.192 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | NO WATER RUNNING THROUGH TRAP | TAP_ACTION | 615 ms
+2026-10-27 14:32:12.192 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | NO WATER RUNNING THROUGH TRAP | TOTAL_ACTION | 851 ms
+2026-10-27 14:32:23.457 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | NOTHING DRAINING THROUGH SUMP | SCREEN_LOAD | 219 ms
+2026-10-27 14:32:23.457 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | NOTHING DRAINING THROUGH SUMP | TAP_ACTION | 630 ms
+2026-10-27 14:32:23.457 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | NOTHING DRAINING THROUGH SUMP | TOTAL_ACTION | 849 ms
+2026-10-27 14:32:34.962 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | SCREEN_LOAD | 213 ms
+2026-10-27 14:32:34.962 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | TAP_ACTION | 592 ms
+2026-10-27 14:32:34.962 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | TOTAL_ACTION | 805 ms
+2026-10-27 14:32:35.924 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | WATER AT SUMP OUTLET | SCREEN_LOAD | 207 ms
+2026-10-27 14:32:35.924 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | WATER AT SUMP OUTLET | TAP_ACTION | 569 ms
+2026-10-27 14:32:35.924 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | WATER AT SUMP OUTLET | TOTAL_ACTION | 776 ms
+2026-10-27 14:32:48.052 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | SCREEN_LOAD | 200 ms
+2026-10-27 14:32:48.052 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | TAP_ACTION | 583 ms
+2026-10-27 14:32:48.052 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | TOTAL_ACTION | 783 ms
+2026-10-27 14:32:48.998 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | SCREEN_LOAD | 189 ms
+2026-10-27 14:32:48.998 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | TAP_ACTION | 585 ms
+2026-10-27 14:32:48.998 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | TOTAL_ACTION | 774 ms
+2026-10-27 14:32:49.950 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | WATER AT OUTLET OF CONDENSATE TRAP | SCREEN_LOAD | 189 ms
+2026-10-27 14:32:49.950 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | WATER AT OUTLET OF CONDENSATE TRAP | TAP_ACTION | 578 ms
+2026-10-27 14:32:49.950 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | WATER AT OUTLET OF CONDENSATE TRAP | TOTAL_ACTION | 767 ms
+2026-10-27 14:32:50.901 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | PUMP UNSATISFACTORY | SCREEN_LOAD | 192 ms
+2026-10-27 14:32:50.901 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | PUMP UNSATISFACTORY | TAP_ACTION | 552 ms
+2026-10-27 14:32:50.901 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | PUMP UNSATISFACTORY | TOTAL_ACTION | 744 ms
+2026-10-27 14:33:02.101 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | SCREEN_LOAD | 202 ms
+2026-10-27 14:33:02.102 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | TAP_ACTION | 588 ms
+2026-10-27 14:33:02.102 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | TOTAL_ACTION | 790 ms
+2026-10-27 14:33:03.086 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | PUMP SATISFACTORY | SCREEN_LOAD | 196 ms
+2026-10-27 14:33:03.086 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | PUMP SATISFACTORY | TAP_ACTION | 572 ms
+2026-10-27 14:33:03.086 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | PUMP SATISFACTORY | TOTAL_ACTION | 768 ms
+2026-10-27 14:33:14.748 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | HEAT EXCHANGER FLUEWAYS BLOCKED OR RESTRICTED | SCREEN_LOAD | 189 ms
+2026-10-27 14:33:14.748 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | HEAT EXCHANGER FLUEWAYS BLOCKED OR RESTRICTED | TAP_ACTION | 598 ms
+2026-10-27 14:33:14.748 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | HEAT EXCHANGER FLUEWAYS BLOCKED OR RESTRICTED | TOTAL_ACTION | 787 ms
+2026-10-27 14:33:26.199 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | SCREEN_LOAD | 206 ms
+2026-10-27 14:33:26.199 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | TAP_ACTION | 606 ms
+2026-10-27 14:33:26.200 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | TOTAL_ACTION | 812 ms
+2026-10-27 14:33:27.241 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | HEAT EXCHANGER FLUEWAYS CLEAR | SCREEN_LOAD | 224 ms
+2026-10-27 14:33:27.242 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | HEAT EXCHANGER FLUEWAYS CLEAR | TAP_ACTION | 608 ms
+2026-10-27 14:33:27.242 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | HEAT EXCHANGER FLUEWAYS CLEAR | TOTAL_ACTION | 832 ms
+2026-10-27 14:33:39.420 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | MORE THAN 20°C | SCREEN_LOAD | 212 ms
+2026-10-27 14:33:39.422 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | MORE THAN 20°C | TAP_ACTION | 624 ms
+2026-10-27 14:33:39.422 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | MORE THAN 20°C | TOTAL_ACTION | 836 ms
+2026-10-27 14:33:40.425 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | SCREEN_LOAD | 189 ms
+2026-10-27 14:33:40.425 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | TAP_ACTION | 582 ms
+2026-10-27 14:33:40.425 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Go back | TOTAL_ACTION | 771 ms
+2026-10-27 14:33:41.607 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | 20°C OR LESS | SCREEN_LOAD | 251 ms
+2026-10-27 14:33:41.609 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | 20°C OR LESS | TAP_ACTION | 649 ms
+2026-10-27 14:33:41.610 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | 20°C OR LESS | TOTAL_ACTION | 900 ms
+2026-10-27 14:33:53.295 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Return to home | SCREEN_LOAD | 184 ms
+2026-10-27 14:33:53.295 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Return to home | TAP_ACTION | 892 ms
+2026-10-27 14:33:53.295 IOS | test_fullDiagnosticsModel_boilerAtTemperature | waitAndTap | Return to home | TOTAL_ACTION | 1076 ms
+2026-10-27 14:33:53.303 
+==================== [IOS] END OF TEST: test_fullDiagnosticsModel_boilerAtTemperature ====================
+
+2026-10-27 14:33:53.308 
+-------------------- [IOS] START OF TEST: test_fullDiagnosticsModel_boilerAndSystemRunning --------------------
+
+2026-10-27 14:34:06.352 IOS | test_fullDiagnosticsModel_boilerAndSystemRunning | waitAndTap | , Search Appliance | SCREEN_LOAD | 233 ms
+2026-10-27 14:34:06.353 IOS | test_fullDiagnosticsModel_boilerAndSystemRunning | waitAndTap | , Search Appliance | TAP_ACTION | 1027 ms
+2026-10-27 14:34:06.353 IOS | test_fullDiagnosticsModel_boilerAndSystemRunning | waitAndTap | , Search Appliance | TOTAL_ACTION | 1260 ms
+2026-10-27 14:34:08.084 IOS | test_fullDiagnosticsModel_boilerAndSystemRunning | waitAndType | Search Appliance | SCREEN_LOAD | 283 ms
+2026-10-27 14:34:08.084 IOS | test_fullDiagnosticsModel_boilerAndSystemRunning | waitAndType | Search Appliance | TYPE_ACTION | 1141 ms
+2026-10-27 14:34:08.084 IOS | test_fullDiagnosticsModel_boilerAndSystemRunning | waitAndType | Search Appliance | TOTAL_ACTION | 1424 ms
+2026-10-27 14:34:09.742 IOS | test_fullDiagnosticsModel_boilerAndSystemRunning | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | SCREEN_LOAD | 269 ms
+2026-10-27 14:34:09.742 IOS | test_fullDiagnosticsModel_boilerAndSystemRunning | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | TAP_ACTION | 1074 ms
+2026-10-27 14:34:09.742 IOS | test_fullDiagnosticsModel_boilerAndSystemRunning | waitAndTap | B, , British, Gas 330+ Open Vented, 4101911 | TOTAL_ACTION | 1343 ms
+2026-10-27 14:34:11.130 IOS | test_fullDiagnosticsModel_boilerAndSystemRunning | waitAndTap | Continue | SCREEN_LOAD | 214 ms
+2026-10-27 14:34:11.130 IOS | test_fullDiagnosticsModel_boilerAndSystemRunning | waitAndTap | Continue | TAP_ACTION | 919 ms
+2026-10-27 14:34:11.130 IOS | test_fullDiagnosticsModel_boilerAndSystemRunning | waitAndTap | Continue | TOTAL_ACTION | 1133 ms
+2026-10-27 14:34:12.299 IOS | test_fullDiagnosticsModel_boilerAndSystemRunning | waitAndTap | CONTINUE | SCREEN_LOAD | 242 ms
+2026-10-27 14:34:12.299 IOS | test_fullDiagnosticsModel_boilerAndSystemRunning | waitAndTap | CONTINUE | TAP_ACTION | 619 ms
+2026-10-27 14:34:12.299 IOS | test_fullDiagnosticsModel_boilerAndSystemRunning | waitAndTap | CONTINUE | TOTAL_ACTION | 861 ms
+2026-10-27 14:34:23.058 IOS | test_fullDiagnosticsModel_boilerAndSystemRunning | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | SCREEN_LOAD | 204 ms
+2026-10-27 14:34:23.059 IOS | test_fullDiagnosticsModel_boilerAndSystemRunning | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | TAP_ACTION | 712 ms
+2026-10-27 14:34:23.059 IOS | test_fullDiagnosticsModel_boilerAndSystemRunning | waitAndTap | FULL DIAGNOSTIC MODEL Tests all aspects of appliance operation from start to finish. | TOTAL_ACTION | 916 ms
